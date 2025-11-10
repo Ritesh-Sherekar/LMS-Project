@@ -2,6 +2,7 @@ package com.example.LMS_SecurityService.controller;
 
 import com.example.LMS_SecurityService.dto.CustomerDTO;
 import com.example.LMS_SecurityService.dto.LoginDTO;
+import com.example.LMS_SecurityService.dto.TokenDTO;
 import com.example.LMS_SecurityService.entity.Customer;
 import com.example.LMS_SecurityService.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,9 +29,16 @@ public class CustomerController {
 
     // Login Customer
     @PostMapping("/login")
-    public ResponseEntity<String> loginUser(@RequestBody LoginDTO loginDTO){
-        String string = customerService.loginUser(loginDTO);
-        return ResponseEntity.ok(string);
+    public ResponseEntity<TokenDTO> loginUser(@RequestBody LoginDTO loginDTO){
+        TokenDTO tokenDTO = customerService.loginUser(loginDTO);
+        return ResponseEntity.ok(tokenDTO);
+    }
+
+    // Get Active Token from Refresh Token
+    @PostMapping("/getActiveToken")
+    public ResponseEntity<TokenDTO> getActiveToken(@RequestBody String refreshToken){
+        TokenDTO activeTokenFromRefreshToken = customerService.getActiveTokenFromRefreshToken(refreshToken);
+        return ResponseEntity.ok(activeTokenFromRefreshToken);
     }
 
     // Get all user
