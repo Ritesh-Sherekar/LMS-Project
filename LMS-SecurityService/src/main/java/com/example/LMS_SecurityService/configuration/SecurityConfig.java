@@ -26,7 +26,7 @@ public class SecurityConfig {
         DefaultSecurityFilterChain build = httpSecurity
                 .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(request -> request
-                        .requestMatchers("/consumer/getUser").hasAuthority("admin")
+                        .requestMatchers("/consumer/getUser").hasAuthority("user")
                         .requestMatchers("/consumer/**").permitAll()
                         .anyRequest().authenticated())
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
