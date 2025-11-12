@@ -37,11 +37,21 @@ public class CustomerDetails {
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 
-    @OneToOne(mappedBy = "customerDetails", cascade = CascadeType.ALL)
+    // Relationship with Customer
+    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @JoinColumn(name = "cus_id")
+    private Customer customer;
+
+    // Relationship with Address
+    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @JoinColumn(name = "address_id")
     private CustomerAddress address;
 
-    @OneToOne(mappedBy = "customerDetails", cascade = CascadeType.ALL)
+    // Relationship with KYC
+    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @JoinColumn(name = "kyc_id")
     private CustomerKyc kycDetails;
+
 
     @PrePersist
     public void onCreate() {

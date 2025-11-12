@@ -22,8 +22,4 @@ public class CustomerAddress {
     private String pincode;
     private String country;
 
-    @OneToOne
-    @JoinColumn(name = "customer_id")
-    private CustomerDetails customerDetails;
-
 }

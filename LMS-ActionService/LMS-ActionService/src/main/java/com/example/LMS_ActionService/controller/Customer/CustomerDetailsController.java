@@ -1,13 +1,10 @@
-package com.example.LMS_ActionService.controller;
+package com.example.LMS_ActionService.controller.Customer;
 
 import com.example.LMS_ActionService.entity.CustomerDetails;
-import com.example.LMS_ActionService.service.CustomerDetailsService;
+import com.example.LMS_ActionService.service.Customer.CustomerDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/customerDetails")
@@ -18,7 +15,15 @@ public class CustomerDetailsController {
     // Add All Info
     @PostMapping("/addAllInfo")
     public ResponseEntity<CustomerDetails> addAllInfo(@RequestBody CustomerDetails customerDetails){
+        System.out.println("getting" + customerDetails);
         CustomerDetails saveInfo = customerDetailsService.addAllInfo(customerDetails);
+        System.out.println("Response" + saveInfo);
         return ResponseEntity.ok(saveInfo);
+    }
+
+    @GetMapping("/getInfo")
+    public ResponseEntity<CustomerDetails> getAllInfo(@RequestParam int id){
+        CustomerDetails info = customerDetailsService.getInfo(id);
+        return ResponseEntity.ok(info);
     }
 }

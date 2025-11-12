@@ -26,6 +26,8 @@ public class SecurityConfig {
                         session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(request -> request
                         .requestMatchers("/customerDetails/addAllInfo").hasAuthority("user")
+                        .requestMatchers("/customerDetails/getInfo").hasAuthority("user")
+                        .requestMatchers("/loan/applyLoan").hasAuthority("user")
                         .anyRequest().permitAll()
                 )
                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);

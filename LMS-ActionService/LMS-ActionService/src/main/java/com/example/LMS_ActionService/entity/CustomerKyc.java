@@ -23,7 +23,4 @@ public class CustomerKyc {
 
     private String kycStatus; // PENDING, VERIFIED, REJECTED
 
-    @OneToOne
-    @JoinColumn(name = "customer_id")
-    private CustomerDetails customerDetails;
 }
