@@ -5,6 +5,7 @@ import com.example.LMS_SecurityService.dto.LoginDTO;
 import com.example.LMS_SecurityService.dto.TokenDTO;
 import com.example.LMS_SecurityService.entity.Customer;
 import com.example.LMS_SecurityService.entity.Role;
+import com.example.LMS_SecurityService.exception.UserNotFoundException;
 import com.example.LMS_SecurityService.repository.CustomerRepo;
 import com.example.LMS_SecurityService.repository.RoleRepo;
 import com.example.LMS_SecurityService.security.JwtService;
@@ -63,7 +64,7 @@ public class CustomerService {
         Customer byUserName = customerRepo.findByUsername(loginDTO.getUsername());
 
         if (byUserName == null){
-            throw new RuntimeException("User Not Found");
+            throw new UserNotFoundException("User Not Present");
         }else {
             Authentication authenticate = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(loginDTO.getUsername(), loginDTO.getPassword()));
 
