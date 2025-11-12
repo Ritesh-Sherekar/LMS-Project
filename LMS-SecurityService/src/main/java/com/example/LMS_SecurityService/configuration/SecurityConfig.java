@@ -26,8 +26,8 @@ public class SecurityConfig {
         DefaultSecurityFilterChain build = httpSecurity
                 .csrf(AbstractHttpConfigurer::disable)
                 .authorizeHttpRequests(request -> request
-                        .requestMatchers("/consumer/getUser").hasAuthority("user")
                         .requestMatchers("/consumer/**").permitAll()
+                       // .requestMatchers("/consumer/getUser").hasAuthority("user")
                         .anyRequest().authenticated())
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class)

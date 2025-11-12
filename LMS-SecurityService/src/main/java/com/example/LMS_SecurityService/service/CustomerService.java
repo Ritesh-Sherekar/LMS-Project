@@ -45,7 +45,6 @@ public class CustomerService {
         Customer c = new Customer();
         c.setUsername(customer.getUsername());
         c.setPassword(passwordEncoder.encode(customer.getPassword()));
-        System.out.println("First");
 
         Set<Role> roles = new HashSet<>();
         for (String roleName : customer.getRoles()){
@@ -56,7 +55,6 @@ public class CustomerService {
         if (!roles.isEmpty()){
             c.setRoles(roles);
         }
-        System.out.println("second");
         return customerRepo.save(c);
     }
 
@@ -93,8 +91,8 @@ public class CustomerService {
     }
 
     // Get User
-    public List<Customer> getCustomer(){
-        List<Customer> all = customerRepo.findAll();
-        return all;
-    }
+//    public List<Customer> getCustomer(){
+//        List<Customer> all = customerRepo.findAll();
+//        return all;
+//    }
 }

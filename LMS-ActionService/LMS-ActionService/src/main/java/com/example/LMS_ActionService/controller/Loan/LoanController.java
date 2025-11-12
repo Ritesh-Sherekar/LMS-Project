@@ -1,5 +1,6 @@
 package com.example.LMS_ActionService.controller.Loan;
 
+import com.example.LMS_ActionService.dto.LoanDTO;
 import com.example.LMS_ActionService.entity.Loan;
 import com.example.LMS_ActionService.service.Loan.LoanService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,8 +18,8 @@ public class LoanController {
 
     // Apply For Loan
     @PostMapping("/applyLoan")
-    public ResponseEntity<Loan> applyLoan(@RequestBody Loan loan){
-        Loan applyLoan = loanService.applyLoan(loan);
+    public ResponseEntity<Loan> applyLoan(@RequestBody LoanDTO loanDTO){
+        Loan applyLoan = loanService.applyLoan(loanDTO);
         return ResponseEntity.ok(applyLoan);
     }
 }

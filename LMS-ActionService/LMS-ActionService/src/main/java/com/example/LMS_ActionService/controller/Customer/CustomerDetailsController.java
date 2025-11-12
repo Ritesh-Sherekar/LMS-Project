@@ -20,10 +20,4 @@ public class CustomerDetailsController {
         System.out.println("Response" + saveInfo);
         return ResponseEntity.ok(saveInfo);
     }
-
-    @GetMapping("/getInfo")
-    public ResponseEntity<CustomerDetails> getAllInfo(@RequestParam int id){
-        CustomerDetails info = customerDetailsService.getInfo(id);
-        return ResponseEntity.ok(info);
-    }
 }

@@ -56,8 +56,4 @@ public class CustomerDetailsService {
         CustomerDetails save = customerDetailsRepo.save(cd);
         return save;
     }
-
-    public CustomerDetails getInfo(int id){
-        return customerDetailsRepo.findById(id).orElseThrow();
-    }
 }

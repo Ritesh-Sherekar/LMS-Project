@@ -42,9 +42,9 @@ public class CustomerController {
     }
 
     // Get all user
-    @GetMapping("/getUser")
-    public ResponseEntity<List<Customer>> getAll(){
-        List<Customer> customer = customerService.getCustomer();
-        return ResponseEntity.ok(customer);
-    }
+//    @GetMapping("/getUser")
+//    public ResponseEntity<List<Customer>> getAll(){
+//        List<Customer> customer = customerService.getCustomer();
+//        return ResponseEntity.ok(customer);
+//    }
 }
