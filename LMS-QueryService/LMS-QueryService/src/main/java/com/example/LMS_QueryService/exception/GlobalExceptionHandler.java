@@ -1,0 +1,28 @@
+package com.example.LMS_QueryService.exception;
+
+import com.example.LMS_QueryService.response.ErrorResponses;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+import java.time.LocalDateTime;
+
+@RestControllerAdvice
+public class GlobalExceptionHandler {
+
+    // User Not Found
+    @ExceptionHandler(UserNotFoundException.class)
+    public ResponseEntity<ErrorResponses> userNotFound(UserNotFoundException ex){
+        ErrorResponses error = new ErrorResponses(ex.getMessage(), "User Not Present!", LocalDateTime.now(), HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
+    }
+
+    // UserName Not Found
+    @ExceptionHandler(UserNameNotFoundException.class)
+    public ResponseEntity<ErrorResponses> userNameNotFound(UserNameNotFoundException ex){
+        ErrorResponses error = new ErrorResponses(ex.getMessage(), "UserName Not Found!", LocalDateTime.now(), HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
+    }
+}
+

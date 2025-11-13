@@ -1,0 +1,34 @@
+package com.example.LMS_QueryService.entity;
+
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.time.LocalDate;
+
+@Entity
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class Loan {
+    @Id
+    @SequenceGenerator(name = "loan_seq")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "loan_seq")
+    private int id;
+
+    private String loanType;          // e.g. "Personal Loan", "Home Loan"
+    private Double loanAmount;        // Amount requested
+    private Double interestRate;      // e.g. 10.5
+    private Integer tenureMonths;     // e.g. 12 or 24
+    private LocalDate applicationDate;
+    private LocalDate approvalDate;
+    private String loanStatus;        // PENDING, APPROVED, REJECTED, CLOSED
+    private Double emiAmount;         // Calculated after approval
+    private Double totalPayableAmount;
+    private Double remainingBalance;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "customerId", referencedColumnName = "customerId")
+    private CustomerDetails customerDetails;
+}
