@@ -12,12 +12,7 @@ import java.time.LocalDate;
 public class LoanDTO {
     private String loanType;
     private Double loanAmount;
-    private Double interestRate;
     private Integer tenureMonths;
-    private LocalDate applicationDate;
-    private LocalDate approvalDate;
-    private String loanStatus;
-    private Double emiAmount;
-    private Double totalPayableAmount;
-    private Double remainingBalance;
+    private String employmentType;
+    private double monthlyIncome;
 }
