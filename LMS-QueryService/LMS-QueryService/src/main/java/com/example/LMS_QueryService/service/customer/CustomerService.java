@@ -1,4 +1,4 @@
-package com.example.LMS_QueryService.service;
+package com.example.LMS_QueryService.service.customer;
 
 import com.example.LMS_QueryService.entity.Customer;
 import com.example.LMS_QueryService.exception.UserNameNotFoundException;

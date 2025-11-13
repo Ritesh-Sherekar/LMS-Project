@@ -2,7 +2,7 @@ package com.example.LMS_QueryService.controller;
 
 import com.example.LMS_QueryService.entity.Customer;
 import com.example.LMS_QueryService.response.Response;
-import com.example.LMS_QueryService.service.CustomerService;
+import com.example.LMS_QueryService.service.customer.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

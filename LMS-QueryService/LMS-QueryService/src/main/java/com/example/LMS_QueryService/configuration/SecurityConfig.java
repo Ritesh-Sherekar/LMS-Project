@@ -28,6 +28,8 @@ public class SecurityConfig {
                         .requestMatchers("/queryCustomer/getCustomerByID").hasAuthority("admin")
                         .requestMatchers("/queryCustomer/getAllCustomer").hasAuthority("admin")
                         .requestMatchers("/queryCustomer/getCustomerByUserName").hasAuthority("admin")
+                        .requestMatchers("/queryCustomerDetails/getCustomerDetailsByID").hasAuthority("admin")
+                        .requestMatchers("/queryCustomerDetails/getCustomerDetailsByCusID").hasAnyAuthority("admin", "user")
                         .requestMatchers("/loan/applyLoan").hasAuthority("user")
                         .anyRequest().permitAll()
                 )
