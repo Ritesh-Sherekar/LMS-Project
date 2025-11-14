@@ -1,21 +1,21 @@
-2025-11-13T14:46:44.639+05:30  INFO 11108 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Starting LmsQueryServiceApplication using Java 21.0.8 with PID 11108 (C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService\LMS-QueryService\target\classes started by Sreenivas Bandaru in C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService)
-2025-11-13T14:46:44.641+05:30  INFO 11108 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-11-13T14:46:47.067+05:30  INFO 11108 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-11-13T14:46:47.154+05:30  INFO 11108 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 6 JPA repository interfaces.
-2025-11-13T14:46:47.833+05:30  INFO 11108 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5557 (http)
-2025-11-13T14:46:47.847+05:30  INFO 11108 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-11-13T14:46:47.848+05:30  INFO 11108 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-11-13T14:46:47.960+05:30  INFO 11108 --- [LMS-QueryService] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-11-13T14:46:47.960+05:30  INFO 11108 --- [LMS-QueryService] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3278 ms
-2025-11-13T14:46:48.337+05:30  INFO 11108 --- [LMS-QueryService] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-11-13T14:46:48.421+05:30  INFO 11108 --- [LMS-QueryService] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
-2025-11-13T14:46:48.487+05:30  INFO 11108 --- [LMS-QueryService] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-11-13T14:46:48.813+05:30  INFO 11108 --- [LMS-QueryService] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-11-13T14:46:48.852+05:30  INFO 11108 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-11-13T14:46:49.260+05:30  INFO 11108 --- [LMS-QueryService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@2211b44f
-2025-11-13T14:46:49.261+05:30  INFO 11108 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-11-13T14:46:49.397+05:30  WARN 11108 --- [LMS-QueryService] [main] org.hibernate.dialect.Dialect            : HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
-2025-11-13T14:46:49.582+05:30  INFO 11108 --- [LMS-QueryService] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-11-14T12:34:33.365+05:30  INFO 6772 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Starting LmsQueryServiceApplication using Java 21.0.8 with PID 6772 (C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService\LMS-QueryService\target\classes started by Sreenivas Bandaru in C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService)
+2025-11-14T12:34:33.387+05:30  INFO 6772 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-11-14T12:34:35.847+05:30  INFO 6772 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-14T12:34:35.923+05:30  INFO 6772 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 6 JPA repository interfaces.
+2025-11-14T12:34:36.603+05:30  INFO 6772 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5557 (http)
+2025-11-14T12:34:36.637+05:30  INFO 6772 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-14T12:34:36.638+05:30  INFO 6772 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-14T12:34:36.708+05:30  INFO 6772 --- [LMS-QueryService] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-14T12:34:36.709+05:30  INFO 6772 --- [LMS-QueryService] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3278 ms
+2025-11-14T12:34:37.465+05:30  INFO 6772 --- [LMS-QueryService] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-14T12:34:37.574+05:30  INFO 6772 --- [LMS-QueryService] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-14T12:34:37.632+05:30  INFO 6772 --- [LMS-QueryService] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-14T12:34:38.018+05:30  INFO 6772 --- [LMS-QueryService] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-14T12:34:38.055+05:30  INFO 6772 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-14T12:34:39.034+05:30  INFO 6772 --- [LMS-QueryService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@194224ca
+2025-11-14T12:34:39.036+05:30  INFO 6772 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-14T12:34:39.231+05:30  WARN 6772 --- [LMS-QueryService] [main] org.hibernate.dialect.Dialect            : HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2025-11-14T12:34:39.454+05:30  INFO 6772 --- [LMS-QueryService] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 11.2
@@ -23,8 +23,8 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-11-13T14:46:50.683+05:30  INFO 11108 --- [LMS-QueryService] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-11-13T14:46:50.912+05:30  WARN 11108 --- [LMS-QueryService] [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table loan add constraint FKx6kwk15egxgqg92id88hhq6l foreign key (customer_id) references customer_details (customer_id)" via JDBC [ORA-02275: such a referential constraint already exists in the table
+2025-11-14T12:34:41.618+05:30  INFO 6772 --- [LMS-QueryService] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-14T12:34:41.802+05:30  WARN 6772 --- [LMS-QueryService] [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table loan add constraint FKx6kwk15egxgqg92id88hhq6l foreign key (customer_id) references customer_details (customer_id)" via JDBC [ORA-02275: such a referential constraint already exists in the table
 
 https://docs.oracle.com/error-help/db/ora-02275/]
 
@@ -178,35 +178,35 @@ Caused by: oracle.jdbc.OracleDatabaseException: ORA-02275: such a referential co
 	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:723) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
 	... 136 common frames omitted
 
-2025-11-13T14:46:50.920+05:30  INFO 11108 --- [LMS-QueryService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-11-13T14:46:51.326+05:30  WARN 11108 --- [LMS-QueryService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-11-13T14:46:51.366+05:30  INFO 11108 --- [LMS-QueryService] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
-2025-11-13T14:46:51.834+05:30  INFO 11108 --- [LMS-QueryService] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-11-13T14:46:52.868+05:30  INFO 11108 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5557 (http) with context path '/'
-2025-11-13T14:46:52.877+05:30  INFO 11108 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Started LmsQueryServiceApplication in 15.42 seconds (process running for 15.909)
-2025-11-13T14:47:38.474+05:30  INFO 11108 --- [LMS-QueryService] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-11-13T14:47:38.478+05:30  INFO 11108 --- [LMS-QueryService] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-11-13T14:47:38.482+05:30  INFO 11108 --- [LMS-QueryService] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-11-13T14:47:38.484+05:30  INFO 11108 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-11-13T14:47:38.493+05:30  INFO 11108 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-11-13T14:47:40.408+05:30  INFO 1156 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Starting LmsQueryServiceApplication using Java 21.0.8 with PID 1156 (C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService\LMS-QueryService\target\classes started by Sreenivas Bandaru in C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService)
-2025-11-13T14:47:40.410+05:30  INFO 1156 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-11-13T14:47:41.195+05:30  INFO 1156 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-11-13T14:47:41.278+05:30  INFO 1156 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 6 JPA repository interfaces.
-2025-11-13T14:47:41.869+05:30  INFO 1156 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5557 (http)
-2025-11-13T14:47:41.884+05:30  INFO 1156 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-11-13T14:47:41.885+05:30  INFO 1156 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-11-13T14:47:41.971+05:30  INFO 1156 --- [LMS-QueryService] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-11-13T14:47:41.972+05:30  INFO 1156 --- [LMS-QueryService] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1517 ms
-2025-11-13T14:47:42.254+05:30  INFO 1156 --- [LMS-QueryService] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-11-13T14:47:42.312+05:30  INFO 1156 --- [LMS-QueryService] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
-2025-11-13T14:47:42.366+05:30  INFO 1156 --- [LMS-QueryService] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-11-13T14:47:42.647+05:30  INFO 1156 --- [LMS-QueryService] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-11-13T14:47:42.688+05:30  INFO 1156 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-11-13T14:47:43.017+05:30  INFO 1156 --- [LMS-QueryService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@604c7e9b
-2025-11-13T14:47:43.019+05:30  INFO 1156 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-11-13T14:47:43.122+05:30  WARN 1156 --- [LMS-QueryService] [main] org.hibernate.dialect.Dialect            : HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
-2025-11-13T14:47:43.282+05:30  INFO 1156 --- [LMS-QueryService] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-11-14T12:34:41.827+05:30  INFO 6772 --- [LMS-QueryService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-14T12:34:42.381+05:30  INFO 6772 --- [LMS-QueryService] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-14T12:34:42.933+05:30  WARN 6772 --- [LMS-QueryService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-14T12:34:42.967+05:30  INFO 6772 --- [LMS-QueryService] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-11-14T12:34:43.555+05:30  INFO 6772 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5557 (http) with context path '/'
+2025-11-14T12:34:43.564+05:30  INFO 6772 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Started LmsQueryServiceApplication in 10.719 seconds (process running for 12.412)
+2025-11-14T14:46:12.414+05:30  INFO 6772 --- [LMS-QueryService] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-14T14:46:12.433+05:30  INFO 6772 --- [LMS-QueryService] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-14T14:46:12.450+05:30  INFO 6772 --- [LMS-QueryService] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-14T14:46:12.472+05:30  INFO 6772 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-14T14:46:12.483+05:30  INFO 6772 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-14T14:46:15.700+05:30  INFO 10780 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Starting LmsQueryServiceApplication using Java 21.0.8 with PID 10780 (C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService\LMS-QueryService\target\classes started by Sreenivas Bandaru in C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService)
+2025-11-14T14:46:15.703+05:30  INFO 10780 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-11-14T14:46:17.106+05:30  INFO 10780 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-14T14:46:17.194+05:30  INFO 10780 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 6 JPA repository interfaces.
+2025-11-14T14:46:17.793+05:30  INFO 10780 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5557 (http)
+2025-11-14T14:46:17.808+05:30  INFO 10780 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-14T14:46:17.809+05:30  INFO 10780 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-14T14:46:17.901+05:30  INFO 10780 --- [LMS-QueryService] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-14T14:46:17.902+05:30  INFO 10780 --- [LMS-QueryService] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2143 ms
+2025-11-14T14:46:18.161+05:30  INFO 10780 --- [LMS-QueryService] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-14T14:46:18.215+05:30  INFO 10780 --- [LMS-QueryService] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-14T14:46:18.266+05:30  INFO 10780 --- [LMS-QueryService] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-14T14:46:18.550+05:30  INFO 10780 --- [LMS-QueryService] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-14T14:46:18.585+05:30  INFO 10780 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-14T14:46:18.923+05:30  INFO 10780 --- [LMS-QueryService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@31b6b0c7
+2025-11-14T14:46:18.925+05:30  INFO 10780 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-14T14:46:19.036+05:30  WARN 10780 --- [LMS-QueryService] [main] org.hibernate.dialect.Dialect            : HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2025-11-14T14:46:19.201+05:30  INFO 10780 --- [LMS-QueryService] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 11.2
@@ -214,45 +214,37 @@ Caused by: oracle.jdbc.OracleDatabaseException: ORA-02275: such a referential co
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-11-13T14:47:44.239+05:30  INFO 1156 --- [LMS-QueryService] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-11-13T14:47:44.919+05:30  INFO 1156 --- [LMS-QueryService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-11-13T14:47:45.295+05:30  WARN 1156 --- [LMS-QueryService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-11-13T14:47:45.334+05:30  INFO 1156 --- [LMS-QueryService] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
-2025-11-13T14:47:45.763+05:30  INFO 1156 --- [LMS-QueryService] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-11-13T14:47:46.405+05:30  INFO 1156 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5557 (http) with context path '/'
-2025-11-13T14:47:46.415+05:30  INFO 1156 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Started LmsQueryServiceApplication in 6.626 seconds (process running for 7.506)
-2025-11-13T14:48:02.694+05:30  INFO 1156 --- [LMS-QueryService] [http-nio-5557-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-11-13T14:48:02.695+05:30  INFO 1156 --- [LMS-QueryService] [http-nio-5557-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-11-13T14:48:02.696+05:30  INFO 1156 --- [LMS-QueryService] [http-nio-5557-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2025-11-13T14:48:03.026+05:30  INFO 1156 --- [LMS-QueryService] [http-nio-5557-exec-1] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[admin]]
-2025-11-13T14:48:03.064+05:30  INFO 1156 --- [LMS-QueryService] [http-nio-5557-exec-1] c.e.L.service.customer.CustomerService   : Request For Customer of ID 2
-2025-11-13T14:48:03.096+05:30  INFO 1156 --- [LMS-QueryService] [http-nio-5557-exec-1] c.e.L.service.customer.CustomerService   : Response For ID 2 Is Customer(id=2, username=rahul, password=$2a$10$qcVvrXjwMVcMt4kIUdtoOeG8BDrnEgO7SVL4e3wNtUGABkJRA8GLy, roles=[Role(id=2, roleName=admin)])
-2025-11-13T14:49:34.308+05:30  INFO 1156 --- [LMS-QueryService] [http-nio-5557-exec-5] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[admin]]
-2025-11-13T14:49:34.313+05:30  INFO 1156 --- [LMS-QueryService] [http-nio-5557-exec-5] c.e.L.service.customer.CustomerService   : Request For Customer of ID 5
-2025-11-13T14:49:34.315+05:30 ERROR 1156 --- [LMS-QueryService] [http-nio-5557-exec-5] c.e.L.service.customer.CustomerService   : Customer with ID 5 not found!
-2025-11-13T14:50:52.613+05:30  INFO 1156 --- [LMS-QueryService] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-11-13T14:50:52.618+05:30  INFO 1156 --- [LMS-QueryService] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-11-13T14:50:52.622+05:30  INFO 1156 --- [LMS-QueryService] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-11-13T14:50:52.626+05:30  INFO 1156 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-11-13T14:50:52.634+05:30  INFO 1156 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-11-13T15:44:50.738+05:30  INFO 7580 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Starting LmsQueryServiceApplication using Java 21.0.8 with PID 7580 (C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService\LMS-QueryService\target\classes started by Sreenivas Bandaru in C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService)
-2025-11-13T15:44:50.740+05:30  INFO 7580 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-11-13T15:44:51.681+05:30  INFO 7580 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-11-13T15:44:51.769+05:30  INFO 7580 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 6 JPA repository interfaces.
-2025-11-13T15:44:52.424+05:30  INFO 7580 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5557 (http)
-2025-11-13T15:44:52.440+05:30  INFO 7580 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-11-13T15:44:52.440+05:30  INFO 7580 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-11-13T15:44:52.511+05:30  INFO 7580 --- [LMS-QueryService] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-11-13T15:44:52.511+05:30  INFO 7580 --- [LMS-QueryService] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1707 ms
-2025-11-13T15:44:52.789+05:30  INFO 7580 --- [LMS-QueryService] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-11-13T15:44:52.853+05:30  INFO 7580 --- [LMS-QueryService] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
-2025-11-13T15:44:52.920+05:30  INFO 7580 --- [LMS-QueryService] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-11-13T15:44:53.237+05:30  INFO 7580 --- [LMS-QueryService] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-11-13T15:44:53.278+05:30  INFO 7580 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-11-13T15:44:53.644+05:30  INFO 7580 --- [LMS-QueryService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@6253e59a
-2025-11-13T15:44:53.645+05:30  INFO 7580 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-11-13T15:44:53.759+05:30  WARN 7580 --- [LMS-QueryService] [main] org.hibernate.dialect.Dialect            : HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
-2025-11-13T15:44:53.950+05:30  INFO 7580 --- [LMS-QueryService] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-11-14T14:46:20.175+05:30  INFO 10780 --- [LMS-QueryService] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-14T14:46:20.577+05:30  INFO 10780 --- [LMS-QueryService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-14T14:46:20.956+05:30  INFO 10780 --- [LMS-QueryService] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-14T14:46:21.495+05:30  WARN 10780 --- [LMS-QueryService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-14T14:46:21.532+05:30  INFO 10780 --- [LMS-QueryService] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-11-14T14:46:22.068+05:30  INFO 10780 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5557 (http) with context path '/'
+2025-11-14T14:46:22.077+05:30  INFO 10780 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Started LmsQueryServiceApplication in 7.045 seconds (process running for 8.028)
+2025-11-14T14:53:10.305+05:30  INFO 10780 --- [LMS-QueryService] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-14T14:53:10.311+05:30  INFO 10780 --- [LMS-QueryService] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-14T14:53:10.317+05:30  INFO 10780 --- [LMS-QueryService] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-14T14:53:10.320+05:30  INFO 10780 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-14T14:53:10.335+05:30  INFO 10780 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-14T14:53:20.606+05:30  INFO 3868 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Starting LmsQueryServiceApplication using Java 21.0.8 with PID 3868 (C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService\LMS-QueryService\target\classes started by Sreenivas Bandaru in C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService)
+2025-11-14T14:53:20.611+05:30  INFO 3868 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-11-14T14:53:21.779+05:30  INFO 3868 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-14T14:53:21.889+05:30  INFO 3868 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 6 JPA repository interfaces.
+2025-11-14T14:53:22.213+05:30  INFO 3868 --- [LMS-QueryService] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=fa6398dc-e474-3df7-8333-c76c99ed1b65
+2025-11-14T14:53:22.757+05:30  INFO 3868 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5557 (http)
+2025-11-14T14:53:22.780+05:30  INFO 3868 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-14T14:53:22.780+05:30  INFO 3868 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-14T14:53:22.870+05:30  INFO 3868 --- [LMS-QueryService] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-14T14:53:22.870+05:30  INFO 3868 --- [LMS-QueryService] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2184 ms
+2025-11-14T14:53:23.210+05:30  INFO 3868 --- [LMS-QueryService] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-14T14:53:23.274+05:30  INFO 3868 --- [LMS-QueryService] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-14T14:53:23.317+05:30  INFO 3868 --- [LMS-QueryService] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-14T14:53:23.654+05:30  INFO 3868 --- [LMS-QueryService] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-14T14:53:23.692+05:30  INFO 3868 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-14T14:53:24.082+05:30  INFO 3868 --- [LMS-QueryService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@681d704e
+2025-11-14T14:53:24.083+05:30  INFO 3868 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-14T14:53:24.231+05:30  WARN 3868 --- [LMS-QueryService] [main] org.hibernate.dialect.Dialect            : HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2025-11-14T14:53:24.410+05:30  INFO 3868 --- [LMS-QueryService] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 11.2
@@ -260,235 +252,10 @@ Caused by: oracle.jdbc.OracleDatabaseException: ORA-02275: such a referential co
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-11-13T15:44:55.066+05:30  INFO 7580 --- [LMS-QueryService] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-11-13T15:44:55.312+05:30  WARN 7580 --- [LMS-QueryService] [main] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL "alter table loan add constraint FKx6kwk15egxgqg92id88hhq6l foreign key (customer_id) references customer_details (customer_id)" via JDBC [ORA-02275: such a referential constraint already exists in the table
-
-https://docs.oracle.com/error-help/db/ora-02275/]
-
-org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table loan add constraint FKx6kwk15egxgqg92id88hhq6l foreign key (customer_id) references customer_details (customer_id)" via JDBC [ORA-02275: such a referential constraint already exists in the table
-
-https://docs.oracle.com/error-help/db/ora-02275/]
-	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:576) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:516) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:448) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:269) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:112) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:280) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
-	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.12.jar:6.2.12]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.12.jar:6.2.12]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.12.jar:6.2.12]
-	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.12.jar:6.2.12]
-	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveConstructorArguments(ConstructorResolver.java:691) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:513) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1375) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1205) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1725) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1474) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1708) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1459) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:606) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1770) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.12.jar:6.2.12]
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:230) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:184) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAsRegistrationBean(ServletContextInitializerBeans.java:179) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addAdaptableBeans(ServletContextInitializerBeans.java:164) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:96) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:271) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:245) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:52) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4452) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1201) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1191) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:747) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
-	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:770) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1201) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
-	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1191) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
-	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:81) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
-	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145) ~[na:na]
-	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:747) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
-	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:201) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
-	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:410) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
-	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:868) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
-	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
-	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:436) ~[tomcat-embed-core-10.1.48.jar:10.1.48]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:128) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:107) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:517) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:219) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:193) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:167) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:621) ~[spring-context-6.2.12.jar:6.2.12]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.7.jar:3.5.7]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.7.jar:3.5.7]
-	at com.example.LMS_QueryService.LmsQueryServiceApplication.main(LmsQueryServiceApplication.java:10) ~[classes/:na]
-Caused by: java.sql.SQLSyntaxErrorException: ORA-02275: such a referential constraint already exists in the table
-
-https://docs.oracle.com/error-help/db/ora-02275/
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:715) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:615) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
-	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1372) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
-	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:969) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
-	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:237) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
-	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:524) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
-	at oracle.jdbc.driver.T4CStatement.doOall8(T4CStatement.java:192) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
-	at oracle.jdbc.driver.T4CStatement.executeForRows(T4CStatement.java:1401) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
-	at oracle.jdbc.driver.OracleStatement.executeSQLStatement(OracleStatement.java:2009) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
-	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1622) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
-	at oracle.jdbc.driver.OracleStatement.executeInternal(OracleStatement.java:2687) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
-	at oracle.jdbc.driver.OracleStatement.execute(OracleStatement.java:2636) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
-	at oracle.jdbc.driver.OracleStatementWrapper.execute(OracleStatementWrapper.java:337) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
-	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-6.3.3.jar:na]
-	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-6.3.3.jar:na]
-	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.33.Final.jar:6.6.33.Final]
-	... 121 common frames omitted
-Caused by: oracle.jdbc.OracleDatabaseException: ORA-02275: such a referential constraint already exists in the table
-
-	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:723) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
-	... 136 common frames omitted
-
-2025-11-13T15:44:55.319+05:30  INFO 7580 --- [LMS-QueryService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-11-13T15:44:55.748+05:30  INFO 7580 --- [LMS-QueryService] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-11-13T15:44:56.293+05:30  WARN 7580 --- [LMS-QueryService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-11-13T15:44:56.332+05:30  INFO 7580 --- [LMS-QueryService] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
-2025-11-13T15:44:56.973+05:30  INFO 7580 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5557 (http) with context path '/'
-2025-11-13T15:44:56.983+05:30  INFO 7580 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Started LmsQueryServiceApplication in 6.911 seconds (process running for 7.008)
-2025-11-13T15:45:34.713+05:30  INFO 7580 --- [LMS-QueryService] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2025-11-13T15:45:34.717+05:30  INFO 7580 --- [LMS-QueryService] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2025-11-13T15:45:34.721+05:30  INFO 7580 --- [LMS-QueryService] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-11-13T15:45:34.723+05:30  INFO 7580 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-11-13T15:45:34.738+05:30  INFO 7580 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2025-11-13T15:45:37.515+05:30  INFO 2496 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Starting LmsQueryServiceApplication using Java 21.0.8 with PID 2496 (C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService\LMS-QueryService\target\classes started by Sreenivas Bandaru in C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService)
-2025-11-13T15:45:37.517+05:30  INFO 2496 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-11-13T15:45:38.311+05:30  INFO 2496 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-11-13T15:45:38.398+05:30  INFO 2496 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 6 JPA repository interfaces.
-2025-11-13T15:45:39.096+05:30  INFO 2496 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5557 (http)
-2025-11-13T15:45:39.116+05:30  INFO 2496 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-11-13T15:45:39.116+05:30  INFO 2496 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-11-13T15:45:39.203+05:30  INFO 2496 --- [LMS-QueryService] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-11-13T15:45:39.203+05:30  INFO 2496 --- [LMS-QueryService] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1642 ms
-2025-11-13T15:45:39.555+05:30  INFO 2496 --- [LMS-QueryService] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-11-13T15:45:39.627+05:30  INFO 2496 --- [LMS-QueryService] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
-2025-11-13T15:45:39.697+05:30  INFO 2496 --- [LMS-QueryService] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-11-13T15:45:40.084+05:30  INFO 2496 --- [LMS-QueryService] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-11-13T15:45:40.122+05:30  INFO 2496 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-11-13T15:45:40.530+05:30  INFO 2496 --- [LMS-QueryService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@38054d01
-2025-11-13T15:45:40.533+05:30  INFO 2496 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-11-13T15:45:40.656+05:30  WARN 2496 --- [LMS-QueryService] [main] org.hibernate.dialect.Dialect            : HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
-2025-11-13T15:45:40.838+05:30  INFO 2496 --- [LMS-QueryService] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 11.2
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2025-11-13T15:45:41.998+05:30  INFO 2496 --- [LMS-QueryService] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-11-13T15:45:42.603+05:30  INFO 2496 --- [LMS-QueryService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-11-13T15:45:43.041+05:30  INFO 2496 --- [LMS-QueryService] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-11-13T15:45:43.675+05:30  WARN 2496 --- [LMS-QueryService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-11-13T15:45:43.716+05:30  INFO 2496 --- [LMS-QueryService] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
-2025-11-13T15:45:44.365+05:30  INFO 2496 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5557 (http) with context path '/'
-2025-11-13T15:45:44.376+05:30  INFO 2496 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Started LmsQueryServiceApplication in 8.022 seconds (process running for 7.557)
-2025-11-13T15:47:53.872+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-11-13T15:47:53.872+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-11-13T15:47:53.874+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2025-11-13T15:47:54.139+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-2] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[admin]]
-2025-11-13T15:47:54.169+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-2] c.e.L.service.customer.CustomerService   : Request For Customer of ID 3
-2025-11-13T15:47:54.260+05:30 ERROR 2496 --- [LMS-QueryService] [http-nio-5557-exec-2] c.e.L.service.customer.CustomerService   : Customer with ID 3 not found!
-2025-11-13T15:48:10.309+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-3] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[admin]]
-2025-11-13T15:48:10.313+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-3] c.e.L.service.customer.CustomerService   : Request For Customer of ID 3
-2025-11-13T15:48:10.315+05:30 ERROR 2496 --- [LMS-QueryService] [http-nio-5557-exec-3] c.e.L.service.customer.CustomerService   : Customer with ID 3 not found!
-2025-11-13T15:49:02.726+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-4] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[admin]]
-2025-11-13T15:49:02.730+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-4] c.e.L.service.customer.CustomerService   : Request For Customer of ID 1
-2025-11-13T15:49:02.732+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-4] c.e.L.service.customer.CustomerService   : Response For ID 1 Is Customer(id=1, username=rohit, password=$2a$10$MPtP6l1L11YYg8oltBbA7OmhhrZSB6tgEprJ.eWC6ueiUck1KlvPa, roles=[Role(id=1, roleName=user)])
-2025-11-13T15:50:24.406+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-6] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[admin]]
-2025-11-13T15:50:24.421+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-6] c.e.L.service.customer.CustomerService   : Getting All Customer [Customer(id=1, username=rohit, password=$2a$10$MPtP6l1L11YYg8oltBbA7OmhhrZSB6tgEprJ.eWC6ueiUck1KlvPa, roles=[Role(id=1, roleName=user)]), Customer(id=2, username=rahul, password=$2a$10$qcVvrXjwMVcMt4kIUdtoOeG8BDrnEgO7SVL4e3wNtUGABkJRA8GLy, roles=[Role(id=2, roleName=admin)])]
-2025-11-13T15:50:42.063+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-7] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[admin]]
-2025-11-13T15:50:42.072+05:30  WARN 2496 --- [LMS-QueryService] [http-nio-5557-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'UserName' for method parameter type String is not present]
-2025-11-13T15:50:52.201+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-10] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[admin]]
-2025-11-13T15:50:52.210+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-10] c.e.L.service.customer.CustomerService   : Request For Customer By username rahul
-2025-11-13T15:50:52.214+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-10] c.e.L.service.customer.CustomerService   : Response For UserName rahul Is Customer(id=2, username=rahul, password=$2a$10$qcVvrXjwMVcMt4kIUdtoOeG8BDrnEgO7SVL4e3wNtUGABkJRA8GLy, roles=[Role(id=2, roleName=admin)])
-2025-11-13T15:51:10.829+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-9] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[admin]]
-2025-11-13T15:51:10.833+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-9] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of ID 5
-2025-11-13T15:51:10.971+05:30 ERROR 2496 --- [LMS-QueryService] [http-nio-5557-exec-9] c.e.L.s.c.CustomerDetailsService         : CustomerDetails with ID 5 not found!
-2025-11-13T15:51:27.290+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-1] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[admin]]
-2025-11-13T15:51:27.296+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-1] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of ID 3
-2025-11-13T15:51:27.301+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-1] c.e.L.s.c.CustomerDetailsService         : Response For ID 3 Is CustomerDetails(id=3, customerId=CUS101, firstName=Rahul, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=rahul.sherekar@example.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-13T15:47:01.003838, updatedAt=null, customer=Customer(id=1, username=rohit, password=$2a$10$MPtP6l1L11YYg8oltBbA7OmhhrZSB6tgEprJ.eWC6ueiUck1KlvPa, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=3, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=3, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))
-2025-11-13T15:51:53.629+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-2] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[admin]]
-2025-11-13T15:51:53.635+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-2] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of Cus ID CUS101
-2025-11-13T15:51:53.684+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-2] c.e.L.s.c.CustomerDetailsService         : Response For Cus ID CUS101 Is CustomerDetails(id=3, customerId=CUS101, firstName=Rahul, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=rahul.sherekar@example.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-13T15:47:01.003838, updatedAt=null, customer=Customer(id=1, username=rohit, password=$2a$10$MPtP6l1L11YYg8oltBbA7OmhhrZSB6tgEprJ.eWC6ueiUck1KlvPa, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=3, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=3, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))
-2025-11-13T15:52:26.808+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-3] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rohit, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[user]]
-2025-11-13T15:52:26.812+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-3] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of Cus ID CUS101
-2025-11-13T15:52:26.817+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-3] c.e.L.s.c.CustomerDetailsService         : Response For Cus ID CUS101 Is CustomerDetails(id=3, customerId=CUS101, firstName=Rahul, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=rahul.sherekar@example.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-13T15:47:01.003838, updatedAt=null, customer=Customer(id=1, username=rohit, password=$2a$10$MPtP6l1L11YYg8oltBbA7OmhhrZSB6tgEprJ.eWC6ueiUck1KlvPa, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=3, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=3, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))
-2025-11-13T15:52:30.859+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-4] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rohit, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[user]]
-2025-11-13T15:52:30.863+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-4] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of Cus ID CUS101
-2025-11-13T15:52:30.869+05:30  INFO 2496 --- [LMS-QueryService] [http-nio-5557-exec-4] c.e.L.s.c.CustomerDetailsService         : Response For Cus ID CUS101 Is CustomerDetails(id=3, customerId=CUS101, firstName=Rahul, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=rahul.sherekar@example.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-13T15:47:01.003838, updatedAt=null, customer=Customer(id=1, username=rohit, password=$2a$10$MPtP6l1L11YYg8oltBbA7OmhhrZSB6tgEprJ.eWC6ueiUck1KlvPa, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=3, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=3, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))
+2025-11-14T14:53:25.585+05:30  INFO 3868 --- [LMS-QueryService] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-14T14:53:26.090+05:30  INFO 3868 --- [LMS-QueryService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-14T14:53:26.541+05:30  INFO 3868 --- [LMS-QueryService] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-14T14:53:27.197+05:30  WARN 3868 --- [LMS-QueryService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-14T14:53:27.254+05:30  INFO 3868 --- [LMS-QueryService] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-11-14T14:53:28.007+05:30  INFO 3868 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5557 (http) with context path '/'
+2025-11-14T14:53:28.024+05:30  INFO 3868 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Started LmsQueryServiceApplication in 8.266 seconds (process running for 7.783)

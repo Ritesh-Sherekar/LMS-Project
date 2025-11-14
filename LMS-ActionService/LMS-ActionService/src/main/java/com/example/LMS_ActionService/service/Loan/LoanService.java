@@ -36,7 +36,6 @@ public class LoanService {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         String userName = authentication.getName();
         Customer byUsername = customerRepo.findByUsername(userName);
-        System.out.println(byUsername);
 
         CustomerDetails byCusId = customerDetailsRepo.findByCustomer_Id(byUsername.getId());
 
@@ -56,4 +55,8 @@ public class LoanService {
 
         return loanRepo.save(loan);
     }
+
+    // Cancel the Loan Application
+
+
 }
