@@ -1,4 +1,4 @@
-package com.example.LMS_QueryService.controller;
+package com.example.LMS_QueryService.controller.customerDetails;
 
 import com.example.LMS_QueryService.entity.CustomerDetails;
 import com.example.LMS_QueryService.response.Response;

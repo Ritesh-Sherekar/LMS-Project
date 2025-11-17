@@ -28,6 +28,8 @@ public class SecurityConfig {
                         .requestMatchers("/customerDetails/addAllInfo").hasAuthority("user")
                         .requestMatchers("/customerDetails/getInfo").hasAuthority("user")
                         .requestMatchers("/loan/applyLoan").hasAuthority("user")
+                        .requestMatchers("/loan/cancelApplication").hasAuthority("user")
+                        .requestMatchers("/api/third").hasAuthority("user")
                         .anyRequest().permitAll()
                 )
                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);

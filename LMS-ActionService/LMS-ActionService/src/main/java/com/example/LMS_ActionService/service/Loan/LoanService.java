@@ -1,23 +1,26 @@
 package com.example.LMS_ActionService.service.Loan;
 
 import com.example.LMS_ActionService.dto.LoanDTO;
+import com.example.LMS_ActionService.dto.LoanDTOForResponse;
 import com.example.LMS_ActionService.entity.Customer;
 import com.example.LMS_ActionService.entity.CustomerDetails;
 import com.example.LMS_ActionService.entity.Loan;
 import com.example.LMS_ActionService.entity.LoanType;
 import com.example.LMS_ActionService.enums.Status;
-import com.example.LMS_ActionService.repository.CustomerDetailsRepo;
-import com.example.LMS_ActionService.repository.CustomerRepo;
-import com.example.LMS_ActionService.repository.LoanRepo;
-import com.example.LMS_ActionService.repository.LoanTypeRepo;
+import com.example.LMS_ActionService.repository.*;
+import com.example.LMS_ActionService.response.Response;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.time.LocalDate;
 
 @Service
+@Slf4j
 public class LoanService {
     @Autowired
     private LoanRepo loanRepo;
@@ -31,15 +34,25 @@ public class LoanService {
     @Autowired
     private LoanTypeRepo loanTypeRepo;
 
+    @Autowired
+    private ClientLoanIDRepo clientLoanIDRepo;
+
     // Apply For Loan
     public Loan applyLoan(LoanDTO loanDTO){
+        log.info("Applying For Loan Request {}", loanDTO);
+
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         String userName = authentication.getName();
+        log.info("Get Authentication Object From Security Context Holder with username {}", userName);
+
         Customer byUsername = customerRepo.findByUsername(userName);
+        log.info("Get Customer From Username {}", byUsername);
 
         CustomerDetails byCusId = customerDetailsRepo.findByCustomer_Id(byUsername.getId());
+        log.info("Get CustomerDetails By Customer ID {}", byCusId);
 
         LoanType byLoanType = loanTypeRepo.findByLoanType(loanDTO.getLoanType());
+        log.info("Get LoneType {}", byLoanType);
 
         Loan loan = new Loan();
         loan.setLoanType(loanDTO.getLoanType());
@@ -53,10 +66,42 @@ public class LoanService {
 
         loan.setCustomerDetails(byCusId);
 
+        log.info("Response After applying for Loan {}", loan);
         return loanRepo.save(loan);
     }
 
     // Cancel the Loan Application
+    public String cancelLoanApplicationByID(@RequestParam int id){
+        log.info("Request for Cancel Loan By Loan ID {}", id);
 
+        Response<LoanDTOForResponse> loneByID = clientLoanIDRepo.getLoneByID(id);
+
+        CustomerDetails byCustomerId = customerDetailsRepo.findByCustomer_Id(loneByID.getData().getId());
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        Loan loan1 = objectMapper.convertValue(byCustomerId, Loan.class);
+        loan1.setLoanStatus(Status.CANCELED.toString());
+
+//        Loan loan = new Loan();
+//        loan.setId(loneByID.getData().getId());
+//        loan.setLoanType(loneByID.getData().getLoanType());
+//        loan.setLoanAmount(loneByID.getData().getLoanAmount());
+//        loan.setInterestRate(loneByID.getData().getInterestRate());
+//        loan.setTenureMonths(loneByID.getData().getTenureMonths());
+//        loan.setApplicationDate(loneByID.getData().getApplicationDate());
+//        loan.setApprovalDate(loneByID.getData().getApprovalDate());
+//        loan.setLoanStatus(Status.CANCELED.toString());
+//        loan.setEmiAmount(loneByID.getData().getEmiAmount());
+//        loan.setTotalPayableAmount(loneByID.getData().getTotalPayableAmount());
+//        loan.setRemainingBalance(loneByID.getData().getRemainingBalance());
+//        loan.setEmploymentType(loneByID.getData().getEmploymentType());
+//        loan.setMonthlyIncome(loneByID.getData().getMonthlyIncome());
+//        loan.setCustomerDetails(byCustomerId);
+
+        log.info("Cancel Loan Application By Changing Loan Status to CANCELED {}",loan1);
+        loanRepo.save(loan1);
+
+        return "Application Cancel Successfully";
+    }
 
 }

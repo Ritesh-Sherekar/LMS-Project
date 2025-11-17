@@ -27,6 +27,8 @@ public class Loan {
     private Double emiAmount;         // Calculated after approval
     private Double totalPayableAmount;
     private Double remainingBalance;
+    private String employmentType;
+    private Double monthlyIncome;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "customerId", referencedColumnName = "customerId")

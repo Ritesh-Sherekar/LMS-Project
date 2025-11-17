@@ -42,5 +42,12 @@ public class GlobalExceptionHandler {
         ErrorResponses error = new ErrorResponses(ex.getMessage(), "Customer ID Not Found!", LocalDateTime.now(), HttpStatus.NOT_FOUND);
         return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
     }
+
+    // ---------------------- Loan -------------------------
+    @ExceptionHandler(LoanIDNotFoundException.class)
+    public ResponseEntity<ErrorResponses> loanIdNotFound(LoanIDNotFoundException ex){
+        ErrorResponses error = new ErrorResponses(ex.getMessage(), "Loan ID Not Found!", LocalDateTime.now(), HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
+    }
 }
 
