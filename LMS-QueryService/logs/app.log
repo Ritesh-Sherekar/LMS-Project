@@ -1365,3 +1365,199 @@ Identify and stop the process that's listening on port 5557 or configure this ap
 2025-11-18T12:45:40.594+05:30  INFO 3828 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.service.loan.LoanService           : Response For ID 1 Is Loan(id=1, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-18, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=private, monthlyIncome=50500.0, customerDetails=CustomerDetails(id=1, customerId=CUS101, firstName=Rahul, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=rahul.sherekar@example.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-18T12:44:43.158686, updatedAt=null, customer=Customer(id=-43, username=rahul, password=$2a$10$Azc.4jfj.hojam9Qxl85EOARArPrx6ign4Oc/zSsbWcKkpmcDWVEm, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))) of Loan Object
 2025-11-18T12:45:40.602+05:30  INFO 3828 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.service.loan.LoanService           : Response For ID 1 Is LoanDTOForResponse(id=1, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-18, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=null, monthlyIncome=null, customerDetailsID=CUS101) of LoanDTO Object
 2025-11-18T12:47:45.441+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T12:48:34.836+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T12:52:40.310+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T12:53:29.682+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T12:57:32.687+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T12:58:22.421+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:02:30.055+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:03:15.991+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:07:20.214+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:08:10.819+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:12:18.743+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:13:03.014+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:17:08.332+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:17:58.912+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:22:02.210+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:22:53.783+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:26:57.201+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:27:47.860+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:31:49.808+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:32:41.492+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:36:44.626+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:37:36.080+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:41:38.655+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:42:29.773+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:46:32.503+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:47:24.066+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:51:26.569+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:52:18.658+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:56:20.602+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T13:57:11.409+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:01:12.876+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:02:08.526+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:06:08.354+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:06:58.843+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:10:59.911+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:11:57.344+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:15:56.494+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:16:46.977+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:20:52.060+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:21:40.826+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:25:43.451+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:26:35.959+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:30:38.039+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:31:28.354+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:35:31.840+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:36:23.153+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:40:27.393+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:41:17.194+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:45:19.276+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:46:11.134+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:50:14.016+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:51:05.187+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:55:07.969+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T14:55:59.556+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:00:02.110+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:00:53.190+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:04:58.037+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:05:44.418+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:09:49.551+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:10:39.721+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:14:45.839+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:15:33.231+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:19:37.792+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:20:27.026+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:24:32.820+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:25:22.938+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:29:26.609+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:30:16.815+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:34:22.034+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:35:10.600+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:39:03.753+05:30  WARN 10220 --- [LMS-QueryService] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=59s8ms815µs900ns).
+2025-11-18T15:39:13.529+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:40:06.267+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:44:08.150+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:44:57.922+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:49:01.910+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:49:52.644+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:53:57.666+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:54:46.574+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:58:49.214+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T15:59:40.878+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:03:43.920+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:04:34.412+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:08:39.485+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:09:27.935+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:13:30.023+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:14:26.722+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:18:26.931+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:19:17.776+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:23:17.449+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:24:15.157+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:28:13.528+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:29:06.695+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:33:05.687+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:34:02.681+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:38:02.897+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:38:52.238+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:42:56.416+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:43:46.762+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:47:51.802+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:48:40.500+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:52:44.213+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:53:36.217+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:57:38.712+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T16:58:27.693+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:02:32.403+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:03:22.366+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:07:28.048+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:08:16.262+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:12:19.484+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:13:11.092+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:17:13.520+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:18:06.000+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:22:07.540+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:22:58.134+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:27:00.235+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:27:54.254+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:31:56.499+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:32:45.993+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:36:47.726+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:37:41.590+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:41:44.537+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:42:34.792+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:46:38.797+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:47:30.047+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:51:33.031+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:52:22.344+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:56:26.464+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T17:57:16.809+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T18:01:21.653+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T18:02:10.492+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T18:06:14.288+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T18:07:06.090+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T18:11:08.708+05:30  INFO 3828 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T18:11:57.495+05:30  INFO 10220 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T18:52:25.696+05:30  INFO 5936 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Starting LmsQueryServiceApplication using Java 21.0.8 with PID 5936 (C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService\LMS-QueryService\target\classes started by Sreenivas Bandaru in C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService)
+2025-11-18T18:52:25.738+05:30  INFO 5936 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-11-18T18:52:29.036+05:30  INFO 5936 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-18T18:52:29.368+05:30  INFO 5936 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 344 ms. Found 6 JPA repository interfaces.
+2025-11-18T18:52:29.814+05:30  INFO 5936 --- [LMS-QueryService] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=52021683-1048-3dc9-bb7b-ef5a7f01159b
+2025-11-18T18:52:31.528+05:30  INFO 5936 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5558 (http)
+2025-11-18T18:52:31.579+05:30  INFO 5936 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-18T18:52:31.580+05:30  INFO 5936 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-18T18:52:31.855+05:30  INFO 5936 --- [LMS-QueryService] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-18T18:52:31.855+05:30  INFO 5936 --- [LMS-QueryService] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6050 ms
+2025-11-18T18:52:32.297+05:30  INFO 5936 --- [LMS-QueryService] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-18T18:52:32.406+05:30  INFO 5936 --- [LMS-QueryService] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-18T18:52:32.451+05:30  INFO 5936 --- [LMS-QueryService] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-18T18:52:32.980+05:30  INFO 5936 --- [LMS-QueryService] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-18T18:52:33.013+05:30  INFO 5936 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-18T18:52:34.018+05:30  INFO 5936 --- [LMS-QueryService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@2d3c501b
+2025-11-18T18:52:34.020+05:30  INFO 5936 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-18T18:52:34.375+05:30  WARN 5936 --- [LMS-QueryService] [main] org.hibernate.dialect.Dialect            : HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2025-11-18T18:52:35.085+05:30  INFO 5936 --- [LMS-QueryService] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-18T18:52:36.576+05:30  INFO 5936 --- [LMS-QueryService] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-18T18:52:42.114+05:30  INFO 5936 --- [LMS-QueryService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-18T18:52:42.423+05:30  INFO 5936 --- [LMS-QueryService] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-18T18:52:43.131+05:30  WARN 5936 --- [LMS-QueryService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-18T18:52:43.202+05:30  INFO 5936 --- [LMS-QueryService] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-11-18T18:52:43.750+05:30  INFO 5936 --- [LMS-QueryService] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-11-18T18:52:43.791+05:30  WARN 5936 --- [LMS-QueryService] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-18T18:52:43.851+05:30  INFO 5936 --- [LMS-QueryService] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-11-18T18:52:43.875+05:30  INFO 5936 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-11-18T18:52:43.880+05:30  INFO 5936 --- [LMS-QueryService] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-18T18:52:43.893+05:30  INFO 5936 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-11-18T18:52:43.893+05:30  INFO 5936 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-11-18T18:52:43.893+05:30  INFO 5936 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-11-18T18:52:43.893+05:30  INFO 5936 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-11-18T18:52:43.893+05:30  INFO 5936 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-11-18T18:52:43.893+05:30  INFO 5936 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-11-18T18:52:43.893+05:30  INFO 5936 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-11-18T18:52:44.227+05:30  INFO 5936 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-11-18T18:52:44.229+05:30  INFO 5936 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-11-18T18:52:44.230+05:30  INFO 5936 --- [LMS-QueryService] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-18T18:52:44.231+05:30  INFO 5936 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1763472164231 with initial instances count: 3
+2025-11-18T18:52:44.235+05:30  INFO 5936 --- [LMS-QueryService] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application LMS-QUERYSERVICE with eureka with status UP
+2025-11-18T18:52:44.235+05:30  INFO 5936 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763472164235, current=UP, previous=STARTING]
+2025-11-18T18:52:44.236+05:30  INFO 5936 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558: registering service...
+2025-11-18T18:52:44.252+05:30  INFO 5936 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5558 (http) with context path '/'
+2025-11-18T18:52:44.252+05:30  INFO 5936 --- [LMS-QueryService] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5558
+2025-11-18T18:52:44.262+05:30  INFO 5936 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Started LmsQueryServiceApplication in 21.089 seconds (process running for 28.103)
+2025-11-18T18:52:44.270+05:30  INFO 5936 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - registration status: 204
+2025-11-18T18:56:48.679+05:30  INFO 5936 --- [LMS-QueryService] [http-nio-5558-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-18T18:56:48.679+05:30  INFO 5936 --- [LMS-QueryService] [http-nio-5558-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-18T18:56:48.681+05:30  INFO 5936 --- [LMS-QueryService] [http-nio-5558-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-11-18T18:56:48.987+05:30  INFO 5936 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rohit, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[manager]]
+2025-11-18T18:56:49.021+05:30  INFO 5936 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.service.loan.LoanService           : Request For Loan of ID 1
+2025-11-18T18:56:49.240+05:30  INFO 5936 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.service.loan.LoanService           : Response For ID 1 Is Loan(id=1, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-18, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=private, monthlyIncome=50500.0, customerDetails=CustomerDetails(id=1, customerId=CUS101, firstName=Rahul, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=rahul.sherekar@example.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-18T18:55:04.943064, updatedAt=null, customer=Customer(id=1, username=rahul, password=$2a$10$laixxxsp1HiN1FOLZ6heGuJdlUfcCHtMglCgswuUEZAsYHnU/SADK, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))) of Loan Object
+2025-11-18T18:56:49.247+05:30  INFO 5936 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.service.loan.LoanService           : Response For ID 1 Is LoanDTOForResponse(id=1, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-18, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=null, monthlyIncome=null, customerDetailsID=CUS101) of LoanDTO Object
+2025-11-18T18:57:36.905+05:30  INFO 5936 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

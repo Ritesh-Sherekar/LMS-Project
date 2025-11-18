@@ -1,5 +1,6 @@
 package com.example.LMS_ActionService.service.Loan;
 
+import com.example.LMS_ActionService.dto.LoanApprovedEventDTO;
 import com.example.LMS_ActionService.dto.LoanDTO;
 import com.example.LMS_ActionService.dto.LoanDTOForResponse;
 import com.example.LMS_ActionService.entity.Customer;
@@ -40,6 +41,9 @@ public class LoanService {
 
     @Autowired
     private ObjectMapper objectMapper;
+
+    @Autowired
+    private LoanEventProducer loanEventProducer;
 
     // Apply For Loan
     public Loan applyLoan(LoanDTO loanDTO){
@@ -117,11 +121,25 @@ public class LoanService {
 
         Response<LoanDTOForResponse> loneByID = clientLoanIDRepo.getLoneByID(id);
 
+
+
         LoanDTOForResponse data = loneByID.getData();
         if (status.equalsIgnoreCase("APPROVED")){
             data.setLoanStatus(Status.APPROVED.toString());
             Loan loan = objectMapper.convertValue(data, Loan.class);
             loanRepo.save(loan);
+
+            // Kafka Event
+            LoanApprovedEventDTO event = new LoanApprovedEventDTO(
+                    loneByID.getData().getId(),
+                    loneByID.getData().getLoanAmount(),
+                    loneByID.getData().getInterestRate(),
+                    loneByID.getData().getTenureMonths(),
+                    "example@gmail.com"
+            );
+
+            loanEventProducer.publishLoanApproved(event);
+
             return "Your Loan Application " + status;
         } else if (status.equalsIgnoreCase("REJECTED")) {
             data.setLoanStatus(Status.REJECTED.toString());

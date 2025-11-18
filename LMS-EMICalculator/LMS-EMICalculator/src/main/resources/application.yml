@@ -1,9 +1,9 @@
 server:
-  port: 5559
+  port: 5560
 
 spring:
   application:
-    name: LMS-ActionService
+    name: LMS-EMICalculator
   datasource:
     username: LMS
     password: sarasu10
@@ -11,14 +11,15 @@ spring:
     driver-class-name: oracle.jdbc.OracleDriver
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     show-sql: true
 
   kafka:
     bootstrap-servers: localhost:9092
-    producer:
-      key-serializer: org.apache.kafka.common.serialization.StringSerializer
-      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+    consumer:
+      group-id: notification-group
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
 
 eureka:
   client:
