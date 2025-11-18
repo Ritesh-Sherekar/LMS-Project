@@ -7,6 +7,7 @@ import com.example.LMS_ActionService.entity.CustomerDetails;
 import com.example.LMS_ActionService.entity.Loan;
 import com.example.LMS_ActionService.entity.LoanType;
 import com.example.LMS_ActionService.enums.Status;
+import com.example.LMS_ActionService.exception.InvalidApplicationStatusException;
 import com.example.LMS_ActionService.repository.*;
 import com.example.LMS_ActionService.response.Response;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -36,6 +37,9 @@ public class LoanService {
 
     @Autowired
     private ClientLoanIDRepo clientLoanIDRepo;
+
+    @Autowired
+    private ObjectMapper objectMapper;
 
     // Apply For Loan
     public Loan applyLoan(LoanDTO loanDTO){
@@ -105,6 +109,38 @@ public class LoanService {
         loanRepo.save(loan);
 
         return "Application Cancel Successfully";
+    }
+
+    // Manage Application Status of Lone Application
+    public String manageStatus(int id, String status){
+        log.info("Request for Managing Loan Application Status By Loan ID {}", id);
+
+        Response<LoanDTOForResponse> loneByID = clientLoanIDRepo.getLoneByID(id);
+
+        LoanDTOForResponse data = loneByID.getData();
+        if (status.equalsIgnoreCase("APPROVED")){
+            data.setLoanStatus(Status.APPROVED.toString());
+            Loan loan = objectMapper.convertValue(data, Loan.class);
+            loanRepo.save(loan);
+            return "Your Loan Application " + status;
+        } else if (status.equalsIgnoreCase("REJECTED")) {
+            data.setLoanStatus(Status.REJECTED.toString());
+            Loan loan = objectMapper.convertValue(data, Loan.class);
+            loanRepo.save(loan);
+            return "Your Loan Application " + status;
+        } else if (status.equalsIgnoreCase("CLOSED")) {
+            data.setLoanStatus(Status.CLOSED.toString());
+            Loan loan = objectMapper.convertValue(data, Loan.class);
+            loanRepo.save(loan);
+            return "Your Loan Application " + status;
+        } else if (status.equalsIgnoreCase("CANCELED")) {
+            data.setLoanStatus(Status.CANCELED.toString());
+            Loan loan = objectMapper.convertValue(data, Loan.class);
+            loanRepo.save(loan);
+            return "Your Loan Application " + status;
+        } else {
+            throw new InvalidApplicationStatusException("Status Not Valid!");
+        }
     }
 
 }

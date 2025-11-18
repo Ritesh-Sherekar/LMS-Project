@@ -29,6 +29,7 @@ public class SecurityConfig {
                         .requestMatchers("/customerDetails/getInfo").hasAuthority("user")
                         .requestMatchers("/loan/applyLoan").hasAuthority("user")
                         .requestMatchers("/loan/cancelApplication").hasAuthority("user")
+                        .requestMatchers("/loan/manageStatus").hasAnyAuthority("manager", "admin")
                         .requestMatchers("/api/third").hasAuthority("user")
                         .anyRequest().permitAll()
                 )

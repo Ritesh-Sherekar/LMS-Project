@@ -26,4 +26,12 @@ public class LoanController {
         String string = loanService.cancelLoanApplicationByID(id);
         return ResponseEntity.ok(string);
     }
+
+    // Manage Application Status
+    @PutMapping("/manageStatus")
+    public ResponseEntity<String> manageStatus(@RequestParam int id,
+                                               @RequestParam String status){
+        String string = loanService.manageStatus(id, status);
+        return ResponseEntity.ok(string);
+    }
 }

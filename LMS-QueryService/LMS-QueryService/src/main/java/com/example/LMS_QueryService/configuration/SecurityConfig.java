@@ -30,7 +30,7 @@ public class SecurityConfig {
                         .requestMatchers("/queryCustomer/getCustomerByUserName").hasAuthority("admin")
                         .requestMatchers("/queryCustomerDetails/getCustomerDetailsByID").hasAuthority("admin")
                         .requestMatchers("/queryCustomerDetails/getCustomerDetailsByCusID").hasAnyAuthority("admin", "user")
-                        .requestMatchers("/queryLoan/getLoanByID").hasAnyAuthority("admin", "user")
+                        .requestMatchers("/queryLoan/getLoanByID").hasAnyAuthority("admin", "user", "manager")
                         .requestMatchers("/loan/applyLoan").hasAuthority("user")
                         .anyRequest().permitAll()
                 )
