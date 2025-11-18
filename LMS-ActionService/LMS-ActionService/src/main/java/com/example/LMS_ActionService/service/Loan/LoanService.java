@@ -78,28 +78,31 @@ public class LoanService {
 
         CustomerDetails byCustomerId = customerDetailsRepo.findByCustomer_Id(loneByID.getData().getId());
 
-        ObjectMapper objectMapper = new ObjectMapper();
-        Loan loan1 = objectMapper.convertValue(byCustomerId, Loan.class);
-        loan1.setLoanStatus(Status.CANCELED.toString());
+        // Not Working (But We can Use Like this To avoid Manual Mapping)
+//        ObjectMapper objectMapper = new ObjectMapper();
+//        Loan loan1 = objectMapper.convertValue(loneByID, Loan.class);
+//        System.out.println("Loan Object " + loan1);
+//        loan1.setLoanStatus(Status.CANCELED.toString());
+//        System.out.println("After Changing Status ");
 
-//        Loan loan = new Loan();
-//        loan.setId(loneByID.getData().getId());
-//        loan.setLoanType(loneByID.getData().getLoanType());
-//        loan.setLoanAmount(loneByID.getData().getLoanAmount());
-//        loan.setInterestRate(loneByID.getData().getInterestRate());
-//        loan.setTenureMonths(loneByID.getData().getTenureMonths());
-//        loan.setApplicationDate(loneByID.getData().getApplicationDate());
-//        loan.setApprovalDate(loneByID.getData().getApprovalDate());
-//        loan.setLoanStatus(Status.CANCELED.toString());
-//        loan.setEmiAmount(loneByID.getData().getEmiAmount());
-//        loan.setTotalPayableAmount(loneByID.getData().getTotalPayableAmount());
-//        loan.setRemainingBalance(loneByID.getData().getRemainingBalance());
-//        loan.setEmploymentType(loneByID.getData().getEmploymentType());
-//        loan.setMonthlyIncome(loneByID.getData().getMonthlyIncome());
-//        loan.setCustomerDetails(byCustomerId);
+        Loan loan = new Loan();
+        loan.setId(loneByID.getData().getId());
+        loan.setLoanType(loneByID.getData().getLoanType());
+        loan.setLoanAmount(loneByID.getData().getLoanAmount());
+        loan.setInterestRate(loneByID.getData().getInterestRate());
+        loan.setTenureMonths(loneByID.getData().getTenureMonths());
+        loan.setApplicationDate(loneByID.getData().getApplicationDate());
+        loan.setApprovalDate(loneByID.getData().getApprovalDate());
+        loan.setLoanStatus(Status.CANCELED.toString());
+        loan.setEmiAmount(loneByID.getData().getEmiAmount());
+        loan.setTotalPayableAmount(loneByID.getData().getTotalPayableAmount());
+        loan.setRemainingBalance(loneByID.getData().getRemainingBalance());
+        loan.setEmploymentType(loneByID.getData().getEmploymentType());
+        loan.setMonthlyIncome(loneByID.getData().getMonthlyIncome());
+        loan.setCustomerDetails(byCustomerId);
 
-        log.info("Cancel Loan Application By Changing Loan Status to CANCELED {}",loan1);
-        loanRepo.save(loan1);
+        log.info("Cancel Loan Application By Changing Loan Status to CANCELED {}",loan);
+        loanRepo.save(loan);
 
         return "Application Cancel Successfully";
     }
