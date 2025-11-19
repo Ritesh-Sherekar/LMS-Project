@@ -3,6 +3,7 @@ package com.example.LMS_QueryService.service.customerDetails;
 import com.example.LMS_QueryService.entity.CustomerDetails;
 import com.example.LMS_QueryService.exception.CustomerDetailsNotFound;
 import com.example.LMS_QueryService.exception.CustomerIDNotFoundException;
+import com.example.LMS_QueryService.exception.CustomerTableIDNotPresentException;
 import com.example.LMS_QueryService.repository.CustomerDetailsRepo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,5 +38,20 @@ public class CustomerDetailsService {
         }
         return customerDetails;
     }
+
+    // get CustomerDetails By Customer table ID
+    public CustomerDetails getCustomerDetailsByCustomerTableID(int id){
+        log.info("Request For CustomerDetails of Customer Table ID {}", id);
+        CustomerDetails byCustomerId = customerDetailsRepo.findByCustomer_Id(id);
+        log.info("Response For Customer Table ID {} Is {}", id, byCustomerId);
+
+        if (byCustomerId == null){
+            log.error("CustomerDetails with Customer Table ID {} not found!", id);
+            throw new CustomerTableIDNotPresentException("Customer Table ID Not Present!");
+        }
+        return byCustomerId;
+    }
+
+
 
 }

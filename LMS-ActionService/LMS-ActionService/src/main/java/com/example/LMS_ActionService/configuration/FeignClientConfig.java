@@ -14,10 +14,8 @@ public class FeignClientConfig implements RequestInterceptor {
     @Override
     public void apply(RequestTemplate requestTemplate) {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-        System.out.println(authentication);
 
         ServletRequestAttributes request = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
-        System.out.println(request);
 
         if (request != null){
             HttpServletRequest request1 = request.getRequest();

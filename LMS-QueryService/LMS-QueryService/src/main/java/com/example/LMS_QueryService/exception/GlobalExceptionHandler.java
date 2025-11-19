@@ -43,6 +43,13 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
     }
 
+    // Customer Table ID Not Found
+    @ExceptionHandler(CustomerTableIDNotPresentException.class)
+    public ResponseEntity<ErrorResponses> customerTableIDNotFound(CustomerTableIDNotPresentException ex){
+        ErrorResponses error = new ErrorResponses(ex.getMessage(), "Customer Table ID Not Found!", LocalDateTime.now(), HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
+    }
+
     // ---------------------- Loan -------------------------
     @ExceptionHandler(LoanIDNotFoundException.class)
     public ResponseEntity<ErrorResponses> loanIdNotFound(LoanIDNotFoundException ex){

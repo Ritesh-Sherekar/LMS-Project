@@ -34,4 +34,12 @@ public class CustomerDetailsController {
         Response<CustomerDetails> response = new Response<>("Get CustomerDetails By ID", LocalDateTime.now(), customerDetailsByID, HttpStatus.OK.value());
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
+
+    // Get CustomerDetails By Customer Table ID
+    @GetMapping("/getCustomerDetailsByCustomerTableID")
+    public ResponseEntity<Response<CustomerDetails>> getCustomerDetailsByCustomerTableID(@RequestParam int id){
+        CustomerDetails customerDetailsByCustomerTableID = customerDetailsService.getCustomerDetailsByCustomerTableID(id);
+        Response<CustomerDetails> response = new Response<>("Get CustomerDetails By Customer Table ID", LocalDateTime.now(), customerDetailsByCustomerTableID, HttpStatus.OK.value());
+        return new ResponseEntity<>(response, HttpStatus.OK);
+    }
 }

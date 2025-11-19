@@ -121,8 +121,6 @@ public class LoanService {
 
         Response<LoanDTOForResponse> loneByID = clientLoanIDRepo.getLoneByID(id);
 
-
-
         LoanDTOForResponse data = loneByID.getData();
         if (status.equalsIgnoreCase("APPROVED")){
             data.setLoanStatus(Status.APPROVED.toString());

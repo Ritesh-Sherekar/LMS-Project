@@ -12,4 +12,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface ClientLoanIDRepo {
     @GetMapping("/queryLoan/getLoanByID")
     Response<LoanDTOForResponse> getLoneByID(@RequestParam("id") int id);
+
+
 }
