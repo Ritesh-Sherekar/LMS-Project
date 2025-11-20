@@ -1,21 +1,23 @@
 package com.example.LMS_EMICalculator.service;
 
 import com.example.LMS_EMICalculator.dto.LoanApprovedEventDTO;
-import com.example.LMS_EMICalculator.dto.ResponseDTO;
 import com.example.LMS_EMICalculator.entity.EMI;
 import com.example.LMS_EMICalculator.repository.EMIRepo;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 
 @Service
+@Slf4j
 public class EMIService {
     @Autowired
     private EMIRepo emiRepo;
 
     // Calculate EMI
-    public ResponseDTO calculateEMI(LoanApprovedEventDTO loanApprovedEventDTO) {
+    public void calculateEMI(LoanApprovedEventDTO loanApprovedEventDTO) {
+        log.info("Requesting for calculate EMI base on {}", loanApprovedEventDTO);
 
         double P = loanApprovedEventDTO.getLoanAmount();
         double annualInterest = loanApprovedEventDTO.getAnnualInterestRate();
@@ -23,8 +25,6 @@ public class EMIService {
 
         // Convert annual interest to monthly (as double)
         double R = (annualInterest / 12) / 100;
-
-        ResponseDTO responseDTO = new ResponseDTO();
 
         double emi;
 
@@ -53,14 +53,9 @@ public class EMIService {
         emi1.setCreatedAt(LocalDate.now());
         emi1.setUpdatedAt(null);
 
-        emiRepo.save(emi1);
+        log.info("Emi Calculate {}", emi1);
 
-        responseDTO.setLoanID(loanApprovedEventDTO.getLoanId());
-        responseDTO.setEmiAmount(round(emi));
-        responseDTO.setTotalPayableAmount(round(totalPayable));
-        responseDTO.setTotalInterest(round(totalInterest));
-        System.out.println("Response DTO " + responseDTO);
-        return responseDTO;
+        emiRepo.save(emi1);
     }
 
     private static double round(double value) {

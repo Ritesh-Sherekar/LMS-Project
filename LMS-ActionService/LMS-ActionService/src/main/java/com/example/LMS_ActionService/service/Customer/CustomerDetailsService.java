@@ -6,11 +6,13 @@ import com.example.LMS_ActionService.entity.CustomerDetails;
 import com.example.LMS_ActionService.entity.CustomerKyc;
 import com.example.LMS_ActionService.repository.CustomerDetailsRepo;
 import com.example.LMS_ActionService.repository.CustomerRepo;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
+@Slf4j
 @Service
 public class CustomerDetailsService {
     @Autowired
@@ -21,6 +23,8 @@ public class CustomerDetailsService {
 
     // Add All Details
     public CustomerDetails addAllInfo(CustomerDetails customerDetails){
+        log.info("Requesting For Adding Customer Details {}", customerDetails);
+
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         String userName = authentication.getName();
         Customer byUsername = customerRepo.findByUsername(userName);
@@ -54,6 +58,7 @@ public class CustomerDetailsService {
         cd.setCustomer(byUsername);
 
         CustomerDetails save = customerDetailsRepo.save(cd);
+        log.info("Response after adding Customer Info {}", save);
         return save;
     }
 }
