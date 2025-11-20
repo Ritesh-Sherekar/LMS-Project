@@ -13,4 +13,6 @@ public class LoanApprovedEventDTO {
     private double annualInterestRate;
     private int tenureMonths;
     private String customerEmail;
+    private String customerName;
+    private String loanType;
 }

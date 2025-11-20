@@ -56,8 +56,9 @@ public class LoanService {
         Customer byUsername = customerRepo.findByUsername(userName);
         log.info("Get Customer From Username {}", byUsername);
 
-        CustomerDetails byCusId = customerDetailsRepo.findByCustomer_Id(byUsername.getId());
-        log.info("Get CustomerDetails By Customer ID {}", byCusId);
+        Response<CustomerDetails> customerDetailsByCustomerTableID = clientLoanIDRepo.getCustomerDetailsByCustomerTableID(byUsername.getId());
+//        CustomerDetails byCusId = customerDetailsRepo.findByCustomer_Id(byUsername.getId());
+        log.info("Get CustomerDetails By Customer Table ID {}", customerDetailsByCustomerTableID);
 
         LoanType byLoanType = loanTypeRepo.findByLoanType(loanDTO.getLoanType());
         log.info("Get LoneType {}", byLoanType);
@@ -72,7 +73,7 @@ public class LoanService {
         loan.setMonthlyIncome(loanDTO.getMonthlyIncome());
         loan.setInterestRate(byLoanType.getInterestRate());
 
-        loan.setCustomerDetails(byCusId);
+        loan.setCustomerDetails(customerDetailsByCustomerTableID.getData());
 
         log.info("Response After applying for Loan {}", loan);
         return loanRepo.save(loan);
@@ -84,7 +85,8 @@ public class LoanService {
 
         Response<LoanDTOForResponse> loneByID = clientLoanIDRepo.getLoneByID(id);
 
-        CustomerDetails byCustomerId = customerDetailsRepo.findByCustomer_Id(loneByID.getData().getId());
+        Response<CustomerDetails> customerDetailsByCustomerTableID = clientLoanIDRepo.getCustomerDetailsByCustomerTableID(loneByID.getData().getId());
+        //CustomerDetails byCustomerId = customerDetailsRepo.findByCustomer_Id(loneByID.getData().getId());
 
         // Not Working (But We can Use Like this To avoid Manual Mapping)
 //        ObjectMapper objectMapper = new ObjectMapper();
@@ -107,7 +109,7 @@ public class LoanService {
         loan.setRemainingBalance(loneByID.getData().getRemainingBalance());
         loan.setEmploymentType(loneByID.getData().getEmploymentType());
         loan.setMonthlyIncome(loneByID.getData().getMonthlyIncome());
-        loan.setCustomerDetails(byCustomerId);
+        loan.setCustomerDetails(customerDetailsByCustomerTableID.getData());
 
         log.info("Cancel Loan Application By Changing Loan Status to CANCELED {}",loan);
         loanRepo.save(loan);
@@ -120,6 +122,10 @@ public class LoanService {
         log.info("Request for Managing Loan Application Status By Loan ID {}", id);
 
         Response<LoanDTOForResponse> loneByID = clientLoanIDRepo.getLoneByID(id);
+        log.info("Getting Loan Object By Loan ID {} and Object is {}", id, loneByID);
+
+        Response<CustomerDetails> customerDetailsByCusID = clientLoanIDRepo.getCustomerDetailsByCusID(loneByID.getData().getCustomerDetailsID());
+        log.info("Getting Customer Details By Cus ID {} and Object is {}", loneByID.getData().getCustomerDetailsID(), customerDetailsByCusID);
 
         LoanDTOForResponse data = loneByID.getData();
         if (status.equalsIgnoreCase("APPROVED")){
@@ -133,8 +139,11 @@ public class LoanService {
                     loneByID.getData().getLoanAmount(),
                     loneByID.getData().getInterestRate(),
                     loneByID.getData().getTenureMonths(),
-                    "example@gmail.com"
+                    customerDetailsByCusID.getData().getEmail(),
+                    customerDetailsByCusID.getData().getFirstName(),
+                    loneByID.getData().getLoanType()
             );
+            log.info("Sending Object to the Kafka Topic {}", event);
 
             loanEventProducer.publishLoanApproved(event);
 

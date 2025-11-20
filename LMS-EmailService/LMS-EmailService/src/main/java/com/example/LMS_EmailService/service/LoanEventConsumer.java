@@ -1,6 +1,7 @@
 package com.example.LMS_EmailService.service;
 
 import com.example.LMS_EmailService.dto.LoanApprovedEventDTO;
+import jakarta.mail.MessagingException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
@@ -14,8 +15,8 @@ public class LoanEventConsumer {
         this.emiService = emiService;
     }
 
-    @KafkaListener(topics = "loan-approved-topic", groupId = "emi-calculator-group")
-    public void consumeLoanApprovedEvent(LoanApprovedEventDTO event) {
+    @KafkaListener(topics = "loan-approved-topic", groupId = "email-sending-group")
+    public void consumeLoanApprovedEvent(LoanApprovedEventDTO event) throws MessagingException {
         log.info("Received Loan for EMI Calculation: {}", event);
 
         emiService.sendEmailForLoanApproval(event);

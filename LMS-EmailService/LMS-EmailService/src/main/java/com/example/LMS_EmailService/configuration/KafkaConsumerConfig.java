@@ -25,7 +25,7 @@ public class KafkaConsumerConfig {
 
         Map<String, Object> map = new HashMap<>();
         map.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
-        map.put(ConsumerConfig.GROUP_ID_CONFIG, "notification-group");
+        map.put(ConsumerConfig.GROUP_ID_CONFIG, "email-sending-group");
         map.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
         map.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, deserializer);
 

@@ -1,22 +1,22 @@
-2025-11-19T17:44:02.470+05:30  INFO 12200 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Starting LmsQueryServiceApplication using Java 21.0.8 with PID 12200 (C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService\LMS-QueryService\target\classes started by Sreenivas Bandaru in C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService)
-2025-11-19T17:44:02.500+05:30  INFO 12200 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : No active profile set, falling back to 1 default profile: "default"
-2025-11-19T17:44:04.391+05:30  INFO 12200 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-11-19T17:44:04.742+05:30  INFO 12200 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 329 ms. Found 6 JPA repository interfaces.
-2025-11-19T17:44:05.083+05:30  INFO 12200 --- [LMS-QueryService] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=52021683-1048-3dc9-bb7b-ef5a7f01159b
-2025-11-19T17:44:05.802+05:30  INFO 12200 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5558 (http)
-2025-11-19T17:44:05.836+05:30  INFO 12200 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-11-19T17:44:05.837+05:30  INFO 12200 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2025-11-19T17:44:05.920+05:30  INFO 12200 --- [LMS-QueryService] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2025-11-19T17:44:05.920+05:30  INFO 12200 --- [LMS-QueryService] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3372 ms
-2025-11-19T17:44:06.393+05:30  INFO 12200 --- [LMS-QueryService] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-11-19T17:44:06.504+05:30  INFO 12200 --- [LMS-QueryService] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
-2025-11-19T17:44:06.578+05:30  INFO 12200 --- [LMS-QueryService] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-11-19T17:44:07.132+05:30  INFO 12200 --- [LMS-QueryService] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-11-19T17:44:07.175+05:30  INFO 12200 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-11-19T17:44:07.750+05:30  INFO 12200 --- [LMS-QueryService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@2792c28
-2025-11-19T17:44:07.752+05:30  INFO 12200 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-11-19T17:44:07.911+05:30  WARN 12200 --- [LMS-QueryService] [main] org.hibernate.dialect.Dialect            : HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
-2025-11-19T17:44:08.146+05:30  INFO 12200 --- [LMS-QueryService] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2025-11-20T11:01:05.704+05:30  INFO 2476 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Starting LmsQueryServiceApplication using Java 21.0.8 with PID 2476 (C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService\LMS-QueryService\target\classes started by Sreenivas Bandaru in C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService)
+2025-11-20T11:01:05.727+05:30  INFO 2476 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-11-20T11:01:07.531+05:30  INFO 2476 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-20T11:01:07.708+05:30  INFO 2476 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 155 ms. Found 6 JPA repository interfaces.
+2025-11-20T11:01:08.050+05:30  INFO 2476 --- [LMS-QueryService] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=52021683-1048-3dc9-bb7b-ef5a7f01159b
+2025-11-20T11:01:08.553+05:30  INFO 2476 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5558 (http)
+2025-11-20T11:01:08.568+05:30  INFO 2476 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-20T11:01:08.569+05:30  INFO 2476 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-20T11:01:08.646+05:30  INFO 2476 --- [LMS-QueryService] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-20T11:01:08.647+05:30  INFO 2476 --- [LMS-QueryService] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2856 ms
+2025-11-20T11:01:08.994+05:30  INFO 2476 --- [LMS-QueryService] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-20T11:01:09.057+05:30  INFO 2476 --- [LMS-QueryService] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-20T11:01:09.114+05:30  INFO 2476 --- [LMS-QueryService] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-20T11:01:09.481+05:30  INFO 2476 --- [LMS-QueryService] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-20T11:01:09.514+05:30  INFO 2476 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-20T11:01:09.880+05:30  INFO 2476 --- [LMS-QueryService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@6fa7ce4
+2025-11-20T11:01:09.882+05:30  INFO 2476 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-20T11:01:09.986+05:30  WARN 2476 --- [LMS-QueryService] [main] org.hibernate.dialect.Dialect            : HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2025-11-20T11:01:10.226+05:30  INFO 2476 --- [LMS-QueryService] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 11.2
@@ -24,61 +24,937 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-11-19T17:44:09.602+05:30  INFO 12200 --- [LMS-QueryService] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-11-19T17:44:10.826+05:30  INFO 12200 --- [LMS-QueryService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-11-19T17:44:11.518+05:30  INFO 12200 --- [LMS-QueryService] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-11-19T17:44:12.108+05:30  WARN 12200 --- [LMS-QueryService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-11-19T17:44:12.188+05:30  INFO 12200 --- [LMS-QueryService] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
-2025-11-19T17:44:13.053+05:30  INFO 12200 --- [LMS-QueryService] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-11-19T17:44:13.186+05:30  WARN 12200 --- [LMS-QueryService] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-11-19T17:44:13.422+05:30  INFO 12200 --- [LMS-QueryService] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-11-19T17:44:13.448+05:30  INFO 12200 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-11-19T17:44:13.452+05:30  INFO 12200 --- [LMS-QueryService] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-11-19T17:44:13.461+05:30  INFO 12200 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-11-19T17:44:13.461+05:30  INFO 12200 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-11-19T17:44:13.461+05:30  INFO 12200 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-11-19T17:44:13.461+05:30  INFO 12200 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-11-19T17:44:13.461+05:30  INFO 12200 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-11-19T17:44:13.461+05:30  INFO 12200 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-11-19T17:44:13.461+05:30  INFO 12200 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-11-19T17:44:21.821+05:30  INFO 12200 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-11-19T17:44:21.825+05:30  INFO 12200 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-11-19T17:44:21.827+05:30  INFO 12200 --- [LMS-QueryService] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-11-19T17:44:21.828+05:30  INFO 12200 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1763554461828 with initial instances count: 2
-2025-11-19T17:44:21.833+05:30  INFO 12200 --- [LMS-QueryService] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application LMS-QUERYSERVICE with eureka with status UP
-2025-11-19T17:44:21.833+05:30  INFO 12200 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763554461833, current=UP, previous=STARTING]
-2025-11-19T17:44:21.836+05:30  INFO 12200 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558: registering service...
-2025-11-19T17:44:21.896+05:30  INFO 12200 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - registration status: 204
-2025-11-19T17:44:21.897+05:30  INFO 12200 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5558 (http) with context path '/'
-2025-11-19T17:44:21.898+05:30  INFO 12200 --- [LMS-QueryService] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5558
-2025-11-19T17:44:21.909+05:30  INFO 12200 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Started LmsQueryServiceApplication in 20.78 seconds (process running for 22.395)
-2025-11-19T17:49:13.465+05:30  INFO 12200 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-11-19T17:54:13.476+05:30  INFO 12200 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-11-19T17:59:13.479+05:30  INFO 12200 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-11-19T18:04:13.481+05:30  INFO 12200 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-11-19T18:09:13.483+05:30  INFO 12200 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-11-19T18:14:13.497+05:30  INFO 12200 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-11-19T18:19:13.507+05:30  INFO 12200 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-11-19T18:22:31.279+05:30  INFO 12200 --- [LMS-QueryService] [http-nio-5558-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2025-11-19T18:22:31.327+05:30  INFO 12200 --- [LMS-QueryService] [http-nio-5558-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2025-11-19T18:22:32.317+05:30  INFO 12200 --- [LMS-QueryService] [http-nio-5558-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 972 ms
-2025-11-19T18:24:13.513+05:30  INFO 12200 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-11-19T18:25:02.832+05:30  INFO 12200 --- [LMS-QueryService] [http-nio-5558-exec-7] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rohit, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[user]]
-2025-11-19T18:25:11.870+05:30  INFO 12200 --- [LMS-QueryService] [http-nio-5558-exec-9] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rohit, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[user]]
-2025-11-19T18:25:12.259+05:30  INFO 12200 --- [LMS-QueryService] [http-nio-5558-exec-9] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of Cus ID CUS101
-2025-11-19T18:25:12.498+05:30  INFO 12200 --- [LMS-QueryService] [http-nio-5558-exec-9] c.e.L.s.c.CustomerDetailsService         : Response For Cus ID CUS101 Is CustomerDetails(id=1, customerId=CUS101, firstName=Rahul, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=rahul.sherekar@example.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-19T18:21:14.466062, updatedAt=null, customer=Customer(id=1, username=rohit, password=$2a$10$NVIaNSAd0V5xZyY0SNNJ/eUyxA3EmWJ80zKe8tOQeAJJx3CR2kr2S, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))
-2025-11-19T18:25:25.146+05:30  INFO 12200 --- [LMS-QueryService] [http-nio-5558-exec-10] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rohit, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[user]]
-2025-11-19T18:25:25.152+05:30  INFO 12200 --- [LMS-QueryService] [http-nio-5558-exec-10] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of Customer Table ID 1
-2025-11-19T18:25:25.181+05:30  INFO 12200 --- [LMS-QueryService] [http-nio-5558-exec-10] c.e.L.s.c.CustomerDetailsService         : Response For Customer Table ID 1 Is CustomerDetails(id=1, customerId=CUS101, firstName=Rahul, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=rahul.sherekar@example.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-19T18:21:14.466062, updatedAt=null, customer=Customer(id=1, username=rohit, password=$2a$10$NVIaNSAd0V5xZyY0SNNJ/eUyxA3EmWJ80zKe8tOQeAJJx3CR2kr2S, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))
-2025-11-19T18:26:54.514+05:30  INFO 12200 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[manager]]
-2025-11-19T18:26:54.518+05:30  INFO 12200 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.service.loan.LoanService           : Request For Loan of ID 1
-2025-11-19T18:26:54.807+05:30  INFO 12200 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.service.loan.LoanService           : Response For ID 1 Is Loan(id=1, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-19, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=private, monthlyIncome=50500.0, customerDetails=CustomerDetails(id=1, customerId=CUS101, firstName=Rahul, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=rahul.sherekar@example.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-19T18:21:14.466062, updatedAt=null, customer=Customer(id=1, username=rohit, password=$2a$10$NVIaNSAd0V5xZyY0SNNJ/eUyxA3EmWJ80zKe8tOQeAJJx3CR2kr2S, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))) of Loan Object
-2025-11-19T18:26:54.808+05:30  INFO 12200 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.service.loan.LoanService           : Response For ID 1 Is LoanDTOForResponse(id=1, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-19, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=null, monthlyIncome=null, customerDetailsID=CUS101) of LoanDTO Object
-2025-11-19T18:29:13.515+05:30  INFO 12200 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-11-19T18:34:13.516+05:30  INFO 12200 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-11-19T18:39:13.517+05:30  INFO 12200 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-11-19T18:44:13.533+05:30  INFO 12200 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-11-19T18:49:13.534+05:30  INFO 12200 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-11-19T18:54:13.535+05:30  INFO 12200 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-11-19T18:59:13.536+05:30  INFO 12200 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-11-19T19:04:13.537+05:30  INFO 12200 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T11:01:11.239+05:30  INFO 2476 --- [LMS-QueryService] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-20T11:01:11.842+05:30  INFO 2476 --- [LMS-QueryService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-20T11:01:12.523+05:30  INFO 2476 --- [LMS-QueryService] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-20T11:01:13.095+05:30  WARN 2476 --- [LMS-QueryService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-20T11:01:13.189+05:30  INFO 2476 --- [LMS-QueryService] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-11-20T11:01:13.942+05:30  INFO 2476 --- [LMS-QueryService] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-11-20T11:01:14.008+05:30  WARN 2476 --- [LMS-QueryService] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-20T11:01:14.082+05:30  INFO 2476 --- [LMS-QueryService] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-11-20T11:01:14.115+05:30  INFO 2476 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-11-20T11:01:14.120+05:30  INFO 2476 --- [LMS-QueryService] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T11:01:14.131+05:30  INFO 2476 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-11-20T11:01:14.131+05:30  INFO 2476 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-11-20T11:01:14.131+05:30  INFO 2476 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-11-20T11:01:14.131+05:30  INFO 2476 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-11-20T11:01:14.131+05:30  INFO 2476 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-11-20T11:01:14.131+05:30  INFO 2476 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-11-20T11:01:14.132+05:30  INFO 2476 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-11-20T11:01:14.591+05:30  INFO 2476 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-11-20T11:01:14.594+05:30  INFO 2476 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-11-20T11:01:14.598+05:30  INFO 2476 --- [LMS-QueryService] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-20T11:01:14.601+05:30  INFO 2476 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1763616674600 with initial instances count: 1
+2025-11-20T11:01:14.607+05:30  INFO 2476 --- [LMS-QueryService] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application LMS-QUERYSERVICE with eureka with status UP
+2025-11-20T11:01:14.608+05:30  INFO 2476 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763616674608, current=UP, previous=STARTING]
+2025-11-20T11:01:14.610+05:30  INFO 2476 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558: registering service...
+2025-11-20T11:01:14.647+05:30  INFO 2476 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5558 (http) with context path '/'
+2025-11-20T11:01:14.649+05:30  INFO 2476 --- [LMS-QueryService] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5558
+2025-11-20T11:01:14.665+05:30  INFO 2476 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Started LmsQueryServiceApplication in 9.577 seconds (process running for 11.3)
+2025-11-20T11:01:14.669+05:30  INFO 2476 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - registration status: 204
+2025-11-20T11:06:14.134+05:30  INFO 2476 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T11:11:14.136+05:30  INFO 2476 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T11:16:14.250+05:30  INFO 2476 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T11:21:14.273+05:30  INFO 2476 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T11:26:14.274+05:30  INFO 2476 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T11:31:14.275+05:30  INFO 2476 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T12:03:15.552+05:30  INFO 13024 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Starting LmsQueryServiceApplication using Java 21.0.8 with PID 13024 (C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService\LMS-QueryService\target\classes started by Sreenivas Bandaru in C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService)
+2025-11-20T12:03:15.574+05:30  INFO 13024 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-11-20T12:03:17.250+05:30  INFO 13024 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-20T12:03:17.451+05:30  INFO 13024 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 180 ms. Found 6 JPA repository interfaces.
+2025-11-20T12:03:17.826+05:30  INFO 13024 --- [LMS-QueryService] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=52021683-1048-3dc9-bb7b-ef5a7f01159b
+2025-11-20T12:03:18.326+05:30  INFO 13024 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5558 (http)
+2025-11-20T12:03:18.347+05:30  INFO 13024 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-20T12:03:18.348+05:30  INFO 13024 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-20T12:03:18.431+05:30  INFO 13024 --- [LMS-QueryService] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-20T12:03:18.431+05:30  INFO 13024 --- [LMS-QueryService] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2793 ms
+2025-11-20T12:03:18.778+05:30  INFO 13024 --- [LMS-QueryService] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-20T12:03:18.836+05:30  INFO 13024 --- [LMS-QueryService] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-20T12:03:18.873+05:30  INFO 13024 --- [LMS-QueryService] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-20T12:03:19.215+05:30  INFO 13024 --- [LMS-QueryService] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-20T12:03:19.252+05:30  INFO 13024 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-20T12:03:19.606+05:30  INFO 13024 --- [LMS-QueryService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@4df13dd0
+2025-11-20T12:03:19.607+05:30  INFO 13024 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-20T12:03:19.712+05:30  WARN 13024 --- [LMS-QueryService] [main] org.hibernate.dialect.Dialect            : HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2025-11-20T12:03:19.919+05:30  INFO 13024 --- [LMS-QueryService] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-20T12:03:20.984+05:30  INFO 13024 --- [LMS-QueryService] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-20T12:03:21.597+05:30  INFO 13024 --- [LMS-QueryService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-20T12:03:21.996+05:30  INFO 13024 --- [LMS-QueryService] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-20T12:03:22.631+05:30  WARN 13024 --- [LMS-QueryService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-20T12:03:22.719+05:30  INFO 13024 --- [LMS-QueryService] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-11-20T12:03:23.525+05:30  INFO 13024 --- [LMS-QueryService] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-11-20T12:03:23.594+05:30  WARN 13024 --- [LMS-QueryService] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-20T12:03:23.655+05:30  INFO 13024 --- [LMS-QueryService] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-11-20T12:03:23.696+05:30  INFO 13024 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-11-20T12:03:23.700+05:30  INFO 13024 --- [LMS-QueryService] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T12:03:23.715+05:30  INFO 13024 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-11-20T12:03:23.715+05:30  INFO 13024 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-11-20T12:03:23.715+05:30  INFO 13024 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-11-20T12:03:23.715+05:30  INFO 13024 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-11-20T12:03:23.715+05:30  INFO 13024 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-11-20T12:03:23.715+05:30  INFO 13024 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-11-20T12:03:23.715+05:30  INFO 13024 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-11-20T12:03:24.174+05:30  INFO 13024 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-11-20T12:03:24.175+05:30  INFO 13024 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-11-20T12:03:24.178+05:30  INFO 13024 --- [LMS-QueryService] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-20T12:03:24.179+05:30  INFO 13024 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1763620404179 with initial instances count: 0
+2025-11-20T12:03:24.183+05:30  INFO 13024 --- [LMS-QueryService] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application LMS-QUERYSERVICE with eureka with status UP
+2025-11-20T12:03:24.184+05:30  INFO 13024 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763620404184, current=UP, previous=STARTING]
+2025-11-20T12:03:24.186+05:30  INFO 13024 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558: registering service...
+2025-11-20T12:03:24.215+05:30  INFO 13024 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5558 (http) with context path '/'
+2025-11-20T12:03:24.217+05:30  INFO 13024 --- [LMS-QueryService] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5558
+2025-11-20T12:03:24.231+05:30  INFO 13024 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Started LmsQueryServiceApplication in 9.329 seconds (process running for 11.001)
+2025-11-20T12:03:24.263+05:30  INFO 13024 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - registration status: 204
+2025-11-20T12:03:54.176+05:30  INFO 13024 --- [LMS-QueryService] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-11-20T12:03:54.177+05:30  INFO 13024 --- [LMS-QueryService] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-11-20T12:03:54.177+05:30  INFO 13024 --- [LMS-QueryService] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-11-20T12:03:54.177+05:30  INFO 13024 --- [LMS-QueryService] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-11-20T12:03:54.177+05:30  INFO 13024 --- [LMS-QueryService] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-11-20T12:03:54.177+05:30  INFO 13024 --- [LMS-QueryService] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Application version is -1: false
+2025-11-20T12:03:54.177+05:30  INFO 13024 --- [LMS-QueryService] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-11-20T12:03:54.202+05:30  INFO 13024 --- [LMS-QueryService] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-11-20T12:06:22.358+05:30  INFO 13024 --- [LMS-QueryService] [http-nio-5558-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-20T12:06:22.358+05:30  INFO 13024 --- [LMS-QueryService] [http-nio-5558-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-20T12:06:22.361+05:30  INFO 13024 --- [LMS-QueryService] [http-nio-5558-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-11-20T12:06:22.639+05:30  INFO 13024 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[user]]
+2025-11-20T12:06:22.675+05:30  INFO 13024 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of Customer Table ID 1
+2025-11-20T12:06:23.000+05:30  INFO 13024 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.s.c.CustomerDetailsService         : Response For Customer Table ID 1 Is CustomerDetails(id=1, customerId=CUS101, firstName=Rahul, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=rahul.sherekar@example.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T12:06:09.899121, updatedAt=null, customer=Customer(id=1, username=rahul, password=$2a$10$7StVFNZB2udcsdfiUjEJ1.CN0HexFF1F4VvIV96wMkPJ5ZTAHavdq, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))
+2025-11-20T12:07:29.901+05:30  INFO 13024 --- [LMS-QueryService] [http-nio-5558-exec-3] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rohit, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[manager]]
+2025-11-20T12:07:29.906+05:30  INFO 13024 --- [LMS-QueryService] [http-nio-5558-exec-3] c.e.L.service.loan.LoanService           : Request For Loan of ID 1
+2025-11-20T12:07:29.964+05:30  INFO 13024 --- [LMS-QueryService] [http-nio-5558-exec-3] c.e.L.service.loan.LoanService           : Response For ID 1 Is Loan(id=1, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-20, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=private, monthlyIncome=50500.0, customerDetails=CustomerDetails(id=1, customerId=CUS101, firstName=Rahul, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=rahul.sherekar@example.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T12:06:09.899121, updatedAt=null, customer=Customer(id=1, username=rahul, password=$2a$10$7StVFNZB2udcsdfiUjEJ1.CN0HexFF1F4VvIV96wMkPJ5ZTAHavdq, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))) of Loan Object
+2025-11-20T12:07:29.970+05:30  INFO 13024 --- [LMS-QueryService] [http-nio-5558-exec-3] c.e.L.service.loan.LoanService           : Response For ID 1 Is LoanDTOForResponse(id=1, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-20, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=null, monthlyIncome=null, customerDetailsID=CUS101) of LoanDTO Object
+2025-11-20T12:08:23.718+05:30  INFO 13024 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T12:13:23.735+05:30  INFO 13024 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T12:18:23.737+05:30  INFO 13024 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T12:22:45.358+05:30  INFO 13024 --- [LMS-QueryService] [http-nio-5558-exec-5] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rohit, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[user]]
+2025-11-20T12:22:45.365+05:30  INFO 13024 --- [LMS-QueryService] [http-nio-5558-exec-5] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of Customer Table ID 3
+2025-11-20T12:22:45.376+05:30  INFO 13024 --- [LMS-QueryService] [http-nio-5558-exec-5] c.e.L.s.c.CustomerDetailsService         : Response For Customer Table ID 3 Is CustomerDetails(id=1, customerId=CUS101, firstName=Rahul, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=rahul.sherekar@example.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T12:22:35.226685, updatedAt=null, customer=Customer(id=3, username=rohit, password=$2a$10$PaXsxjHQR9k1eOqbyXK8COxSc9SqMX9IUSJlsQ.s.RB/6MKnEyYF6, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))
+2025-11-20T12:23:23.739+05:30  INFO 13024 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T12:28:23.745+05:30  INFO 13024 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T12:33:24.744+05:30  INFO 13024 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T12:38:23.865+05:30  INFO 13024 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T12:43:23.866+05:30  INFO 13024 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T12:48:23.868+05:30  INFO 13024 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T12:51:56.209+05:30  INFO 13024 --- [LMS-QueryService] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application LMS-QUERYSERVICE with eureka with status DOWN
+2025-11-20T12:51:56.209+05:30  INFO 13024 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763623316209, current=DOWN, previous=UP]
+2025-11-20T12:51:56.209+05:30  INFO 13024 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558: registering service...
+2025-11-20T12:51:56.220+05:30  INFO 13024 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - registration status: 204
+2025-11-20T12:51:56.230+05:30  INFO 13024 --- [LMS-QueryService] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-20T12:51:56.236+05:30  INFO 13024 --- [LMS-QueryService] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-20T12:51:56.263+05:30  INFO 13024 --- [LMS-QueryService] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-20T12:51:56.276+05:30  INFO 13024 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-20T12:51:56.284+05:30  INFO 13024 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-20T12:51:56.286+05:30  INFO 13024 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-11-20T12:51:59.288+05:30  INFO 13024 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-11-20T12:51:59.296+05:30  INFO 13024 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - deregister  status: 200
+2025-11-20T12:51:59.296+05:30  INFO 13024 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-11-20T12:52:02.268+05:30  INFO 32 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Starting LmsQueryServiceApplication using Java 21.0.8 with PID 32 (C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService\LMS-QueryService\target\classes started by Sreenivas Bandaru in C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService)
+2025-11-20T12:52:02.273+05:30  INFO 32 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-11-20T12:52:03.607+05:30  INFO 32 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-20T12:52:03.797+05:30  INFO 32 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 174 ms. Found 6 JPA repository interfaces.
+2025-11-20T12:52:04.178+05:30  INFO 32 --- [LMS-QueryService] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=52021683-1048-3dc9-bb7b-ef5a7f01159b
+2025-11-20T12:52:04.719+05:30  INFO 32 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5558 (http)
+2025-11-20T12:52:04.735+05:30  INFO 32 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-20T12:52:04.736+05:30  INFO 32 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-20T12:52:04.837+05:30  INFO 32 --- [LMS-QueryService] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-20T12:52:04.838+05:30  INFO 32 --- [LMS-QueryService] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2503 ms
+2025-11-20T12:52:05.213+05:30  INFO 32 --- [LMS-QueryService] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-20T12:52:05.316+05:30  INFO 32 --- [LMS-QueryService] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-20T12:52:05.367+05:30  INFO 32 --- [LMS-QueryService] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-20T12:52:05.728+05:30  INFO 32 --- [LMS-QueryService] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-20T12:52:05.761+05:30  INFO 32 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-20T12:52:06.111+05:30  INFO 32 --- [LMS-QueryService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@4df13dd0
+2025-11-20T12:52:06.113+05:30  INFO 32 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-20T12:52:06.220+05:30  WARN 32 --- [LMS-QueryService] [main] org.hibernate.dialect.Dialect            : HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2025-11-20T12:52:06.409+05:30  INFO 32 --- [LMS-QueryService] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-20T12:52:07.446+05:30  INFO 32 --- [LMS-QueryService] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-20T12:52:08.231+05:30  INFO 32 --- [LMS-QueryService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-20T12:52:08.636+05:30  INFO 32 --- [LMS-QueryService] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-20T12:52:09.200+05:30  WARN 32 --- [LMS-QueryService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-20T12:52:09.302+05:30  INFO 32 --- [LMS-QueryService] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-11-20T12:52:10.074+05:30  INFO 32 --- [LMS-QueryService] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-11-20T12:52:10.132+05:30  WARN 32 --- [LMS-QueryService] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-20T12:52:10.185+05:30  INFO 32 --- [LMS-QueryService] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-11-20T12:52:10.224+05:30  INFO 32 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-11-20T12:52:10.229+05:30  INFO 32 --- [LMS-QueryService] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T12:52:10.245+05:30  INFO 32 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-11-20T12:52:10.245+05:30  INFO 32 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-11-20T12:52:10.245+05:30  INFO 32 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-11-20T12:52:10.245+05:30  INFO 32 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-11-20T12:52:10.246+05:30  INFO 32 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-11-20T12:52:10.246+05:30  INFO 32 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-11-20T12:52:10.246+05:30  INFO 32 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-11-20T12:52:10.696+05:30  INFO 32 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-11-20T12:52:10.699+05:30  INFO 32 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-11-20T12:52:10.701+05:30  INFO 32 --- [LMS-QueryService] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-20T12:52:10.702+05:30  INFO 32 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1763623330702 with initial instances count: 4
+2025-11-20T12:52:10.707+05:30  INFO 32 --- [LMS-QueryService] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application LMS-QUERYSERVICE with eureka with status UP
+2025-11-20T12:52:10.709+05:30  INFO 32 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763623330708, current=UP, previous=STARTING]
+2025-11-20T12:52:10.711+05:30  INFO 32 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558: registering service...
+2025-11-20T12:52:10.743+05:30  INFO 32 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5558 (http) with context path '/'
+2025-11-20T12:52:10.744+05:30  INFO 32 --- [LMS-QueryService] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5558
+2025-11-20T12:52:10.756+05:30  INFO 32 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Started LmsQueryServiceApplication in 9.241 seconds (process running for 10.093)
+2025-11-20T12:52:10.785+05:30  INFO 32 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - registration status: 204
+2025-11-20T12:56:10.065+05:30  INFO 32 --- [LMS-QueryService] [http-nio-5558-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-20T12:56:10.066+05:30  INFO 32 --- [LMS-QueryService] [http-nio-5558-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-20T12:56:10.068+05:30  INFO 32 --- [LMS-QueryService] [http-nio-5558-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-11-20T12:56:10.335+05:30  INFO 32 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rohit, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[user]]
+2025-11-20T12:56:10.370+05:30  INFO 32 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of Customer Table ID 4
+2025-11-20T12:56:10.407+05:30  INFO 32 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.s.c.CustomerDetailsService         : Response For Customer Table ID 4 Is CustomerDetails(id=1, customerId=CUS101, firstName=Shreyash, lastName=Choudhari, dateOfBirth=1998-11-25, gender=Male, email=shreyashvijaychoudhari.eidiko@gmail.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T12:56:00.774060, updatedAt=null, customer=Customer(id=4, username=rohit, password=$2a$10$OCizozw2ZaOvrU6nu76SkuDFWPNYpsijt1EvzS1ABi6C02b4/CZTe, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))
+2025-11-20T12:56:47.798+05:30  INFO 32 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[manager]]
+2025-11-20T12:56:47.803+05:30  INFO 32 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.service.loan.LoanService           : Request For Loan of ID 1
+2025-11-20T12:56:47.837+05:30  INFO 32 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.service.loan.LoanService           : Response For ID 1 Is Loan(id=1, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-20, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=private, monthlyIncome=50500.0, customerDetails=CustomerDetails(id=1, customerId=CUS101, firstName=Shreyash, lastName=Choudhari, dateOfBirth=1998-11-25, gender=Male, email=shreyashvijaychoudhari.eidiko@gmail.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T12:56:00.774060, updatedAt=null, customer=Customer(id=4, username=rohit, password=$2a$10$OCizozw2ZaOvrU6nu76SkuDFWPNYpsijt1EvzS1ABi6C02b4/CZTe, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))) of Loan Object
+2025-11-20T12:56:47.838+05:30  INFO 32 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.service.loan.LoanService           : Response For ID 1 Is LoanDTOForResponse(id=1, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-20, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=null, monthlyIncome=null, customerDetailsID=CUS101) of LoanDTO Object
+2025-11-20T12:56:47.858+05:30  INFO 32 --- [LMS-QueryService] [http-nio-5558-exec-3] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[manager]]
+2025-11-20T12:57:10.258+05:30  INFO 32 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T12:57:59.802+05:30  INFO 32 --- [LMS-QueryService] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application LMS-QUERYSERVICE with eureka with status DOWN
+2025-11-20T12:57:59.802+05:30  INFO 32 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763623679802, current=DOWN, previous=UP]
+2025-11-20T12:57:59.802+05:30  INFO 32 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558: registering service...
+2025-11-20T12:57:59.805+05:30  INFO 32 --- [LMS-QueryService] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-20T12:57:59.810+05:30  INFO 32 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - registration status: 204
+2025-11-20T12:57:59.810+05:30  INFO 32 --- [LMS-QueryService] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-20T12:57:59.816+05:30  INFO 32 --- [LMS-QueryService] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-20T12:57:59.819+05:30  INFO 32 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-20T12:57:59.826+05:30  INFO 32 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-20T12:57:59.827+05:30  INFO 32 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-11-20T12:58:02.828+05:30  INFO 32 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-11-20T12:58:02.834+05:30  INFO 32 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - deregister  status: 200
+2025-11-20T12:58:02.835+05:30  INFO 32 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-11-20T12:58:08.734+05:30  INFO 9352 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Starting LmsQueryServiceApplication using Java 21.0.8 with PID 9352 (C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService\LMS-QueryService\target\classes started by Sreenivas Bandaru in C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService)
+2025-11-20T12:58:08.738+05:30  INFO 9352 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-11-20T12:58:09.817+05:30  INFO 9352 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-20T12:58:10.019+05:30  INFO 9352 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 183 ms. Found 6 JPA repository interfaces.
+2025-11-20T12:58:10.403+05:30  INFO 9352 --- [LMS-QueryService] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=52021683-1048-3dc9-bb7b-ef5a7f01159b
+2025-11-20T12:58:10.952+05:30  INFO 9352 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5558 (http)
+2025-11-20T12:58:10.969+05:30  INFO 9352 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-20T12:58:10.969+05:30  INFO 9352 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-20T12:58:11.070+05:30  INFO 9352 --- [LMS-QueryService] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-20T12:58:11.070+05:30  INFO 9352 --- [LMS-QueryService] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2277 ms
+2025-11-20T12:58:11.433+05:30  INFO 9352 --- [LMS-QueryService] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-20T12:58:11.496+05:30  INFO 9352 --- [LMS-QueryService] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-20T12:58:11.536+05:30  INFO 9352 --- [LMS-QueryService] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-20T12:58:11.875+05:30  INFO 9352 --- [LMS-QueryService] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-20T12:58:11.914+05:30  INFO 9352 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-20T12:58:12.252+05:30  INFO 9352 --- [LMS-QueryService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@45539bd8
+2025-11-20T12:58:12.254+05:30  INFO 9352 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-20T12:58:12.367+05:30  WARN 9352 --- [LMS-QueryService] [main] org.hibernate.dialect.Dialect            : HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2025-11-20T12:58:12.545+05:30  INFO 9352 --- [LMS-QueryService] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-20T12:58:13.618+05:30  INFO 9352 --- [LMS-QueryService] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-20T12:58:14.137+05:30  INFO 9352 --- [LMS-QueryService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-20T12:58:14.538+05:30  INFO 9352 --- [LMS-QueryService] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-20T12:58:15.169+05:30  WARN 9352 --- [LMS-QueryService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-20T12:58:15.266+05:30  INFO 9352 --- [LMS-QueryService] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-11-20T12:58:16.108+05:30  INFO 9352 --- [LMS-QueryService] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-11-20T12:58:16.172+05:30  WARN 9352 --- [LMS-QueryService] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-20T12:58:16.244+05:30  INFO 9352 --- [LMS-QueryService] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-11-20T12:58:16.279+05:30  INFO 9352 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-11-20T12:58:16.283+05:30  INFO 9352 --- [LMS-QueryService] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T12:58:16.292+05:30  INFO 9352 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-11-20T12:58:16.292+05:30  INFO 9352 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-11-20T12:58:16.292+05:30  INFO 9352 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-11-20T12:58:16.292+05:30  INFO 9352 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-11-20T12:58:16.292+05:30  INFO 9352 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-11-20T12:58:16.292+05:30  INFO 9352 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-11-20T12:58:16.292+05:30  INFO 9352 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-11-20T12:58:16.762+05:30  INFO 9352 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-11-20T12:58:16.765+05:30  INFO 9352 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-11-20T12:58:16.768+05:30  INFO 9352 --- [LMS-QueryService] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-20T12:58:16.770+05:30  INFO 9352 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1763623696769 with initial instances count: 5
+2025-11-20T12:58:16.775+05:30  INFO 9352 --- [LMS-QueryService] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application LMS-QUERYSERVICE with eureka with status UP
+2025-11-20T12:58:16.775+05:30  INFO 9352 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763623696775, current=UP, previous=STARTING]
+2025-11-20T12:58:16.779+05:30  INFO 9352 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558: registering service...
+2025-11-20T12:58:16.809+05:30  INFO 9352 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5558 (http) with context path '/'
+2025-11-20T12:58:16.810+05:30  INFO 9352 --- [LMS-QueryService] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5558
+2025-11-20T12:58:16.824+05:30  INFO 9352 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Started LmsQueryServiceApplication in 8.787 seconds (process running for 9.546)
+2025-11-20T12:58:16.850+05:30  INFO 9352 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - registration status: 204
+2025-11-20T12:59:30.188+05:30  INFO 9352 --- [LMS-QueryService] [http-nio-5558-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-20T12:59:30.189+05:30  INFO 9352 --- [LMS-QueryService] [http-nio-5558-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-20T12:59:30.190+05:30  INFO 9352 --- [LMS-QueryService] [http-nio-5558-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-11-20T12:59:30.487+05:30  INFO 9352 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[user]]
+2025-11-20T12:59:30.520+05:30  INFO 9352 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of Customer Table ID 6
+2025-11-20T12:59:30.548+05:30  INFO 9352 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.s.c.CustomerDetailsService         : Response For Customer Table ID 6 Is CustomerDetails(id=-48, customerId=CUS101, firstName=Shreyash, lastName=Choudhari, dateOfBirth=1998-11-25, gender=Male, email=shreyashvijaychoudhari.eidiko@gmail.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T12:59:16.748880, updatedAt=null, customer=Customer(id=6, username=rahul, password=$2a$10$dak5/r/CLWTJ9dszUMsa4.c2EwCd3pDPZHgS80kS5nR9MR7eksXWO, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=-48, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=-48, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))
+2025-11-20T13:00:08.930+05:30  INFO 9352 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rohit, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[manager]]
+2025-11-20T13:00:08.937+05:30  INFO 9352 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.service.loan.LoanService           : Request For Loan of ID 1
+2025-11-20T13:00:08.957+05:30 ERROR 9352 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.service.loan.LoanService           : Loan with ID 1 not found!
+2025-11-20T13:00:26.663+05:30  INFO 9352 --- [LMS-QueryService] [http-nio-5558-exec-3] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rohit, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[manager]]
+2025-11-20T13:00:26.670+05:30  INFO 9352 --- [LMS-QueryService] [http-nio-5558-exec-3] c.e.L.service.loan.LoanService           : Request For Loan of ID -48
+2025-11-20T13:00:26.685+05:30  INFO 9352 --- [LMS-QueryService] [http-nio-5558-exec-3] c.e.L.service.loan.LoanService           : Response For ID -48 Is Loan(id=-48, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-20, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=private, monthlyIncome=50500.0, customerDetails=CustomerDetails(id=-48, customerId=CUS101, firstName=Shreyash, lastName=Choudhari, dateOfBirth=1998-11-25, gender=Male, email=shreyashvijaychoudhari.eidiko@gmail.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T12:59:16.748880, updatedAt=null, customer=Customer(id=6, username=rahul, password=$2a$10$dak5/r/CLWTJ9dszUMsa4.c2EwCd3pDPZHgS80kS5nR9MR7eksXWO, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=-48, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=-48, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))) of Loan Object
+2025-11-20T13:00:26.686+05:30  INFO 9352 --- [LMS-QueryService] [http-nio-5558-exec-3] c.e.L.service.loan.LoanService           : Response For ID -48 Is LoanDTOForResponse(id=-48, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-20, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=null, monthlyIncome=null, customerDetailsID=CUS101) of LoanDTO Object
+2025-11-20T13:00:26.702+05:30  INFO 9352 --- [LMS-QueryService] [http-nio-5558-exec-4] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rohit, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[manager]]
+2025-11-20T13:00:26.710+05:30  INFO 9352 --- [LMS-QueryService] [http-nio-5558-exec-4] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of Cus ID CUS101
+2025-11-20T13:00:26.717+05:30  INFO 9352 --- [LMS-QueryService] [http-nio-5558-exec-4] c.e.L.s.c.CustomerDetailsService         : Response For Cus ID CUS101 Is CustomerDetails(id=-48, customerId=CUS101, firstName=Shreyash, lastName=Choudhari, dateOfBirth=1998-11-25, gender=Male, email=shreyashvijaychoudhari.eidiko@gmail.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T12:59:16.748880, updatedAt=null, customer=Customer(id=6, username=rahul, password=$2a$10$dak5/r/CLWTJ9dszUMsa4.c2EwCd3pDPZHgS80kS5nR9MR7eksXWO, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=-48, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=-48, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))
+2025-11-20T13:03:16.296+05:30  INFO 9352 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T13:08:16.298+05:30  INFO 9352 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T13:13:16.300+05:30  INFO 9352 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T13:18:16.304+05:30  INFO 9352 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T13:23:16.305+05:30  INFO 9352 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T13:28:16.372+05:30  INFO 9352 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T13:33:16.374+05:30  INFO 9352 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T13:38:16.381+05:30  INFO 9352 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T13:43:16.388+05:30  INFO 9352 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T13:48:16.390+05:30  INFO 9352 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T13:53:16.391+05:30  INFO 9352 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T13:58:16.393+05:30  INFO 9352 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T14:03:16.408+05:30  INFO 9352 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T14:08:16.420+05:30  INFO 9352 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T14:13:16.421+05:30  INFO 9352 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T14:17:33.556+05:30  INFO 9352 --- [LMS-QueryService] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application LMS-QUERYSERVICE with eureka with status DOWN
+2025-11-20T14:17:33.557+05:30  INFO 9352 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763628453557, current=DOWN, previous=UP]
+2025-11-20T14:17:33.557+05:30  INFO 9352 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558: registering service...
+2025-11-20T14:17:33.560+05:30  INFO 9352 --- [LMS-QueryService] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-20T14:17:33.565+05:30  INFO 9352 --- [LMS-QueryService] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-20T14:17:33.567+05:30  INFO 9352 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - registration status: 204
+2025-11-20T14:17:33.572+05:30  INFO 9352 --- [LMS-QueryService] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-20T14:17:33.575+05:30  INFO 9352 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-20T14:17:33.581+05:30  INFO 9352 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-20T14:17:33.582+05:30  INFO 9352 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-11-20T14:17:36.587+05:30  INFO 9352 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-11-20T14:17:36.604+05:30  INFO 9352 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - deregister  status: 200
+2025-11-20T14:17:36.605+05:30  INFO 9352 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-11-20T14:17:39.957+05:30  INFO 9920 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Starting LmsQueryServiceApplication using Java 21.0.8 with PID 9920 (C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService\LMS-QueryService\target\classes started by Sreenivas Bandaru in C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService)
+2025-11-20T14:17:39.960+05:30  INFO 9920 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-11-20T14:17:41.123+05:30  INFO 9920 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-20T14:17:41.315+05:30  INFO 9920 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 174 ms. Found 6 JPA repository interfaces.
+2025-11-20T14:17:41.713+05:30  INFO 9920 --- [LMS-QueryService] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=52021683-1048-3dc9-bb7b-ef5a7f01159b
+2025-11-20T14:17:42.202+05:30  INFO 9920 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5558 (http)
+2025-11-20T14:17:42.220+05:30  INFO 9920 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-20T14:17:42.221+05:30  INFO 9920 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-20T14:17:42.393+05:30  INFO 9920 --- [LMS-QueryService] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-20T14:17:42.394+05:30  INFO 9920 --- [LMS-QueryService] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2355 ms
+2025-11-20T14:17:42.749+05:30  INFO 9920 --- [LMS-QueryService] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-20T14:17:42.832+05:30  INFO 9920 --- [LMS-QueryService] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-20T14:17:42.917+05:30  INFO 9920 --- [LMS-QueryService] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-20T14:17:43.271+05:30  INFO 9920 --- [LMS-QueryService] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-20T14:17:43.309+05:30  INFO 9920 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-20T14:17:43.671+05:30  INFO 9920 --- [LMS-QueryService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@312819ae
+2025-11-20T14:17:43.672+05:30  INFO 9920 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-20T14:17:43.779+05:30  WARN 9920 --- [LMS-QueryService] [main] org.hibernate.dialect.Dialect            : HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2025-11-20T14:17:43.975+05:30  INFO 9920 --- [LMS-QueryService] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-20T14:17:45.047+05:30  INFO 9920 --- [LMS-QueryService] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-20T14:17:45.478+05:30  INFO 9920 --- [LMS-QueryService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-20T14:17:45.935+05:30  INFO 9920 --- [LMS-QueryService] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-20T14:17:46.527+05:30  WARN 9920 --- [LMS-QueryService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-20T14:17:46.658+05:30  INFO 9920 --- [LMS-QueryService] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-11-20T14:17:47.465+05:30  INFO 9920 --- [LMS-QueryService] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-11-20T14:17:47.535+05:30  WARN 9920 --- [LMS-QueryService] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-20T14:17:47.599+05:30  INFO 9920 --- [LMS-QueryService] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-11-20T14:17:47.635+05:30  INFO 9920 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-11-20T14:17:47.639+05:30  INFO 9920 --- [LMS-QueryService] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T14:17:47.651+05:30  INFO 9920 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-11-20T14:17:47.651+05:30  INFO 9920 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-11-20T14:17:47.651+05:30  INFO 9920 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-11-20T14:17:47.651+05:30  INFO 9920 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-11-20T14:17:47.651+05:30  INFO 9920 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-11-20T14:17:47.652+05:30  INFO 9920 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-11-20T14:17:47.652+05:30  INFO 9920 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-11-20T14:17:48.114+05:30  INFO 9920 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-11-20T14:17:48.120+05:30  INFO 9920 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-11-20T14:17:48.123+05:30  INFO 9920 --- [LMS-QueryService] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-20T14:17:48.124+05:30  INFO 9920 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1763628468124 with initial instances count: 5
+2025-11-20T14:17:48.131+05:30  INFO 9920 --- [LMS-QueryService] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application LMS-QUERYSERVICE with eureka with status UP
+2025-11-20T14:17:48.132+05:30  INFO 9920 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763628468132, current=UP, previous=STARTING]
+2025-11-20T14:17:48.137+05:30  INFO 9920 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558: registering service...
+2025-11-20T14:17:48.173+05:30  INFO 9920 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5558 (http) with context path '/'
+2025-11-20T14:17:48.175+05:30  INFO 9920 --- [LMS-QueryService] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5558
+2025-11-20T14:17:48.190+05:30  INFO 9920 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Started LmsQueryServiceApplication in 8.947 seconds (process running for 10.642)
+2025-11-20T14:17:48.209+05:30  INFO 9920 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - registration status: 204
+2025-11-20T14:19:47.492+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-20T14:19:47.492+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-20T14:19:47.494+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-11-20T14:19:47.775+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rohit, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[user]]
+2025-11-20T14:19:47.808+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of Customer Table ID 1
+2025-11-20T14:19:47.841+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.s.c.CustomerDetailsService         : Response For Customer Table ID 1 Is CustomerDetails(id=1, customerId=CUS101, firstName=Shreyash, lastName=Choudhari, dateOfBirth=1998-11-25, gender=Male, email=shreyashvijaychoudhari.eidiko@gmail.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T14:19:34.821353, updatedAt=null, customer=Customer(id=1, username=rohit, password=$2a$10$dDz/HZIKPJZf8RpZs3ETROnqrzWx8cBj8T0SlgMMLB4X5ysu/D/.S, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))
+2025-11-20T14:20:40.473+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[manager]]
+2025-11-20T14:20:40.477+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.service.loan.LoanService           : Request For Loan of ID 1
+2025-11-20T14:20:40.508+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.service.loan.LoanService           : Response For ID 1 Is Loan(id=1, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-20, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=private, monthlyIncome=50500.0, customerDetails=CustomerDetails(id=1, customerId=CUS101, firstName=Shreyash, lastName=Choudhari, dateOfBirth=1998-11-25, gender=Male, email=shreyashvijaychoudhari.eidiko@gmail.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T14:19:34.821353, updatedAt=null, customer=Customer(id=1, username=rohit, password=$2a$10$dDz/HZIKPJZf8RpZs3ETROnqrzWx8cBj8T0SlgMMLB4X5ysu/D/.S, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))) of Loan Object
+2025-11-20T14:20:40.509+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.service.loan.LoanService           : Response For ID 1 Is LoanDTOForResponse(id=1, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-20, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=null, monthlyIncome=null, customerDetailsID=CUS101) of LoanDTO Object
+2025-11-20T14:20:40.530+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-3] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[manager]]
+2025-11-20T14:20:40.539+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-3] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of Cus ID CUS101
+2025-11-20T14:20:40.547+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-3] c.e.L.s.c.CustomerDetailsService         : Response For Cus ID CUS101 Is CustomerDetails(id=1, customerId=CUS101, firstName=Shreyash, lastName=Choudhari, dateOfBirth=1998-11-25, gender=Male, email=shreyashvijaychoudhari.eidiko@gmail.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T14:19:34.821353, updatedAt=null, customer=Customer(id=1, username=rohit, password=$2a$10$dDz/HZIKPJZf8RpZs3ETROnqrzWx8cBj8T0SlgMMLB4X5ysu/D/.S, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))
+2025-11-20T14:22:47.654+05:30  INFO 9920 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T14:27:47.656+05:30  INFO 9920 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T14:32:47.657+05:30  INFO 9920 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T14:37:47.753+05:30  INFO 9920 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T14:40:20.224+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-5] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=raju, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[user]]
+2025-11-20T14:40:20.228+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-5] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of Customer Table ID 4
+2025-11-20T14:40:20.240+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-5] c.e.L.s.c.CustomerDetailsService         : Response For Customer Table ID 4 Is CustomerDetails(id=1, customerId=CUS101, firstName=Shreyash, lastName=Choudhari, dateOfBirth=1998-11-25, gender=Male, email=shreyashvijaychoudhari.eidiko@gmail.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T14:40:12.107749, updatedAt=null, customer=Customer(id=4, username=raju, password=$2a$10$1IAz0QOQjhDcEprGfESJo.7M2NHc4vJr8RTZvROEPdTlzl7SmfxZy, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))
+2025-11-20T14:41:50.141+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-7] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[manager]]
+2025-11-20T14:41:50.145+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-7] c.e.L.service.loan.LoanService           : Request For Loan of ID 1
+2025-11-20T14:41:50.155+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-7] c.e.L.service.loan.LoanService           : Response For ID 1 Is Loan(id=1, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-20, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=private, monthlyIncome=50500.0, customerDetails=CustomerDetails(id=1, customerId=CUS101, firstName=Shreyash, lastName=Choudhari, dateOfBirth=1998-11-25, gender=Male, email=shreyashvijaychoudhari.eidiko@gmail.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T14:40:12.107749, updatedAt=null, customer=Customer(id=4, username=raju, password=$2a$10$1IAz0QOQjhDcEprGfESJo.7M2NHc4vJr8RTZvROEPdTlzl7SmfxZy, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))) of Loan Object
+2025-11-20T14:41:50.155+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-7] c.e.L.service.loan.LoanService           : Response For ID 1 Is LoanDTOForResponse(id=1, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-20, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=null, monthlyIncome=null, customerDetailsID=CUS101) of LoanDTO Object
+2025-11-20T14:41:50.179+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-8] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[manager]]
+2025-11-20T14:41:50.183+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-8] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of Cus ID CUS101
+2025-11-20T14:41:50.191+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-8] c.e.L.s.c.CustomerDetailsService         : Response For Cus ID CUS101 Is CustomerDetails(id=1, customerId=CUS101, firstName=Shreyash, lastName=Choudhari, dateOfBirth=1998-11-25, gender=Male, email=shreyashvijaychoudhari.eidiko@gmail.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T14:40:12.107749, updatedAt=null, customer=Customer(id=4, username=raju, password=$2a$10$1IAz0QOQjhDcEprGfESJo.7M2NHc4vJr8RTZvROEPdTlzl7SmfxZy, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))
+2025-11-20T14:42:47.753+05:30  INFO 9920 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T14:47:47.756+05:30  INFO 9920 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T14:49:03.730+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-10] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[user]]
+2025-11-20T14:49:03.735+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-10] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of Customer Table ID 6
+2025-11-20T14:49:03.747+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-10] c.e.L.s.c.CustomerDetailsService         : Response For Customer Table ID 6 Is CustomerDetails(id=1, customerId=CUS101, firstName=Ritesh, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=riteshsherekar69@gmail.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T14:48:40.548776, updatedAt=null, customer=Customer(id=6, username=rahul, password=$2a$10$zU.SzmkB74Zyp2gB.B69U.YNzoXw2GjUPGuavhKTYoftQN/epgTJS, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))
+2025-11-20T14:49:43.044+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rohit, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[manager]]
+2025-11-20T14:49:43.049+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.service.loan.LoanService           : Request For Loan of ID 1
+2025-11-20T14:49:43.059+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.service.loan.LoanService           : Response For ID 1 Is Loan(id=1, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-20, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=private, monthlyIncome=50500.0, customerDetails=CustomerDetails(id=1, customerId=CUS101, firstName=Ritesh, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=riteshsherekar69@gmail.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T14:48:40.548776, updatedAt=null, customer=Customer(id=6, username=rahul, password=$2a$10$zU.SzmkB74Zyp2gB.B69U.YNzoXw2GjUPGuavhKTYoftQN/epgTJS, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))) of Loan Object
+2025-11-20T14:49:43.060+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.service.loan.LoanService           : Response For ID 1 Is LoanDTOForResponse(id=1, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-20, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=null, monthlyIncome=null, customerDetailsID=CUS101) of LoanDTO Object
+2025-11-20T14:49:43.076+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rohit, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[manager]]
+2025-11-20T14:49:43.080+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of Cus ID CUS101
+2025-11-20T14:49:43.087+05:30  INFO 9920 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.s.c.CustomerDetailsService         : Response For Cus ID CUS101 Is CustomerDetails(id=1, customerId=CUS101, firstName=Ritesh, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=riteshsherekar69@gmail.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T14:48:40.548776, updatedAt=null, customer=Customer(id=6, username=rahul, password=$2a$10$zU.SzmkB74Zyp2gB.B69U.YNzoXw2GjUPGuavhKTYoftQN/epgTJS, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))
+2025-11-20T14:51:48.837+05:30  INFO 9920 --- [LMS-QueryService] [DiscoveryClient-HeartbeatExecutor-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558": Connect to http://localhost:8761 failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558": Connect to http://localhost:8761 failed: Connection refused: getsockopt
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:119)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:845)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1402)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 failed: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:215)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:497)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:151)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:112)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$2(RestTemplateTransportClientFactory.java:145)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 19 more
+
+2025-11-20T14:51:48.837+05:30  WARN 9920 --- [LMS-QueryService] [DiscoveryClient-HeartbeatExecutor-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558": Connect to http://localhost:8761 failed: Connection refused: getsockopt
+2025-11-20T14:51:48.846+05:30  INFO 9920 --- [LMS-QueryService] [DiscoveryClient-CacheRefreshExecutor-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/} exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 failed: Connection refused: getsockopt
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:174)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:186)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:91)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1080)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:963)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1473)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1441)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 failed: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:215)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:497)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:151)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:112)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$2(RestTemplateTransportClientFactory.java:145)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 22 more
+
+2025-11-20T14:51:48.847+05:30  WARN 9920 --- [LMS-QueryService] [DiscoveryClient-CacheRefreshExecutor-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 failed: Connection refused: getsockopt
+2025-11-20T14:51:48.862+05:30  INFO 9920 --- [LMS-QueryService] [DiscoveryClient-HeartbeatExecutor-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on PUT request for "http://localhost:8761/eureka/apps/LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558": Connect to http://localhost:8761 failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on PUT request for "http://localhost:8761/eureka/apps/LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558": Connect to http://localhost:8761 failed: Connection refused: getsockopt
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.sendHeartBeat(RestTemplateEurekaHttpClient.java:119)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:845)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1402)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 failed: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:215)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:497)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:151)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:112)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$2(RestTemplateTransportClientFactory.java:145)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 20 more
+
+2025-11-20T14:51:48.862+05:30  WARN 9920 --- [LMS-QueryService] [DiscoveryClient-HeartbeatExecutor-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on PUT request for "http://localhost:8761/eureka/apps/LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558": Connect to http://localhost:8761 failed: Connection refused: getsockopt
+2025-11-20T14:51:48.863+05:30 ERROR 9920 --- [LMS-QueryService] [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - was unable to send heartbeat!
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:845) ~[eureka-client-2.0.4.jar:2.0.4]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1402) ~[eureka-client-2.0.4.jar:2.0.4]
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[na:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-11-20T14:51:48.892+05:30  INFO 9920 --- [LMS-QueryService] [DiscoveryClient-CacheRefreshExecutor-%d] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}, exception=I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 failed: Connection refused: getsockopt stacktrace=org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 failed: Connection refused: getsockopt
+	at org.springframework.web.client.RestTemplate.createResourceAccessException(RestTemplate.java:926)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:906)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:841)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:702)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getApplicationsInternal(RestTemplateEurekaHttpClient.java:174)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateEurekaHttpClient.getDelta(RestTemplateEurekaHttpClient.java:186)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:121)
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:80)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1080)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:963)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1473)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1441)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: org.apache.hc.client5.http.HttpHostConnectException: Connect to http://localhost:8761 failed: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:215)
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:497)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164)
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174)
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:144)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:151)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:112)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51)
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:87)
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.apache.hc.client5.http.classic.HttpClient.executeOpen(HttpClient.java:183)
+	at org.springframework.http.client.HttpComponentsClientHttpRequest.executeInternal(HttpComponentsClientHttpRequest.java:99)
+	at org.springframework.http.client.AbstractStreamingClientHttpRequest.executeInternal(AbstractStreamingClientHttpRequest.java:71)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:117)
+	at org.springframework.cloud.netflix.eureka.http.RestTemplateTransportClientFactory.lambda$restTemplate$2(RestTemplateTransportClientFactory.java:145)
+	at org.springframework.http.client.InterceptingClientHttpRequest$InterceptingRequestExecution.execute(InterceptingClientHttpRequest.java:88)
+	at org.springframework.http.client.InterceptingClientHttpRequest.executeInternal(InterceptingClientHttpRequest.java:72)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:81)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:900)
+	... 23 more
+
+2025-11-20T14:51:48.894+05:30  WARN 9920 --- [LMS-QueryService] [DiscoveryClient-CacheRefreshExecutor-%d] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: I/O error on GET request for "http://localhost:8761/eureka/apps/delta": Connect to http://localhost:8761 failed: Connection refused: getsockopt
+2025-11-20T14:51:48.894+05:30  INFO 9920 --- [LMS-QueryService] [DiscoveryClient-CacheRefreshExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - was unable to refresh its cache! This periodic background refresh will be retried in 30 seconds. status = Cannot execute request on any known server stacktrace = com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$7.execute(EurekaHttpClientDecorator.java:152)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:76)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getDelta(EurekaHttpClientDecorator.java:149)
+	at com.netflix.discovery.DiscoveryClient.getAndUpdateDelta(DiscoveryClient.java:1080)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:963)
+	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1473)
+	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1441)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2025-11-20T14:52:18.895+05:30  INFO 9920 --- [LMS-QueryService] [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - Re-registering apps/LMS-QUERYSERVICE
+2025-11-20T14:52:18.896+05:30  INFO 9920 --- [LMS-QueryService] [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558: registering service...
+2025-11-20T14:52:18.904+05:30  INFO 9920 --- [LMS-QueryService] [DiscoveryClient-HeartbeatExecutor-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - registration status: 204
+2025-11-20T14:52:33.230+05:30  INFO 9920 --- [LMS-QueryService] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application LMS-QUERYSERVICE with eureka with status DOWN
+2025-11-20T14:52:33.230+05:30  INFO 9920 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763630553230, current=DOWN, previous=UP]
+2025-11-20T14:52:33.230+05:30  INFO 9920 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558: registering service...
+2025-11-20T14:52:33.235+05:30  INFO 9920 --- [LMS-QueryService] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-20T14:52:33.237+05:30  INFO 9920 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - registration status: 204
+2025-11-20T14:52:33.239+05:30  INFO 9920 --- [LMS-QueryService] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-20T14:52:33.247+05:30  INFO 9920 --- [LMS-QueryService] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-20T14:52:33.250+05:30  INFO 9920 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-20T14:52:33.256+05:30  INFO 9920 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-20T14:52:33.258+05:30  INFO 9920 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-11-20T14:52:36.259+05:30  INFO 9920 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-11-20T14:52:36.266+05:30  INFO 9920 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - deregister  status: 200
+2025-11-20T14:52:36.267+05:30  INFO 9920 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-11-20T14:52:39.310+05:30  INFO 5320 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Starting LmsQueryServiceApplication using Java 21.0.8 with PID 5320 (C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService\LMS-QueryService\target\classes started by Sreenivas Bandaru in C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService)
+2025-11-20T14:52:39.314+05:30  INFO 5320 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-11-20T14:52:40.481+05:30  INFO 5320 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-20T14:52:40.675+05:30  INFO 5320 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 180 ms. Found 6 JPA repository interfaces.
+2025-11-20T14:52:41.075+05:30  INFO 5320 --- [LMS-QueryService] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=52021683-1048-3dc9-bb7b-ef5a7f01159b
+2025-11-20T14:52:41.629+05:30  INFO 5320 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5558 (http)
+2025-11-20T14:52:41.650+05:30  INFO 5320 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-20T14:52:41.650+05:30  INFO 5320 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-20T14:52:41.773+05:30  INFO 5320 --- [LMS-QueryService] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-20T14:52:41.774+05:30  INFO 5320 --- [LMS-QueryService] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2389 ms
+2025-11-20T14:52:42.115+05:30  INFO 5320 --- [LMS-QueryService] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-20T14:52:42.197+05:30  INFO 5320 --- [LMS-QueryService] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-20T14:52:42.258+05:30  INFO 5320 --- [LMS-QueryService] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-20T14:52:42.584+05:30  INFO 5320 --- [LMS-QueryService] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-20T14:52:42.616+05:30  INFO 5320 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-20T14:52:42.953+05:30  INFO 5320 --- [LMS-QueryService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@7619fbe7
+2025-11-20T14:52:42.955+05:30  INFO 5320 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-20T14:52:43.084+05:30  WARN 5320 --- [LMS-QueryService] [main] org.hibernate.dialect.Dialect            : HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2025-11-20T14:52:43.273+05:30  INFO 5320 --- [LMS-QueryService] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-20T14:52:44.361+05:30  INFO 5320 --- [LMS-QueryService] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-20T14:52:45.294+05:30  INFO 5320 --- [LMS-QueryService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-20T14:52:45.906+05:30  INFO 5320 --- [LMS-QueryService] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-20T14:52:46.716+05:30  WARN 5320 --- [LMS-QueryService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-20T14:52:46.856+05:30  INFO 5320 --- [LMS-QueryService] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-11-20T14:52:47.816+05:30  INFO 5320 --- [LMS-QueryService] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-11-20T14:52:47.903+05:30  WARN 5320 --- [LMS-QueryService] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-20T14:52:47.979+05:30  INFO 5320 --- [LMS-QueryService] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-11-20T14:52:48.017+05:30  INFO 5320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-11-20T14:52:48.020+05:30  INFO 5320 --- [LMS-QueryService] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T14:52:48.033+05:30  INFO 5320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-11-20T14:52:48.034+05:30  INFO 5320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-11-20T14:52:48.034+05:30  INFO 5320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-11-20T14:52:48.034+05:30  INFO 5320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-11-20T14:52:48.034+05:30  INFO 5320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-11-20T14:52:48.034+05:30  INFO 5320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-11-20T14:52:48.034+05:30  INFO 5320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-11-20T14:52:48.591+05:30  INFO 5320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-11-20T14:52:48.594+05:30  INFO 5320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-11-20T14:52:48.598+05:30  INFO 5320 --- [LMS-QueryService] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-20T14:52:48.600+05:30  INFO 5320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1763630568600 with initial instances count: 5
+2025-11-20T14:52:48.607+05:30  INFO 5320 --- [LMS-QueryService] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application LMS-QUERYSERVICE with eureka with status UP
+2025-11-20T14:52:48.608+05:30  INFO 5320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763630568608, current=UP, previous=STARTING]
+2025-11-20T14:52:48.610+05:30  INFO 5320 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558: registering service...
+2025-11-20T14:52:48.644+05:30  INFO 5320 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5558 (http) with context path '/'
+2025-11-20T14:52:48.645+05:30  INFO 5320 --- [LMS-QueryService] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5558
+2025-11-20T14:52:48.664+05:30  INFO 5320 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Started LmsQueryServiceApplication in 10.146 seconds (process running for 11.014)
+2025-11-20T14:52:48.696+05:30  INFO 5320 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - registration status: 204
+2025-11-20T14:55:59.215+05:30  INFO 5320 --- [LMS-QueryService] [http-nio-5558-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-20T14:55:59.215+05:30  INFO 5320 --- [LMS-QueryService] [http-nio-5558-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-20T14:55:59.216+05:30  INFO 5320 --- [LMS-QueryService] [http-nio-5558-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-11-20T14:55:59.515+05:30  INFO 5320 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rohit, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[user]]
+2025-11-20T14:55:59.554+05:30  INFO 5320 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of Customer Table ID 1
+2025-11-20T14:55:59.586+05:30  INFO 5320 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.s.c.CustomerDetailsService         : Response For Customer Table ID 1 Is CustomerDetails(id=1, customerId=CUS101, firstName=Ritesh, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=riteshsherekar69@gmail.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T14:55:48.625854, updatedAt=null, customer=Customer(id=1, username=rohit, password=$2a$10$FMt4bdd2xacmc4qGot2FHuLUB1yMq7JqOaZdtJm5jt.ILcB.T3vlS, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))
+2025-11-20T14:56:34.930+05:30  INFO 5320 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[manager]]
+2025-11-20T14:56:34.936+05:30  INFO 5320 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.service.loan.LoanService           : Request For Loan of ID 1
+2025-11-20T14:56:34.966+05:30  INFO 5320 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.service.loan.LoanService           : Response For ID 1 Is Loan(id=1, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-20, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=private, monthlyIncome=50500.0, customerDetails=CustomerDetails(id=1, customerId=CUS101, firstName=Ritesh, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=riteshsherekar69@gmail.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T14:55:48.625854, updatedAt=null, customer=Customer(id=1, username=rohit, password=$2a$10$FMt4bdd2xacmc4qGot2FHuLUB1yMq7JqOaZdtJm5jt.ILcB.T3vlS, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))) of Loan Object
+2025-11-20T14:56:34.967+05:30  INFO 5320 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.service.loan.LoanService           : Response For ID 1 Is LoanDTOForResponse(id=1, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-20, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=null, monthlyIncome=null, customerDetailsID=CUS101) of LoanDTO Object
+2025-11-20T14:56:34.991+05:30  INFO 5320 --- [LMS-QueryService] [http-nio-5558-exec-3] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[manager]]
+2025-11-20T14:56:35.001+05:30  INFO 5320 --- [LMS-QueryService] [http-nio-5558-exec-3] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of Cus ID CUS101
+2025-11-20T14:56:35.010+05:30  INFO 5320 --- [LMS-QueryService] [http-nio-5558-exec-3] c.e.L.s.c.CustomerDetailsService         : Response For Cus ID CUS101 Is CustomerDetails(id=1, customerId=CUS101, firstName=Ritesh, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=riteshsherekar69@gmail.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T14:55:48.625854, updatedAt=null, customer=Customer(id=1, username=rohit, password=$2a$10$FMt4bdd2xacmc4qGot2FHuLUB1yMq7JqOaZdtJm5jt.ILcB.T3vlS, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))
+2025-11-20T14:57:48.038+05:30  INFO 5320 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T15:02:48.045+05:30  INFO 5320 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T15:07:48.055+05:30  INFO 5320 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T15:12:48.056+05:30  INFO 5320 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T15:14:54.033+05:30  INFO 5320 --- [LMS-QueryService] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application LMS-QUERYSERVICE with eureka with status DOWN
+2025-11-20T15:14:54.033+05:30  INFO 5320 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763631894033, current=DOWN, previous=UP]
+2025-11-20T15:14:54.033+05:30  INFO 5320 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558: registering service...
+2025-11-20T15:14:54.036+05:30  INFO 5320 --- [LMS-QueryService] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-20T15:14:54.039+05:30  INFO 5320 --- [LMS-QueryService] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-20T15:14:54.044+05:30  INFO 5320 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - registration status: 204
+2025-11-20T15:14:54.046+05:30  INFO 5320 --- [LMS-QueryService] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-20T15:14:54.049+05:30  INFO 5320 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-20T15:14:54.057+05:30  INFO 5320 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-20T15:14:54.059+05:30  INFO 5320 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-11-20T15:14:57.061+05:30  INFO 5320 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-11-20T15:14:57.067+05:30  INFO 5320 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - deregister  status: 200
+2025-11-20T15:14:57.067+05:30  INFO 5320 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-11-20T15:14:59.873+05:30  INFO 11320 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Starting LmsQueryServiceApplication using Java 21.0.8 with PID 11320 (C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService\LMS-QueryService\target\classes started by Sreenivas Bandaru in C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService)
+2025-11-20T15:14:59.877+05:30  INFO 11320 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-11-20T15:15:00.938+05:30  INFO 11320 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-20T15:15:01.128+05:30  INFO 11320 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 169 ms. Found 6 JPA repository interfaces.
+2025-11-20T15:15:01.523+05:30  INFO 11320 --- [LMS-QueryService] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=52021683-1048-3dc9-bb7b-ef5a7f01159b
+2025-11-20T15:15:02.005+05:30  INFO 11320 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5558 (http)
+2025-11-20T15:15:02.022+05:30  INFO 11320 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-20T15:15:02.023+05:30  INFO 11320 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-20T15:15:02.119+05:30  INFO 11320 --- [LMS-QueryService] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-20T15:15:02.120+05:30  INFO 11320 --- [LMS-QueryService] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2181 ms
+2025-11-20T15:15:02.454+05:30  INFO 11320 --- [LMS-QueryService] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-20T15:15:02.527+05:30  INFO 11320 --- [LMS-QueryService] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-20T15:15:02.568+05:30  INFO 11320 --- [LMS-QueryService] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-20T15:15:02.900+05:30  INFO 11320 --- [LMS-QueryService] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-20T15:15:02.943+05:30  INFO 11320 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-20T15:15:03.261+05:30  INFO 11320 --- [LMS-QueryService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@7619fbe7
+2025-11-20T15:15:03.263+05:30  INFO 11320 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-20T15:15:03.373+05:30  WARN 11320 --- [LMS-QueryService] [main] org.hibernate.dialect.Dialect            : HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2025-11-20T15:15:03.537+05:30  INFO 11320 --- [LMS-QueryService] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-20T15:15:04.545+05:30  INFO 11320 --- [LMS-QueryService] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-20T15:15:05.551+05:30  INFO 11320 --- [LMS-QueryService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-20T15:15:05.975+05:30  INFO 11320 --- [LMS-QueryService] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-20T15:15:06.576+05:30  WARN 11320 --- [LMS-QueryService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-20T15:15:06.669+05:30  INFO 11320 --- [LMS-QueryService] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-11-20T15:15:07.461+05:30  INFO 11320 --- [LMS-QueryService] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-11-20T15:15:07.511+05:30  WARN 11320 --- [LMS-QueryService] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-20T15:15:07.583+05:30  INFO 11320 --- [LMS-QueryService] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-11-20T15:15:07.618+05:30  INFO 11320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-11-20T15:15:07.622+05:30  INFO 11320 --- [LMS-QueryService] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T15:15:07.634+05:30  INFO 11320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-11-20T15:15:07.635+05:30  INFO 11320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-11-20T15:15:07.635+05:30  INFO 11320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-11-20T15:15:07.635+05:30  INFO 11320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-11-20T15:15:07.635+05:30  INFO 11320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-11-20T15:15:07.635+05:30  INFO 11320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-11-20T15:15:07.635+05:30  INFO 11320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-11-20T15:15:08.121+05:30  INFO 11320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-11-20T15:15:08.124+05:30  INFO 11320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-11-20T15:15:08.126+05:30  INFO 11320 --- [LMS-QueryService] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-20T15:15:08.127+05:30  INFO 11320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1763631908127 with initial instances count: 4
+2025-11-20T15:15:08.132+05:30  INFO 11320 --- [LMS-QueryService] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application LMS-QUERYSERVICE with eureka with status UP
+2025-11-20T15:15:08.134+05:30  INFO 11320 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763631908134, current=UP, previous=STARTING]
+2025-11-20T15:15:08.139+05:30  INFO 11320 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558: registering service...
+2025-11-20T15:15:08.167+05:30  INFO 11320 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5558 (http) with context path '/'
+2025-11-20T15:15:08.168+05:30  INFO 11320 --- [LMS-QueryService] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5558
+2025-11-20T15:15:08.184+05:30  INFO 11320 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Started LmsQueryServiceApplication in 9.21 seconds (process running for 10.148)
+2025-11-20T15:15:08.205+05:30  INFO 11320 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - registration status: 204
+2025-11-20T15:18:09.877+05:30  INFO 11320 --- [LMS-QueryService] [http-nio-5558-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-20T15:18:09.878+05:30  INFO 11320 --- [LMS-QueryService] [http-nio-5558-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-20T15:18:09.881+05:30  INFO 11320 --- [LMS-QueryService] [http-nio-5558-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-11-20T15:18:10.154+05:30  INFO 11320 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[user]]
+2025-11-20T15:18:10.190+05:30  INFO 11320 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of Customer Table ID 3
+2025-11-20T15:18:10.222+05:30  INFO 11320 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.s.c.CustomerDetailsService         : Response For Customer Table ID 3 Is CustomerDetails(id=1, customerId=CUS101, firstName=Ritesh, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=riteshsherekar69@gmail.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T15:18:02.840764, updatedAt=null, customer=Customer(id=3, username=rahul, password=$2a$10$vDfIIGA23K0K5dYqi0KPSeXrUNlj74e.FHaqRkbqcWlk7uxLfwf0y, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))
+2025-11-20T15:18:48.271+05:30  INFO 11320 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rohit, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[manager]]
+2025-11-20T15:18:48.276+05:30  INFO 11320 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.service.loan.LoanService           : Request For Loan of ID 1
+2025-11-20T15:18:48.311+05:30  INFO 11320 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.service.loan.LoanService           : Response For ID 1 Is Loan(id=1, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-20, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=private, monthlyIncome=50500.0, customerDetails=CustomerDetails(id=1, customerId=CUS101, firstName=Ritesh, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=riteshsherekar69@gmail.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T15:18:02.840764, updatedAt=null, customer=Customer(id=3, username=rahul, password=$2a$10$vDfIIGA23K0K5dYqi0KPSeXrUNlj74e.FHaqRkbqcWlk7uxLfwf0y, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))) of Loan Object
+2025-11-20T15:18:48.312+05:30  INFO 11320 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.service.loan.LoanService           : Response For ID 1 Is LoanDTOForResponse(id=1, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-20, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=null, monthlyIncome=null, customerDetailsID=CUS101) of LoanDTO Object
+2025-11-20T15:18:48.333+05:30  INFO 11320 --- [LMS-QueryService] [http-nio-5558-exec-5] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rohit, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[manager]]
+2025-11-20T15:18:48.341+05:30  INFO 11320 --- [LMS-QueryService] [http-nio-5558-exec-5] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of Cus ID CUS101
+2025-11-20T15:18:48.350+05:30  INFO 11320 --- [LMS-QueryService] [http-nio-5558-exec-5] c.e.L.s.c.CustomerDetailsService         : Response For Cus ID CUS101 Is CustomerDetails(id=1, customerId=CUS101, firstName=Ritesh, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=riteshsherekar69@gmail.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T15:18:02.840764, updatedAt=null, customer=Customer(id=3, username=rahul, password=$2a$10$vDfIIGA23K0K5dYqi0KPSeXrUNlj74e.FHaqRkbqcWlk7uxLfwf0y, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))
+2025-11-20T15:20:07.650+05:30  INFO 11320 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T15:25:07.652+05:30  INFO 11320 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T15:30:07.662+05:30  INFO 11320 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T15:35:07.672+05:30  INFO 11320 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T15:40:07.673+05:30  INFO 11320 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T15:43:19.653+05:30  INFO 11320 --- [LMS-QueryService] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application LMS-QUERYSERVICE with eureka with status DOWN
+2025-11-20T15:43:19.653+05:30  INFO 11320 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763633599653, current=DOWN, previous=UP]
+2025-11-20T15:43:19.653+05:30  INFO 11320 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558: registering service...
+2025-11-20T15:43:19.656+05:30  INFO 11320 --- [LMS-QueryService] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-20T15:43:19.661+05:30  INFO 11320 --- [LMS-QueryService] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-11-20T15:43:19.664+05:30  INFO 11320 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - registration status: 204
+2025-11-20T15:43:19.667+05:30  INFO 11320 --- [LMS-QueryService] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-20T15:43:19.669+05:30  INFO 11320 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-11-20T15:43:19.677+05:30  INFO 11320 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-11-20T15:43:19.677+05:30  INFO 11320 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-11-20T15:43:22.678+05:30  INFO 11320 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2025-11-20T15:43:22.683+05:30  INFO 11320 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - deregister  status: 200
+2025-11-20T15:43:22.684+05:30  INFO 11320 --- [LMS-QueryService] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2025-11-20T15:43:25.545+05:30  INFO 11928 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Starting LmsQueryServiceApplication using Java 21.0.8 with PID 11928 (C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService\LMS-QueryService\target\classes started by Sreenivas Bandaru in C:\Users\Sreenivas Bandaru\Project-LMS\LMS-Project\LMS-QueryService)
+2025-11-20T15:43:25.548+05:30  INFO 11928 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : No active profile set, falling back to 1 default profile: "default"
+2025-11-20T15:43:26.575+05:30  INFO 11928 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-20T15:43:26.766+05:30  INFO 11928 --- [LMS-QueryService] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 175 ms. Found 6 JPA repository interfaces.
+2025-11-20T15:43:27.117+05:30  INFO 11928 --- [LMS-QueryService] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=52021683-1048-3dc9-bb7b-ef5a7f01159b
+2025-11-20T15:43:27.674+05:30  INFO 11928 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 5558 (http)
+2025-11-20T15:43:27.689+05:30  INFO 11928 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-20T15:43:27.689+05:30  INFO 11928 --- [LMS-QueryService] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-11-20T15:43:28.075+05:30  INFO 11928 --- [LMS-QueryService] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-20T15:43:28.075+05:30  INFO 11928 --- [LMS-QueryService] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2468 ms
+2025-11-20T15:43:28.439+05:30  INFO 11928 --- [LMS-QueryService] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-20T15:43:28.515+05:30  INFO 11928 --- [LMS-QueryService] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2025-11-20T15:43:28.567+05:30  INFO 11928 --- [LMS-QueryService] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-20T15:43:28.926+05:30  INFO 11928 --- [LMS-QueryService] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-20T15:43:28.964+05:30  INFO 11928 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-20T15:43:29.331+05:30  INFO 11928 --- [LMS-QueryService] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@4df13dd0
+2025-11-20T15:43:29.333+05:30  INFO 11928 --- [LMS-QueryService] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-20T15:43:29.447+05:30  WARN 11928 --- [LMS-QueryService] [main] org.hibernate.dialect.Dialect            : HHH000511: The 11.2.0 version for [org.hibernate.dialect.OracleDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 19.0.0. Check the community dialects project for available legacy versions.
+2025-11-20T15:43:29.652+05:30  INFO 11928 --- [LMS-QueryService] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 11.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-20T15:43:30.734+05:30  INFO 11928 --- [LMS-QueryService] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-20T15:43:31.242+05:30  INFO 11928 --- [LMS-QueryService] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-20T15:43:31.688+05:30  INFO 11928 --- [LMS-QueryService] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-20T15:43:32.327+05:30  WARN 11928 --- [LMS-QueryService] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-20T15:43:32.456+05:30  INFO 11928 --- [LMS-QueryService] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-11-20T15:43:33.261+05:30  INFO 11928 --- [LMS-QueryService] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-11-20T15:43:33.324+05:30  WARN 11928 --- [LMS-QueryService] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-11-20T15:43:33.382+05:30  INFO 11928 --- [LMS-QueryService] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-11-20T15:43:33.418+05:30  INFO 11928 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-11-20T15:43:33.425+05:30  INFO 11928 --- [LMS-QueryService] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-11-20T15:43:33.437+05:30  INFO 11928 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-11-20T15:43:33.437+05:30  INFO 11928 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-11-20T15:43:33.437+05:30  INFO 11928 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-11-20T15:43:33.438+05:30  INFO 11928 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-11-20T15:43:33.438+05:30  INFO 11928 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-11-20T15:43:33.438+05:30  INFO 11928 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-11-20T15:43:33.438+05:30  INFO 11928 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-11-20T15:43:33.930+05:30  INFO 11928 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-11-20T15:43:33.935+05:30  INFO 11928 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-11-20T15:43:33.937+05:30  INFO 11928 --- [LMS-QueryService] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-11-20T15:43:33.939+05:30  INFO 11928 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1763633613939 with initial instances count: 4
+2025-11-20T15:43:33.944+05:30  INFO 11928 --- [LMS-QueryService] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application LMS-QUERYSERVICE with eureka with status UP
+2025-11-20T15:43:33.945+05:30  INFO 11928 --- [LMS-QueryService] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1763633613945, current=UP, previous=STARTING]
+2025-11-20T15:43:33.950+05:30  INFO 11928 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558: registering service...
+2025-11-20T15:43:33.981+05:30  INFO 11928 --- [LMS-QueryService] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 5558 (http) with context path '/'
+2025-11-20T15:43:33.983+05:30  INFO 11928 --- [LMS-QueryService] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 5558
+2025-11-20T15:43:34.002+05:30  INFO 11928 --- [LMS-QueryService] [main] c.e.L.LmsQueryServiceApplication         : Started LmsQueryServiceApplication in 9.305 seconds (process running for 10.254)
+2025-11-20T15:43:34.028+05:30  INFO 11928 --- [LMS-QueryService] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_LMS-QUERYSERVICE/192.168.1.154:LMS-QueryService:5558 - registration status: 204
+2025-11-20T15:45:12.989+05:30  INFO 11928 --- [LMS-QueryService] [http-nio-5558-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-20T15:45:12.990+05:30  INFO 11928 --- [LMS-QueryService] [http-nio-5558-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-20T15:45:12.992+05:30  INFO 11928 --- [LMS-QueryService] [http-nio-5558-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-11-20T15:45:13.259+05:30  INFO 11928 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rohit, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[user]]
+2025-11-20T15:45:13.292+05:30  INFO 11928 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of Customer Table ID 5
+2025-11-20T15:45:13.321+05:30  INFO 11928 --- [LMS-QueryService] [http-nio-5558-exec-1] c.e.L.s.c.CustomerDetailsService         : Response For Customer Table ID 5 Is CustomerDetails(id=1, customerId=CUS101, firstName=Ritesh, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=riteshsherekar69@gmail.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T15:45:07.088966, updatedAt=null, customer=Customer(id=5, username=rohit, password=$2a$10$ZxqZixWlLIJ8C2H.oBZV4OLvYTgdFXV2V6yqiUVbO45Ca9sKRbWZe, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))
+2025-11-20T15:45:57.602+05:30  INFO 11928 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[manager]]
+2025-11-20T15:45:57.607+05:30  INFO 11928 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.service.loan.LoanService           : Request For Loan of ID 1
+2025-11-20T15:45:57.649+05:30  INFO 11928 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.service.loan.LoanService           : Response For ID 1 Is Loan(id=1, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-20, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=private, monthlyIncome=50500.0, customerDetails=CustomerDetails(id=1, customerId=CUS101, firstName=Ritesh, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=riteshsherekar69@gmail.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T15:45:07.088966, updatedAt=null, customer=Customer(id=5, username=rohit, password=$2a$10$ZxqZixWlLIJ8C2H.oBZV4OLvYTgdFXV2V6yqiUVbO45Ca9sKRbWZe, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))) of Loan Object
+2025-11-20T15:45:57.650+05:30  INFO 11928 --- [LMS-QueryService] [http-nio-5558-exec-2] c.e.L.service.loan.LoanService           : Response For ID 1 Is LoanDTOForResponse(id=1, loanType=HomeLoan, loanAmount=750000.0, interestRate=8.0, tenureMonths=120, applicationDate=2025-11-20, approvalDate=null, loanStatus=PENDING, emiAmount=null, totalPayableAmount=null, remainingBalance=null, employmentType=null, monthlyIncome=null, customerDetailsID=CUS101) of LoanDTO Object
+2025-11-20T15:45:57.673+05:30  INFO 11928 --- [LMS-QueryService] [http-nio-5558-exec-3] c.e.L.security.JwtAuthenticationFilter   : user details: org.springframework.security.core.userdetails.User [Username=rahul, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[manager]]
+2025-11-20T15:45:57.681+05:30  INFO 11928 --- [LMS-QueryService] [http-nio-5558-exec-3] c.e.L.s.c.CustomerDetailsService         : Request For CustomerDetails of Cus ID CUS101
+2025-11-20T15:45:57.688+05:30  INFO 11928 --- [LMS-QueryService] [http-nio-5558-exec-3] c.e.L.s.c.CustomerDetailsService         : Response For Cus ID CUS101 Is CustomerDetails(id=1, customerId=CUS101, firstName=Ritesh, lastName=Sherekar, dateOfBirth=1998-11-25, gender=Male, email=riteshsherekar69@gmail.com, phoneNumber=9890978654, status=ACTIVE, createdAt=2025-11-20T15:45:07.088966, updatedAt=null, customer=Customer(id=5, username=rohit, password=$2a$10$ZxqZixWlLIJ8C2H.oBZV4OLvYTgdFXV2V6yqiUVbO45Ca9sKRbWZe, roles=[Role(id=1, roleName=user)]), address=CustomerAddress(id=1, addressLine1=House No 42, Green Park, addressLine2=Near Community Hall, city=Delhi, state=Delhi, pincode=110016, country=India), kycDetails=CustomerKyc(id=1, aadhaarNumber=495578902367, panNumber=XIBVB0876L, kycStatus=PENDING))
+2025-11-20T15:48:33.448+05:30  INFO 11928 --- [LMS-QueryService] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

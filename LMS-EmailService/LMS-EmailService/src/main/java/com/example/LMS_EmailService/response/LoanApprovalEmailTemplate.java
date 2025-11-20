@@ -1,6 +1,7 @@
 package com.example.LMS_EmailService.response;
 
 public class LoanApprovalEmailTemplate {
+
     // HTML Template with placeholders
     public static final String LOAN_APPROVAL_EMAIL_HTML =
             "<!doctype html>\n" +
@@ -18,7 +19,6 @@ public class LoanApprovalEmailTemplate {
                     "    table { width: 100%; border-collapse: collapse; margin-top: 20px; }\n" +
                     "    td { padding: 10px; border-bottom: 1px solid #e5e7eb; }\n" +
                     "    .footer { padding: 16px 24px; font-size: 12px; color: #777; background: #fafafa; border-radius: 0 0 8px 8px; text-align: center; }\n" +
-                    "    .btn { display: inline-block; margin-top: 22px; padding: 12px 18px; background: #16a34a; color: white; border-radius: 6px; text-decoration: none; font-weight: 600; }\n" +
                     "    @media (max-width: 420px) { .content, .header { padding: 16px; } }\n" +
                     "  </style>\n" +
                     "</head>\n" +
@@ -70,19 +70,19 @@ public class LoanApprovalEmailTemplate {
      */
     public static String getLoanApprovalHtml(
             String customerName,
-            String loanId,
+            int loanId,
             String loanType,
-            String loanAmount,
-            String interestRate,
-            String tenure
+            double loanAmount,
+            double interestRate,
+            int tenure
     ) {
         return LOAN_APPROVAL_EMAIL_HTML
                 .replace("{{CUSTOMER_NAME}}", escapeHtml(customerName))
-                .replace("{{LOAN_ID}}", escapeHtml(loanId))
+                .replace("{{LOAN_ID}}", escapeHtml(String.valueOf(loanId)))
                 .replace("{{LOAN_TYPE}}", escapeHtml(loanType))
-                .replace("{{LOAN_AMOUNT}}", escapeHtml(loanAmount))
-                .replace("{{INTEREST_RATE}}", escapeHtml(interestRate))
-                .replace("{{TENURE}}", escapeHtml(tenure));
+                .replace("{{LOAN_AMOUNT}}", escapeHtml(String.valueOf(loanAmount)))
+                .replace("{{INTEREST_RATE}}", escapeHtml(String.valueOf(interestRate)))
+                .replace("{{TENURE}}", escapeHtml(String.valueOf(tenure)));
     }
 
     private static String escapeHtml(String s) {
@@ -93,5 +93,4 @@ public class LoanApprovalEmailTemplate {
                 .replace("\"", "&quot;")
                 .replace("'", "&#x27;");
     }
-
 }
