@@ -33,6 +33,8 @@ public class SecurityConfig {
                         .requestMatchers("/queryCustomerDetails/getCustomerDetailsByCustomerTableID").hasAnyAuthority("admin", "user")
                         .requestMatchers("/queryLoan/getLoanByID").hasAnyAuthority("admin", "user", "manager")
                         .requestMatchers("/loan/applyLoan").hasAuthority("user")
+                        .requestMatchers("/queryEmi/getEmiByID").hasAnyAuthority("user", "manager", "admin")
+                        .requestMatchers("/queryEmi/getEmiByLoanID").hasAnyAuthority("user", "manager", "admin")
                         .anyRequest().permitAll()
                 )
                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);

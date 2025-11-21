@@ -1,27 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
 
-    <!-- Console logging -->
-    <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
-        <encoder>
-            <pattern>%d{ISO8601} %-5level [%thread] %logger{10} - %msg%n</pattern>
-        </encoder>
-    </appender>
+<!--    &lt;!&ndash; Console Appender &ndash;&gt;-->
+<!--    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">-->
+<!--        <encoder>-->
+<!--            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level [%thread] %logger{10} : %msg%n</pattern>-->
+<!--        </encoder>-->
+<!--    </appender>-->
 
-    <!-- Splunk HEC Appender -->
-    <appender name="Splunk" class="com.splunk.logging.HttpEventCollectorLogbackAppender">
-        <url>http://localhost:8088</url>
-        <token>84df8a6c-c957-4d13-b563-fc58c99ef5e0</token>
-        <index>query_service_dev</index>
-        <source>event-log</source>
-        <sourcetype>_json</sourcetype>
-        <includeMdc>true</includeMdc>
-    </appender>
+<!--    &lt;!&ndash; SPLUNK HEC APPENDER &ndash;&gt;-->
+<!--    <appender name="SPLUNK" class="com.splunk.logging.HttpEventCollectorLogbackAppender">-->
 
-    <!-- Root logger -->
-    <root level="INFO">
-        <appender-ref ref="Console" />
-        <appender-ref ref="Splunk" />
-    </root>
+<!--        &lt;!&ndash; REQUIRED: Add layout (this was missing; caused the error) &ndash;&gt;-->
+<!--        <layout class="ch.qos.logback.classic.PatternLayout">-->
+<!--            <pattern>%date %-5level [%thread] %logger{36} - %msg%n</pattern>-->
+<!--        </layout>-->
+
+<!--        &lt;!&ndash; HEC URL &ndash;&gt;-->
+<!--        <url>https://localhost:8088</url>-->
+
+<!--        &lt;!&ndash; HEC Token &ndash;&gt;-->
+<!--        <token>TOKEN</token>-->
+
+<!--        &lt;!&ndash; Index, sourcetype &ndash;&gt;-->
+<!--        <index>query_service_dev</index>-->
+<!--        <sourcetype>_json</sourcetype>-->
+
+<!--        &lt;!&ndash; Optional batching &ndash;&gt;-->
+<!--        <batch_size_count>1</batch_size_count>-->
+<!--        <retries_on_error>3</retries_on_error>-->
+<!--    </appender>-->
+
+<!--    &lt;!&ndash; Root logger &ndash;&gt;-->
+<!--    <root level="INFO">-->
+<!--        <appender-ref ref="CONSOLE" />-->
+<!--        <appender-ref ref="SPLUNK" />-->
+<!--    </root>-->
 
 </configuration>

@@ -50,11 +50,29 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
     }
 
+    // ----------------------- CustomerDetails ------------------
+
     // ---------------------- Loan -------------------------
     @ExceptionHandler(LoanIDNotFoundException.class)
     public ResponseEntity<ErrorResponses> loanIdNotFound(LoanIDNotFoundException ex){
         ErrorResponses error = new ErrorResponses(ex.getMessage(), "Loan ID Not Found!", LocalDateTime.now(), HttpStatus.NOT_FOUND);
         return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
     }
+
+    // ---------------------- Loan -------------------------
+
+    // ---------------------- EMI -------------------------
+
+    @ExceptionHandler(EmiIDNotFoundException.class)
+    public ResponseEntity<ErrorResponses> emiIDNotFound(EmiIDNotFoundException ex){
+        ErrorResponses error = new ErrorResponses(ex.getMessage(), "EMI ID Not Found!", LocalDateTime.now(), HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
+    }
+
+
+
+
+    // ---------------------- EMI -------------------------
+
 }
 

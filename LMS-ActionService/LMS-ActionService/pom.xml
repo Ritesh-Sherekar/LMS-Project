@@ -100,16 +100,14 @@
 			<groupId>org.springframework.kafka</groupId>
 			<artifactId>spring-kafka</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>com.splunk.logging</groupId>
-			<artifactId>splunk-library-javalogging</artifactId>
-			<version>1.11.5</version>
-		</dependency>
-		<dependency>
-			<groupId>net.logstash.logback</groupId>
-			<artifactId>logstash-logback-encoder</artifactId>
-			<version>7.4</version>
-		</dependency>
+
+<!--		Splunk Dependency-->
+<!--		<dependency>-->
+<!--			<groupId>com.splunk.logging</groupId>-->
+<!--			<artifactId>splunk-library-javalogging</artifactId>-->
+<!--			<version>1.11.4</version>-->
+<!--		</dependency>-->
+
 
 	</dependencies>
 
