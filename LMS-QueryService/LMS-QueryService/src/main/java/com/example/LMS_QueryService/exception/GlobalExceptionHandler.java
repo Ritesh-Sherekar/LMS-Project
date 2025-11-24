@@ -59,6 +59,12 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
     }
 
+    @ExceptionHandler(ResultNotPresentException.class)
+    public ResponseEntity<ErrorResponses> resultNotPresent(ResultNotPresentException ex){
+        ErrorResponses error = new ErrorResponses(ex.getMessage(), "Result Not Found!", LocalDateTime.now(), HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
+    }
+
     // ---------------------- Loan -------------------------
 
     // ---------------------- EMI -------------------------

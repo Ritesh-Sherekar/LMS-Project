@@ -25,12 +25,11 @@ public class SecurityConfig {
                 .sessionManagement(session ->
                         session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(request -> request
-                        .requestMatchers("/customerDetails/addAllInfo").hasAuthority("user")
-                        .requestMatchers("/customerDetails/getInfo").hasAuthority("user")
+                        .requestMatchers("/customerDetails/addAllInfo").hasAnyAuthority("user", "manager")
                         .requestMatchers("/loan/applyLoan").hasAuthority("user")
                         .requestMatchers("/loan/cancelApplication").hasAuthority("user")
                         .requestMatchers("/loan/manageStatus").hasAnyAuthority("manager", "admin")
-                        .requestMatchers("/api/third").hasAuthority("user")
+//                        .requestMatchers("/api/third").hasAuthority("user")
                         .anyRequest().permitAll()
                 )
                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);

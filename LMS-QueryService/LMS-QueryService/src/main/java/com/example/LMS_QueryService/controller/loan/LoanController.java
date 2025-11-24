@@ -19,11 +19,19 @@ public class LoanController {
     @Autowired
     private LoanService loanService;
 
-    // get Loan By ID
+    // Get Loan By ID
     @GetMapping("/getLoanByID")
     public ResponseEntity<Response<LoanDTOForResponse>> getLoanByID(@RequestParam int id){
         LoanDTOForResponse loneByID = loanService.getLoneByID(id);
         Response<LoanDTOForResponse> response = new Response<>("Get Loan By ID", LocalDateTime.now(), loneByID, HttpStatus.OK.value());
+        return new ResponseEntity<>(response, HttpStatus.OK);
+    }
+
+    // Get Loan By Loan Status
+    @GetMapping("/getLoanByLoanStatus")
+    public ResponseEntity<Response<LoanDTOForResponse>> getLoanByLoanStatus(@RequestParam String status){
+        LoanDTOForResponse loanByLoanStatus = loanService.getLoanByLoanStatus(status);
+        Response<LoanDTOForResponse> response = new Response<>("Get Loan By Loan Status", LocalDateTime.now(), loanByLoanStatus, HttpStatus.OK.value());
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 }

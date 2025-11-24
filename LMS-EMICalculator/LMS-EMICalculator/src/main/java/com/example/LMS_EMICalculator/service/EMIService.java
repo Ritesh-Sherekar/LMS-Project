@@ -45,9 +45,9 @@ public class EMIService {
         emi1.setLoanAmount(loanApprovedEventDTO.getLoanAmount());
         emi1.setInterestRate(loanApprovedEventDTO.getAnnualInterestRate());
         emi1.setMonthNumber(loanApprovedEventDTO.getTenureMonths());
-        emi1.setEmiAmount(emi);
-        emi1.setTotalInterest(totalInterest);
-        emi1.setTotalPayableAmount(totalPayable);
+        emi1.setEmiAmount(round(emi));
+        emi1.setTotalInterest(round(totalInterest));
+        emi1.setTotalPayableAmount(round(totalPayable));
         emi1.setDueDate(LocalDate.now());
         emi1.setStatus("Pending");
         emi1.setCreatedAt(LocalDate.now());

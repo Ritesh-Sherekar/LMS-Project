@@ -20,7 +20,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.time.LocalDate;
-import java.util.logging.Logger;
 
 @Service
 @Slf4j
@@ -60,6 +59,7 @@ public class LoanService {
         Response<CustomerDetails> customerDetailsByCustomerTableID = clientLoanIDRepo.getCustomerDetailsByCustomerTableID(byUsername.getId());
 //        CustomerDetails byCusId = customerDetailsRepo.findByCustomer_Id(byUsername.getId());
         log.info("Get CustomerDetails By Customer Table ID {}", customerDetailsByCustomerTableID);
+        System.out.println("Customer details "+customerDetailsByCustomerTableID);
 
         LoanType byLoanType = loanTypeRepo.findByLoanType(loanDTO.getLoanType());
         log.info("Get LoneType {}", byLoanType);
@@ -129,10 +129,25 @@ public class LoanService {
         log.info("Getting Customer Details By Cus ID {} and Object is {}", loneByID.getData().getCustomerDetailsID(), customerDetailsByCusID);
 
         LoanDTOForResponse data = loneByID.getData();
+        System.out.println("Loan Data "+data);
         if (status.equalsIgnoreCase("APPROVED")){
-            data.setLoanStatus(Status.APPROVED.toString());
-            Loan loan = objectMapper.convertValue(data, Loan.class);
+            Loan loan = new Loan();
+            loan.setId(data.getId());
+            loan.setLoanType(data.getLoanType());
+            loan.setLoanAmount(data.getLoanAmount());
+            loan.setInterestRate(data.getInterestRate());
+            loan.setTenureMonths(data.getTenureMonths());
+            loan.setApplicationDate(data.getApplicationDate());
+            loan.setApprovalDate(LocalDate.now());
+            loan.setLoanStatus(Status.APPROVED.toString());
+            loan.setEmiAmount(data.getEmiAmount());
+            loan.setTotalPayableAmount(data.getTotalPayableAmount());
+            loan.setRemainingBalance(data.getRemainingBalance());
+            loan.setEmploymentType(data.getEmploymentType());
+            loan.setMonthlyIncome(data.getMonthlyIncome());
+            loan.setCustomerDetails(customerDetailsByCusID.getData());
             loanRepo.save(loan);
+            System.out.println("Loan Object :- "+ loan);
 
             // Kafka Event
             LoanApprovedEventDTO event = new LoanApprovedEventDTO(
