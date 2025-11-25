@@ -1,10 +1,10 @@
-package com.example.LMS_ActionService.security;
+package com.example.LMS_API_Getway.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
-import org.springframework.security.core.userdetails.UserDetails;
+//import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
 import java.security.Key;
@@ -20,7 +20,7 @@ public class JwtService {
         return extractClaims(token,Claims::getSubject);
     }
 
-    private Claims extractAllClaims(String token)
+    public Claims extractAllClaims(String token)
     {
         return Jwts
                 .parserBuilder()
@@ -36,11 +36,11 @@ public class JwtService {
         return claimResolver.apply(claims);
     }
 
-    public boolean validateToken(String token,UserDetails userDetails)
-    {
-        final String username = extractUsername(token);
-        return (username.equals(userDetails.getUsername()) && !isTokenExpired(token));
-    }
+//    public boolean validateToken(String token,UserDetails userDetails)
+//    {
+//        final String username = extractUsername(token);
+//        return (username.equals(userDetails.getUsername()) && !isTokenExpired(token));
+//    }
 
     public boolean isTokenExpired(String token)
     {

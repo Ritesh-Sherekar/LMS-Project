@@ -5,6 +5,7 @@ import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +13,9 @@ import java.security.Key;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 import java.util.function.Function;
+import java.util.stream.Collectors;
 
 @Service
 public class JwtService {
@@ -44,6 +47,9 @@ public class JwtService {
     {
         Map<String, Object> extraClaims = new HashMap<>();
         extraClaims.put("tokenType", "active");
+        Set<SimpleGrantedAuthority> collect = userDetails.getAuthorities().stream().map(grantedAuthority ->
+                new SimpleGrantedAuthority(grantedAuthority.getAuthority())).collect(Collectors.toSet());
+        extraClaims.put("roles", collect);
         return
                 Jwts
                         .builder()
