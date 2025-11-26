@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import reactor.core.publisher.Mono;
 
 import java.time.LocalDateTime;
 
@@ -20,8 +21,9 @@ public class EmiPaymentController {
     // Get Emi By Loan ID
     @PostMapping("/makeEmiPayment")
     public ResponseEntity<Response<EMI>> getEmiByLoanId(@RequestBody EmiPaymentDTO emiPaymentDTO){
-        EMI emi = emiPaymentService.makePayment(emiPaymentDTO);
-        Response<EMI> response = new Response<>("Get EMI By Loan ID", LocalDateTime.now(), emi, HttpStatus.OK.value());
-        return new ResponseEntity<>(response, HttpStatus.OK);
+        Response<EMI> emiResponse = emiPaymentService.makePayment(emiPaymentDTO);
+         //Response<EMI> response = new Response<>("Get EMI By Loan ID", LocalDateTime.now(), emiResponse, HttpStatus.OK.value());
+        return new ResponseEntity<>(emiResponse, HttpStatus.OK);
+
     }
 }

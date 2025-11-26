@@ -7,6 +7,7 @@ import com.example.LMS_ActionService.response.Response;
 import com.example.LMS_ActionService.service.WebClient.EmiClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import reactor.core.publisher.Mono;
 
 @Service
 public class EmiPaymentService {
@@ -17,9 +18,11 @@ public class EmiPaymentService {
     private EmiClient emiClient;
 
     // Make Payment
-    public EMI makePayment(EmiPaymentDTO emiPaymentDTO){
+    public Response<EMI> makePayment(EmiPaymentDTO emiPaymentDTO){
+        System.out.println("requet :- "+emiPaymentDTO);
         Response<EMI> emiByLoanID = emiClient.getEmiByLoanID(emiPaymentDTO.getLoanID());
+
         System.out.println("Emi By Loan ID "+emiByLoanID);
-        return emiByLoanID.getData();
+        return emiByLoanID;
     }
 }

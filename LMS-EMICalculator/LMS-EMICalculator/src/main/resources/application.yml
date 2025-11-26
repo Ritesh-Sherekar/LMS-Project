@@ -11,8 +11,8 @@ spring:
     driver-class-name: oracle.jdbc.OracleDriver
   jpa:
     hibernate:
-      ddl-auto: create
-    show-sql: true
+      ddl-auto: none
+    generate-ddl: false
 
   kafka:
     bootstrap-servers: localhost:9092

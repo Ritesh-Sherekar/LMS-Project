@@ -1,5 +1,6 @@
 package com.example.LMS_ActionService.security;
 
+import com.example.LMS_ActionService.service.WebClient.TokenPropagation;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
@@ -43,6 +44,8 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         }
 
         jwt = authHeader.substring(7);
+        TokenPropagation.setToken(jwt);
+        System.out.println(jwt);
         try{
             if ("refresh".equals(jwtService.extractTokenType(jwt)))
             {
@@ -59,6 +62,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         }
 
         String username = jwtService.extractUsername(jwt);
+        System.out.println(username);
         if(username!=null && SecurityContextHolder.getContext().getAuthentication()==null)
         {
             UserDetails userDetails = this.userDetailsService.loadUserByUsername(username);
