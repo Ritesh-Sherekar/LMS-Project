@@ -28,15 +28,15 @@ public class EmiService {
     }
 
     // Get Emi By Loan ID
-    public EMI getEmiByLoanId(int LoanID){
-        log.info("Requesting For emi Details Base on Loan ID {}", LoanID);
+    public EMI getEmiByLoanId(int loanID){
+        log.info("Requesting For emi Details Base on Loan ID {}", loanID);
 
-        EMI loanIdNotPresent = emiRepo.findByLoanID(LoanID).orElseThrow(() -> {
+        EMI loanIdNotPresent = emiRepo.findByLoanID(loanID).orElseThrow(() -> {
             log.error("Getting Error Because of Loan ID not Found");
             return new LoanIDNotFoundException("Loan ID Not Present");
         });
 
-        log.info("Response For Loan ID {} is {}", LoanID, loanIdNotPresent);
+        log.info("Response For Loan ID {} is {}", loanID, loanIdNotPresent);
         return loanIdNotPresent;
     }
 }

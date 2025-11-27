@@ -6,5 +6,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.Optional;
 
 public interface EMIRepo extends JpaRepository<EMI, Integer> {
-    Optional<EMI> findByLoanID(int LoanID);
+    Optional<EMI> findByLoanID(int loanID);
 }

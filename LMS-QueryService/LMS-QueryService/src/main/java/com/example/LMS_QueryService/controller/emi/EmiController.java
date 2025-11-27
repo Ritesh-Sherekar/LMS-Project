@@ -30,8 +30,8 @@ public class EmiController {
 
     // Get Emi Details By Loan ID
     @GetMapping("/getEmiByLoanID")
-    public Response<EMI> getEmiByLoanID(@RequestParam int LoanID){
-        EMI emiByLoanId = emiService.getEmiByLoanId(LoanID);
+    public Response<EMI> getEmiByLoanID(@RequestParam int loanID){
+        EMI emiByLoanId = emiService.getEmiByLoanId(loanID);
         Response<EMI> response = new Response<>("Get EMI Details By Loan ID", LocalDateTime.now(), emiByLoanId, HttpStatus.OK.value());
         return response;
     }

@@ -17,7 +17,7 @@ public class EmiClient {
     @Autowired
     private WebClient.Builder webClientBuilder;
 
-    public Response<EMI> getEmiByLoanID(int LoanID) {
+    public Response<EMI> getEmiByLoanID(int loanID) {
 
 //        UriComponents loanID = UriComponentsBuilder.fromPath("lb://LMS-QUERYSERVICE/queryEmi/getEmiByLoanID").queryParam("LoanID", LoanID).build();
 //        System.out.println("Loan ID "+ loanID);
@@ -59,7 +59,13 @@ public class EmiClient {
         System.out.println(TokenPropagation.getToken());
         Response<EMI> block = webClientBuilder.build()
                 .get()
-                .uri("localhost:5558/queryEmi/getEmiByLoanID?LoanID=1")
+                .uri(uriBuilder -> uriBuilder
+                        .scheme("http")
+                        .host("LMS-QueryService")
+                        .path("/queryEmi/getEmiByLoanID")
+                        .queryParam("loanID", loanID)
+                        .build()
+                )
                 .header("Authorization", TokenPropagation.getToken())
                 .retrieve()
                 .bodyToMono(new ParameterizedTypeReference<Response<EMI>>() {
