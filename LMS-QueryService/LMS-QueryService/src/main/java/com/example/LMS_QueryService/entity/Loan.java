@@ -30,7 +30,13 @@ public class Loan {
     private String employmentType;
     private Double monthlyIncome;
 
+    //    @ManyToOne(fetch = FetchType.LAZY)
+//    @JoinColumn(name = "customerId", referencedColumnName = "customerId")
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "customerId", referencedColumnName = "customerId")
+    @JoinColumn(
+            name = "customerId",                // FK column in Loan table
+            referencedColumnName = "customerId", // Maps to CustomerDetails.customerId
+            foreignKey = @ForeignKey(name = "FK_LOAN_CUSTOMER_DETAILS")
+    )
     private CustomerDetails customerDetails;
 }

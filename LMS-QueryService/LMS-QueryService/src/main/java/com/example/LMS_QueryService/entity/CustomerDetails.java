@@ -38,18 +38,33 @@ public class CustomerDetails {
     private LocalDateTime updatedAt;
 
     // Relationship with Customer
+//    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+//    @JoinColumn(name = "cus_id")
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    @JoinColumn(name = "cus_id")
+    @JoinColumn(
+            name = "cus_id",
+            foreignKey = @ForeignKey(name = "FK_CUSTOMER_DETAILS_CUSTOMER")
+    )
     private Customer customer;
 
     // Relationship with Address
+//    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+//    @JoinColumn(name = "address_id")
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    @JoinColumn(name = "address_id")
+    @JoinColumn(
+            name = "address_id",
+            foreignKey = @ForeignKey(name = "FK_CUSTOMER_DETAILS_ADDRESS")
+    )
     private CustomerAddress address;
 
     // Relationship with KYC
+//    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+//    @JoinColumn(name = "kyc_id")
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-    @JoinColumn(name = "kyc_id")
+    @JoinColumn(
+            name = "kyc_id",
+            foreignKey = @ForeignKey(name = "FK_CUSTOMER_DETAILS_KYC")
+    )
     private CustomerKyc kycDetails;
 
 
