@@ -11,6 +11,8 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import java.util.List;
+
 @FeignClient(name = "LMS-QueryService", configuration = FeignClientConfig.class)
 public interface ClientLoanIDRepo {
     @GetMapping("/queryLoan/getLoanByID")
@@ -30,4 +32,7 @@ public interface ClientLoanIDRepo {
 
     @GetMapping("/queryEmiPayment/getLastEmiPayment")
     Response<EmiPayment> getLastEmiPayment();
+
+    @GetMapping("/queryEmiPayment/getAllEmiPayment")
+    Response<List<EmiPayment>> getAllEmiPayment();
 }

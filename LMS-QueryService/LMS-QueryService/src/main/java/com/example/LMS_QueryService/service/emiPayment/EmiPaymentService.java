@@ -7,11 +7,21 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 @Slf4j
 public class EmiPaymentService {
     @Autowired
     private EmiPaymentRepo emiPaymentRepo;
+
+    // Get All EMIPayment
+    public List<EmiPayment> allEmiPayment(){
+        log.info("Requesting For All Emi Payment!");
+        List<EmiPayment> allEmiPayment = emiPaymentRepo.findAll();
+        log.info("Response For All EMI Payment Is {}", allEmiPayment);
+        return allEmiPayment;
+    }
 
     // Get EmiPayment By ID
     public EmiPayment getEmiPaymentByID(int id){

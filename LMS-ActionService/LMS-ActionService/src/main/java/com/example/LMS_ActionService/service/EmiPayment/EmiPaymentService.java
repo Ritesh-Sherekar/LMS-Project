@@ -7,13 +7,12 @@ import com.example.LMS_ActionService.enums.EmiStatus;
 import com.example.LMS_ActionService.repository.ClientLoanIDRepo;
 import com.example.LMS_ActionService.repository.EmiPaymentRepo;
 import com.example.LMS_ActionService.response.Response;
-import com.example.LMS_ActionService.service.WebClient.EmiClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import reactor.core.publisher.Mono;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Service
 public class EmiPaymentService {
@@ -31,9 +30,11 @@ public class EmiPaymentService {
         Response<EMI> emiByLoanID = clientLoanIDRepo.getEmiByLoanID(emiPaymentDTO.getLoanID());
         EMI emi = emiByLoanID.getData();
 
-        Response<EmiPayment> emiPaymentByLoanID = clientLoanIDRepo.getEmiPaymentByLoanID(emiPaymentDTO.getLoanID());
+       // Response<EmiPayment> emiPaymentByLoanID = clientLoanIDRepo.getEmiPaymentByLoanID(emiPaymentDTO.getLoanID());
 
-        if (emiPaymentByLoanID.getData() == null){
+        Response<List<EmiPayment>> allEmiPayment = clientLoanIDRepo.getAllEmiPayment();
+
+        if (allEmiPayment.getData() == null){
             Double remainingLoanAmount = emi.getTotalPayableAmount() - emiPaymentDTO.getPaidAmount();
             Integer remainingMonthNumber = emi.getMonthNumber() - 1;
 

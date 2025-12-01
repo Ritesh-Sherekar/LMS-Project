@@ -1,6 +1,5 @@
 package com.example.LMS_QueryService.controller.emiPayment;
 
-import com.example.LMS_QueryService.entity.EMI;
 import com.example.LMS_QueryService.entity.EmiPayment;
 import com.example.LMS_QueryService.response.Response;
 import com.example.LMS_QueryService.service.emiPayment.EmiPaymentService;
@@ -13,12 +12,21 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 @RestController
 @RequestMapping("queryEmiPayment")
 public class EmiPaymentController {
     @Autowired
     private EmiPaymentService emiPaymentService;
+
+    // Get All Emi Payment
+    @GetMapping("/getAllEmiPayment")
+    public ResponseEntity<Response<List<EmiPayment>>> getAllEmiPayment(){
+        List<EmiPayment> emiPayments = emiPaymentService.allEmiPayment();
+        Response<List<EmiPayment>> response = new Response<>("Get All EMIPayment Details", LocalDateTime.now(), emiPayments, HttpStatus.OK.value());
+        return new ResponseEntity<>(response, HttpStatus.OK);
+    }
 
     // Get EMI Payment By ID
     @GetMapping("/getEmiPaymentByID")
