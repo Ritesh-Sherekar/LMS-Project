@@ -80,5 +80,15 @@ public class GlobalExceptionHandler {
 
     // ---------------------- EMI -------------------------
 
+    // ---------------------- EMI Payment-------------------------
+    @ExceptionHandler(EmiPaymentNotFoundException.class)
+    public ResponseEntity<ErrorResponses> emiPaymentNotFound(EmiPaymentNotFoundException ex){
+        ErrorResponses error = new ErrorResponses(ex.getMessage(), "EMI Payment Not Found!", LocalDateTime.now(), HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
+    }
+
+
+
+    // ---------------------- EMI Payment-------------------------
 }
 

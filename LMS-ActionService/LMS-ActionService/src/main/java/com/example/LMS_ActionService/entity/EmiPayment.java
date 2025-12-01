@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 @Entity
 @Data
@@ -26,5 +27,6 @@ public class EmiPayment {
     private Integer remainingMonthNumber;
     private Double remainingTotalPayableAmount;
     private LocalDate dueDate;
+    private LocalDateTime createdAt;
 
 }
