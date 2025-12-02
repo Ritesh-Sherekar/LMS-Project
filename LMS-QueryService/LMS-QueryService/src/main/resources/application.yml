@@ -22,3 +22,9 @@ eureka:
   client:
     service-url:
       defaultZone=http: //localhost:8761/eureka
+
+feign:
+  client:
+    config:
+      default:
+        retryer: feign.Retryer.NEVER_RETRY

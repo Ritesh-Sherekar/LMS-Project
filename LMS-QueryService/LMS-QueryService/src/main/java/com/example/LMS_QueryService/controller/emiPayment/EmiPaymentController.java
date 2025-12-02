@@ -38,9 +38,9 @@ public class EmiPaymentController {
 
     // Get EMI Payment By Loan ID
     @GetMapping("/getEmiPaymentByLoanID")
-    public ResponseEntity<Response<EmiPayment>> getEmiPaymentByLoanID(@RequestParam int loanID){
-        EmiPayment emiPaymentByID = emiPaymentService.getEmiPaymentByLoanID(loanID);
-        Response<EmiPayment> response = new Response<>("Get EMIPayment Details By Loan ID", LocalDateTime.now(), emiPaymentByID, HttpStatus.OK.value());
+    public ResponseEntity<Response<List<EmiPayment>>> getEmiPaymentByLoanID(@RequestParam int loanID){
+        List<EmiPayment> emiPaymentByLoanID = emiPaymentService.getEmiPaymentByLoanID(loanID);
+        Response<List<EmiPayment>> response = new Response<>("Get EMIPayment Details By Loan ID", LocalDateTime.now(), emiPaymentByLoanID, HttpStatus.OK.value());
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
@@ -49,6 +49,14 @@ public class EmiPaymentController {
     public ResponseEntity<Response<EmiPayment>> getLastEmiPayment(){
         EmiPayment lastEmiPayment = emiPaymentService.getLastEmiPayment();
         Response<EmiPayment> response = new Response<>("Get Last EMIPayment Details", LocalDateTime.now(), lastEmiPayment, HttpStatus.OK.value());
+        return new ResponseEntity<>(response, HttpStatus.OK);
+    }
+
+    // Get Last EMIPayment By Loan ID
+    @GetMapping("/getLastEmiPaymentByLoanID")
+    public ResponseEntity<Response<EmiPayment>> getLastEmiPaymentByLoanID(@RequestParam int loanID){
+        EmiPayment lastEmiPaymentByLoanID = emiPaymentService.getLastEmiPaymentByLoanID(loanID);
+        Response<EmiPayment> response = new Response<>("Get Last EMIPayment Details By Loan ID", LocalDateTime.now(), lastEmiPaymentByLoanID, HttpStatus.OK.value());
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 }

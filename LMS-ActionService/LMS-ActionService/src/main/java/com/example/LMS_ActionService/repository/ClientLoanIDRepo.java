@@ -28,11 +28,11 @@ public interface ClientLoanIDRepo {
     Response<EMI> getEmiByLoanID(@RequestParam int loanID);
 
     @GetMapping("/queryEmiPayment/getEmiPaymentByLoanID")
-    Response<EmiPayment> getEmiPaymentByLoanID(@RequestParam int loanID);
+    Response<List<EmiPayment>> getEmiPaymentByLoanID(@RequestParam int loanID);
 
     @GetMapping("/queryEmiPayment/getLastEmiPayment")
     Response<EmiPayment> getLastEmiPayment();
 
-    @GetMapping("/queryEmiPayment/getAllEmiPayment")
-    Response<List<EmiPayment>> getAllEmiPayment();
+    @GetMapping("/queryEmiPayment/getLastEmiPaymentByLoanID")
+    Response<EmiPayment> getLastEmiPaymentByLoanID(@RequestParam int loanID);
 }

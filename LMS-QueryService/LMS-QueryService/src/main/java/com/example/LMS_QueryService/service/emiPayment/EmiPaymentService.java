@@ -36,15 +36,16 @@ public class EmiPaymentService {
     }
 
     // Get EmiPayment By Loan ID
-    public EmiPayment getEmiPaymentByLoanID(int loanId){
+    public List<EmiPayment> getEmiPaymentByLoanID(int loanId){
         log.info("Requesting For EMI Payment By Loan ID {}", loanId);
-        EmiPayment emiPayment = emiPaymentRepo.findByLoanID(loanId);
-        if (emiPayment == null){
-            throw new EmiPaymentNotFoundException("EMI Payment Not Present!");
+        List<EmiPayment> byLoanID = emiPaymentRepo.findByLoanID(loanId);
+        if (byLoanID == null){
+            log.warn("EMI Payment For Not Found For Loan ID {}", loanId);
+            return null;
         }
 
-        log.info("Response of EMIPayment For Loan ID {} is {}", loanId, emiPayment);
-        return emiPayment;
+        log.info("Response of EMIPayment For Loan ID {} is {}", loanId, byLoanID);
+        return byLoanID;
     }
 
     // Get Last EMI Payment
@@ -54,5 +55,14 @@ public class EmiPaymentService {
 
         log.info("Response of Last EMIPayment is {}", lastEmiPayment);
         return lastEmiPayment;
+    }
+
+    // Get Last EMI Payment For Specific Laon ID
+    public EmiPayment getLastEmiPaymentByLoanID(int loanID){
+        log.info("Requesting for Last EMI Payment By Loan ID {}", loanID);
+        EmiPayment lastEmiPaymentByLoanId = emiPaymentRepo.findLastEmiPaymentByLoanId(loanID);
+
+        log.info("Response of Last EMIPayment is {} for Loan ID {}", lastEmiPaymentByLoanId, loanID);
+        return lastEmiPaymentByLoanId;
     }
 }

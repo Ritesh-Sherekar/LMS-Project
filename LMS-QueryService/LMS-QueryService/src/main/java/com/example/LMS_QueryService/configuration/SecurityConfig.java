@@ -38,8 +38,8 @@ public class SecurityConfig {
                         .requestMatchers("/queryEmiPayment/getEmiPaymentByID").hasAnyAuthority("manager", "admin")
                         .requestMatchers("/queryEmiPayment/getEmiPaymentByLoanID").hasAnyAuthority("user", "manager", "admin")
                         .requestMatchers("/queryEmiPayment/getLastEmiPayment").hasAnyAuthority( "manager", "admin")
+                        .requestMatchers("/queryEmiPayment/getLastEmiPaymentByLoanID").hasAnyAuthority( "user","manager", "admin")
                         .requestMatchers("/queryEmiPayment/getAllEmiPayment").hasAnyAuthority( "manager", "admin")
-
 
                         .anyRequest().authenticated()
                 )
