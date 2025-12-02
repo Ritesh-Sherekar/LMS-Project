@@ -1,5 +1,6 @@
 package com.example.LMS_ActionService.service.EmiPayment;
 
+import com.example.LMS_ActionService.dto.EmiPaymentCompletedDTO;
 import com.example.LMS_ActionService.dto.EmiPaymentDTO;
 import com.example.LMS_ActionService.entity.EMI;
 import com.example.LMS_ActionService.entity.EmiPayment;
@@ -7,6 +8,7 @@ import com.example.LMS_ActionService.enums.EmiStatus;
 import com.example.LMS_ActionService.repository.ClientLoanIDRepo;
 import com.example.LMS_ActionService.repository.EmiPaymentRepo;
 import com.example.LMS_ActionService.response.Response;
+import com.example.LMS_ActionService.service.emi.EmiService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -27,6 +29,9 @@ public class EmiPaymentService {
     @Autowired
     private ClientLoanIDRepo clientLoanIDRepo;
 
+    @Autowired
+    private EmiService emiService;
+
     // Make Payment
     public EmiPayment makePayment(EmiPaymentDTO emiPaymentDTO) {
         log.info("Request For MakePayment {}", emiPaymentDTO);
@@ -36,7 +41,6 @@ public class EmiPaymentService {
         EMI emi = emiByLoanID.getData();
         log.info("Response For EMI {}", emiByLoanID);
 
-
         log.info("Requesting For EMI Payment By Loan ID {}", emiPaymentDTO.getLoanID());
         Response<List<EmiPayment>> emiPaymentByLoanID =
                 clientLoanIDRepo.getEmiPaymentByLoanID(emiPaymentDTO.getLoanID());
@@ -45,10 +49,6 @@ public class EmiPaymentService {
         log.info("Response For EMI Payment {}", emiPaymentByLoanID);
 
         boolean isFirstPayment = (previousPayments == null || previousPayments.isEmpty());
-
-        if (emi.getMonthNumber() < 0) {
-            isFirstPayment = false;
-        }
 
         if (isFirstPayment) {
             Double remainingLoanAmount = emi.getTotalPayableAmount() - emiPaymentDTO.getPaidAmount();
@@ -74,6 +74,19 @@ public class EmiPaymentService {
         Response<EmiPayment> lastEmiPaymentByLoanID = clientLoanIDRepo.getLastEmiPaymentByLoanID(emiPaymentDTO.getLoanID());
         EmiPayment emiPaymentData = lastEmiPaymentByLoanID.getData();
         log.info("Response For Last EMI Payment {}", lastEmiPaymentByLoanID);
+
+        // If Total Month is equal to 0, then change the EMI Status
+        if (emiPaymentData.getRemainingMonthNumber() == 0){
+            emiService.updateEmiStatus(emiPaymentDTO.getLoanID());
+
+            // Kafka Event
+            EmiPaymentCompletedDTO completedDTO = new EmiPaymentCompletedDTO();
+            completedDTO.setLoanID(emiPaymentDTO.getLoanID());
+            completedDTO.setEmiID(emi.getId());
+            completedDTO.setEmiStatus(EmiStatus.PAID.toString());
+            completedDTO.setTotalPayableAmount(emi.getTotalPayableAmount());
+
+        }
 
         Double remainingLoanAmount = emiPaymentData.getRemainingLoanAmount() - emiPaymentDTO.getPaidAmount();
         Integer remainingMonthNumber = emiPaymentData.getRemainingMonthNumber() - 1;
