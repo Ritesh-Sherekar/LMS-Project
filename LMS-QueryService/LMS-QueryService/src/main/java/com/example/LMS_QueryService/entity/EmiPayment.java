@@ -12,6 +12,12 @@ import java.time.LocalDateTime;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Table(
+        name = "EmiPayment",
+        indexes = {
+                @Index(name = "inx_emiPay_loanID", columnList = "loanID")
+        }
+)
 public class EmiPayment {
     @Id
     @SequenceGenerator(name = "emi_pay_seq")

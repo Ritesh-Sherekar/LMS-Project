@@ -38,8 +38,6 @@ public class CustomerDetails {
     private LocalDateTime updatedAt;
 
     // Relationship with Customer
-//    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-//    @JoinColumn(name = "cus_id")
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinColumn(
             name = "cus_id",
@@ -48,8 +46,6 @@ public class CustomerDetails {
     private Customer customer;
 
     // Relationship with Address
-//    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-//    @JoinColumn(name = "address_id")
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinColumn(
             name = "address_id",
@@ -58,8 +54,6 @@ public class CustomerDetails {
     private CustomerAddress address;
 
     // Relationship with KYC
-//    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-//    @JoinColumn(name = "kyc_id")
     @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinColumn(
             name = "kyc_id",

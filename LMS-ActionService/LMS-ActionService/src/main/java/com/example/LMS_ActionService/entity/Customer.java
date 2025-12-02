@@ -12,6 +12,12 @@ import java.util.Set;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Table(
+        name = "Customer",
+        indexes = {
+                @Index(name = "inx_cus_username", columnList = "username")
+        }
+)
 public class Customer {
     @Id
     @SequenceGenerator(name = "cus_seq")
