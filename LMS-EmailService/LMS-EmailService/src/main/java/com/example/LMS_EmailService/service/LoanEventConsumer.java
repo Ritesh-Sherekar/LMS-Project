@@ -15,7 +15,7 @@ public class LoanEventConsumer {
         this.emiService = emiService;
     }
 
-    @KafkaListener(topics = "loan-approved-topic", groupId = "email-sending-group")
+    @KafkaListener(topics = "loan-approved-topic", groupId = "email-sending-group", containerFactory = "loanApprovalKafkaListenerContainerFactory")
     public void consumeLoanApprovedEvent(LoanApprovedEventDTO event) throws MessagingException {
         log.info("Received Loan for EMI Calculation: {}", event);
 

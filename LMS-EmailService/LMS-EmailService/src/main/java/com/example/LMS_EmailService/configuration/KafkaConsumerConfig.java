@@ -1,5 +1,6 @@
 package com.example.LMS_EmailService.configuration;
 
+import com.example.LMS_EmailService.dto.EmiPaymentCompletedDTO;
 import com.example.LMS_EmailService.dto.LoanApprovedEventDTO;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
@@ -18,7 +19,7 @@ import java.util.Map;
 @EnableKafka
 public class KafkaConsumerConfig {
     @Bean
-    public ConsumerFactory<String, LoanApprovedEventDTO> consumerFactory(){
+    public ConsumerFactory<String, LoanApprovedEventDTO> loanApprovalConsumerFactory(){
         JsonDeserializer<LoanApprovedEventDTO> deserializer = new JsonDeserializer<>(LoanApprovedEventDTO.class);
         deserializer.addTrustedPackages("*"); // its allowed all packages
         deserializer.ignoreTypeHeaders();  // its ignore the header
@@ -33,10 +34,34 @@ public class KafkaConsumerConfig {
     }
 
     @Bean
-    public ConcurrentKafkaListenerContainerFactory<String, LoanApprovedEventDTO> kafkaListenerContainerFactory() {
+    public ConcurrentKafkaListenerContainerFactory<String, LoanApprovedEventDTO> loanApprovalKafkaListenerContainerFactory() {
         ConcurrentKafkaListenerContainerFactory<String, LoanApprovedEventDTO> factory =
                 new ConcurrentKafkaListenerContainerFactory<>();
-        factory.setConsumerFactory(consumerFactory());
+        factory.setConsumerFactory(loanApprovalConsumerFactory());
+        return factory;
+    }
+
+
+    @Bean
+    public ConsumerFactory<String, EmiPaymentCompletedDTO> emiCompletedConsumerFactory(){
+        JsonDeserializer<EmiPaymentCompletedDTO> deserializer = new JsonDeserializer<>(EmiPaymentCompletedDTO.class);
+        deserializer.addTrustedPackages("*"); // its allowed all packages
+        deserializer.ignoreTypeHeaders();  // its ignore the header
+
+        Map<String, Object> map = new HashMap<>();
+        map.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
+        map.put(ConsumerConfig.GROUP_ID_CONFIG, "emi-completed-email-sending-group");
+        map.put(ConsumerConfig.KEY_DESERIALIZER_CLASS_CONFIG, StringDeserializer.class);
+        map.put(ConsumerConfig.VALUE_DESERIALIZER_CLASS_CONFIG, deserializer);
+
+        return new DefaultKafkaConsumerFactory<>(map, new StringDeserializer(), deserializer);
+    }
+
+    @Bean
+    public ConcurrentKafkaListenerContainerFactory<String, EmiPaymentCompletedDTO> emiCompletedKafkaListenerContainerFactory() {
+        ConcurrentKafkaListenerContainerFactory<String, EmiPaymentCompletedDTO> factory =
+                new ConcurrentKafkaListenerContainerFactory<>();
+        factory.setConsumerFactory(emiCompletedConsumerFactory());
         return factory;
     }
 }

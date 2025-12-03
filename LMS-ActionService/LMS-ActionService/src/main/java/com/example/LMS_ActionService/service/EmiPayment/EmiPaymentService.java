@@ -2,6 +2,8 @@ package com.example.LMS_ActionService.service.EmiPayment;
 
 import com.example.LMS_ActionService.dto.EmiPaymentCompletedDTO;
 import com.example.LMS_ActionService.dto.EmiPaymentDTO;
+import com.example.LMS_ActionService.dto.LoanDTOForResponse;
+import com.example.LMS_ActionService.entity.CustomerDetails;
 import com.example.LMS_ActionService.entity.EMI;
 import com.example.LMS_ActionService.entity.EmiPayment;
 import com.example.LMS_ActionService.enums.EmiStatus;
@@ -31,6 +33,9 @@ public class EmiPaymentService {
 
     @Autowired
     private EmiService emiService;
+
+    @Autowired
+    private EmiEventProducer emiEventProducer;
 
     // Make Payment
     public EmiPayment makePayment(EmiPaymentDTO emiPaymentDTO) {
@@ -76,8 +81,19 @@ public class EmiPaymentService {
         log.info("Response For Last EMI Payment {}", lastEmiPaymentByLoanID);
 
         // If Total Month is equal to 0, then change the EMI Status
-        if (emiPaymentData.getRemainingMonthNumber() == 0){
+        if (emiPaymentData.getRemainingMonthNumber() == 1 && emiPaymentData.getRemainingTotalPayableAmount() <= 0.0){
+            log.info("Updating the EMI Status");
             emiService.updateEmiStatus(emiPaymentDTO.getLoanID());
+
+            log.info("Requesting For Loan By Loan ID");
+            Response<LoanDTOForResponse> loneByID = clientLoanIDRepo.getLoneByID(emiPaymentDTO.getLoanID());
+            LoanDTOForResponse loanData = loneByID.getData();
+            log.info("Response For Loan ID {} id {}", emiPaymentDTO.getLoanID(), loanData);
+
+            log.info("Requesting For Customer Details of Cus ID {}", loanData.getCustomerDetailsID());
+            Response<CustomerDetails> customerDetailsByCusID = clientLoanIDRepo.getCustomerDetailsByCusID(loanData.getCustomerDetailsID());
+            CustomerDetails customerDetailsData = customerDetailsByCusID.getData();
+            log.info("Response For Cus ID {} id {}", loanData.getCustomerDetailsID(), customerDetailsData);
 
             // Kafka Event
             EmiPaymentCompletedDTO completedDTO = new EmiPaymentCompletedDTO();
@@ -85,7 +101,13 @@ public class EmiPaymentService {
             completedDTO.setEmiID(emi.getId());
             completedDTO.setEmiStatus(EmiStatus.PAID.toString());
             completedDTO.setTotalPayableAmount(emi.getTotalPayableAmount());
+            completedDTO.setCustomerName(customerDetailsData.getFirstName());
+            completedDTO.setCustomerEmail(customerDetailsData.getEmail());
+            completedDTO.setLoanType(loanData.getLoanType());
+            completedDTO.setTotalInterest(emi.getTotalInterest());
 
+            log.info("Sending CompleteDto object to the kafka Topic {}", completedDTO);
+            emiEventProducer.publishEmiCompleted(completedDTO);
         }
 
         Double remainingLoanAmount = emiPaymentData.getRemainingLoanAmount() - emiPaymentDTO.getPaidAmount();

@@ -1,4 +1,4 @@
-package com.example.LMS_ActionService.dto;
+package com.example.LMS_EmailService.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

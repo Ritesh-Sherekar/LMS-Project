@@ -1,0 +1,16 @@
+server:
+  port: 5061
+
+spring:
+  application:
+    name: LMS-SchedularService
+
+  datasource:
+    username: LMS
+    password: sarasu10
+    url: jdbc:oracle:thin:@localhost:1522:xe
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true

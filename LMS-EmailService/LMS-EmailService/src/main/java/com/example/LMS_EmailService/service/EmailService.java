@@ -1,6 +1,8 @@
 package com.example.LMS_EmailService.service;
 
+import com.example.LMS_EmailService.dto.EmiPaymentCompletedDTO;
 import com.example.LMS_EmailService.dto.LoanApprovedEventDTO;
+import com.example.LMS_EmailService.response.EmiCompletedEmailTemplate;
 import com.example.LMS_EmailService.response.LoanApprovalEmailTemplate;
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
@@ -33,6 +35,27 @@ public class EmailService {
         mimeMessageHelper.setText(loanApprovalHtml,true);
 
         log.info("Sending Mail to the {}", approvedEventDTO.getCustomerEmail());
+        javaMailSender.send(mimeMessage);
+    }
+
+    // Sending mail to the Customer for Emi Completed
+    public void sendEmailForEmiCompleted(EmiPaymentCompletedDTO completedDTO) throws MessagingException {
+        String emiCompletedHtml = EmiCompletedEmailTemplate.getEmiCompletedHtml(completedDTO.getLoanID(),
+                completedDTO.getEmiID(),
+                completedDTO.getCustomerName(),
+                completedDTO.getLoanType(),
+                completedDTO.getEmiStatus(),
+                completedDTO.getTotalInterest(),
+                completedDTO.getTotalPayableAmount());
+
+        MimeMessage mimeMessage = javaMailSender.createMimeMessage();
+        MimeMessageHelper mimeMessageHelper = new MimeMessageHelper(mimeMessage);
+
+        mimeMessageHelper.setSubject("Your Loan EMI Of ID:  " + completedDTO.getLoanID() + " Has Been Successfully Completed 🚀");
+        mimeMessageHelper.setTo(completedDTO.getCustomerEmail());
+        mimeMessageHelper.setText(emiCompletedHtml,true);
+
+        log.info("Sending EMI Completed Mail to the {}", completedDTO.getCustomerEmail());
         javaMailSender.send(mimeMessage);
     }
 }

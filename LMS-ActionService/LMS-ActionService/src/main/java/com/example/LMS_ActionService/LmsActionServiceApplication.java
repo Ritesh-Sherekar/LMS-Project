@@ -11,5 +11,4 @@ public class LmsActionServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(LmsActionServiceApplication.class, args);
 	}
-
 }
