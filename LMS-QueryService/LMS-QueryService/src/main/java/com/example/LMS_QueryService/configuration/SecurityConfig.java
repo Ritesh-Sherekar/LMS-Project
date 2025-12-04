@@ -40,9 +40,8 @@ public class SecurityConfig {
                         .requestMatchers("/queryEmiPayment/getLastEmiPayment").hasAnyAuthority( "manager", "admin")
                         .requestMatchers("/queryEmiPayment/getLastEmiPaymentByLoanID").hasAnyAuthority( "user","manager", "admin")
                         .requestMatchers("/queryEmiPayment/getAllEmiPayment").hasAnyAuthority( "manager", "admin")
-                        .requestMatchers("/queryUniversal/getUniversal").hasAnyAuthority( "user","manager", "admin")
-
-
+                        .requestMatchers("/queryUniversal/getUniversal").permitAll()
+                        
                         .anyRequest().authenticated()
                 )
                 .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
