@@ -57,7 +57,6 @@ public class LoanService {
         log.info("Get Customer From Username {}", byUsername);
 
         Response<CustomerDetails> customerDetailsByCustomerTableID = clientLoanIDRepo.getCustomerDetailsByCustomerTableID(byUsername.getId());
-//        CustomerDetails byCusId = customerDetailsRepo.findByCustomer_Id(byUsername.getId());
         log.info("Get CustomerDetails By Customer Table ID {}", customerDetailsByCustomerTableID);
         System.out.println("Customer details "+customerDetailsByCustomerTableID);
 

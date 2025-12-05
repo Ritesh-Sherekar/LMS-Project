@@ -53,7 +53,7 @@ public class EMIService {
         emi1.setEmiAmount(round(emi));
         emi1.setTotalInterest(round(totalInterest));
         emi1.setTotalPayableAmount(round(totalPayable));
-        emi1.setDueDate(LocalDate.now());
+        emi1.setDueDate(LocalDate.now().plusDays(1));
         emi1.setStatus("Pending");
         emi1.setCreatedAt(LocalDate.now());
         emi1.setUpdatedAt(null);
@@ -62,7 +62,7 @@ public class EMIService {
 
         emiRepo.save(emi1);
 
-        Loan loan = loanRepo.findById(loanApprovedEventDTO.getLoanId()).orElseThrow();
+        Loan loan = loanRepo.findById(loanApprovedEventDTO.getLoanId()).orElseThrow(()-> new RuntimeException("Loan Not Found"));
         loan.setEmiAmount(round(emi));
         loan.setInterestRate(loan.getInterestRate());
         loan.setTotalPayableAmount(round(totalPayable));

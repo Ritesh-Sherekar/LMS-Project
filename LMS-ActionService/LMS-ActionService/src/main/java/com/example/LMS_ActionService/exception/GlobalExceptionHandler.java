@@ -1,6 +1,7 @@
 package com.example.LMS_ActionService.exception;
 
 import com.example.LMS_ActionService.response.ErrorResponses;
+import feign.FeignException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -57,6 +58,38 @@ public class GlobalExceptionHandler {
     }
 
     // ---------------------- Loan -------------------------
+
+
+    // ---------------------- Feign Exception -------------------------
+
+    @ExceptionHandler(FeignException.class)
+    public ResponseEntity<ErrorResponses> globalFeignException(FeignException ex){
+        ErrorResponses error = new ErrorResponses(ex.getMessage(), "Query Service Not Available", LocalDateTime.now(), HttpStatus.SERVICE_UNAVAILABLE);
+        return new ResponseEntity<>(error, HttpStatus.SERVICE_UNAVAILABLE);
+    }
+
+    @ExceptionHandler(QueryServiceNotFoundException.class)
+    public ResponseEntity<ErrorResponses> queryServiceNotFound(QueryServiceNotFoundException ex){
+        ErrorResponses error = new ErrorResponses(ex.getMessage(), "Query Service Not Found Proper Result", LocalDateTime.now(), HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(error, HttpStatus.NOT_FOUND);
+    }
+
+    @ExceptionHandler(QueryServiceBadRequestException.class)
+    public ResponseEntity<ErrorResponses> queryServiceBadRequest(QueryServiceBadRequestException ex){
+        ErrorResponses error = new ErrorResponses(ex.getMessage(), "Query Service Not Expect This Request", LocalDateTime.now(), HttpStatus.BAD_REQUEST);
+        return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
+    }
+
+//    @ExceptionHandler(ServiceUnavailableException.class)
+//    public ResponseEntity<ErrorResponses> serviceUnavailable(ServiceUnavailableException ex){
+//        ErrorResponses error = new ErrorResponses(ex.getMessage(), "Query Service Unavailable Right Now, Try After Some Time!", LocalDateTime.now(), HttpStatus.INTERNAL_SERVER_ERROR);
+//        return new ResponseEntity<>(error, HttpStatus.INTERNAL_SERVER_ERROR);
+//    }
+
+
+    // ---------------------- Feign Exception -------------------------
+
+
 
 }
 
