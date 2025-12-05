@@ -60,13 +60,14 @@ public class UniversalService {
         universalDTO.setApplicationDate(loan.getApplicationDate());
         universalDTO.setApprovalDate(loan.getApprovalDate());
         universalDTO.setLoanStatus(loan.getLoanStatus());
-        universalDTO.setEmiAmount(loan.getEmiAmount());
         universalDTO.setTotalPayableAmount(loan.getTotalPayableAmount());
         universalDTO.setRemainingBalance(loan.getRemainingBalance());
         universalDTO.setEmploymentType(loan.getEmploymentType());
         universalDTO.setMonthlyIncome(loan.getMonthlyIncome());
 
         universalDTO.setEmiId(emi.getId());
+        universalDTO.setEmiAmount(emi.getEmiAmount());
+        universalDTO.setInterestRate(emi.getInterestRate());
         universalDTO.setMonthNumber(emi.getMonthNumber());
         universalDTO.setTotalInterest(emi.getTotalInterest());
         universalDTO.setEmiStatus(emi.getStatus());

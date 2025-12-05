@@ -80,8 +80,13 @@ public class EmiPaymentService {
         EmiPayment emiPaymentData = lastEmiPaymentByLoanID.getData();
         log.info("Response For Last EMI Payment {}", lastEmiPaymentByLoanID);
 
-        // If Total Month is equal to 0, then change the EMI Status
-        if (emiPaymentData.getRemainingMonthNumber() == 1 && emiPaymentData.getRemainingTotalPayableAmount() <= 0.0){
+        // If Total Month is equal to 1, then change the EMI Status
+        double remaining = emiPaymentData.getRemainingTotalPayableAmount();
+        double emiAmount = emi.getEmiAmount();
+
+        boolean isLastEmiPending = Math.abs(remaining - emiAmount) < 1.0;
+
+        if (emiPaymentData.getRemainingMonthNumber() == 1 && isLastEmiPending) {
             log.info("Updating the EMI Status");
             emiService.updateEmiStatus(emiPaymentDTO.getLoanID());
 

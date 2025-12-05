@@ -129,6 +129,7 @@ public class LoanService {
         log.info("Getting Customer Details By Cus ID {} and Object is {}", loneByID.getData().getCustomerDetailsID(), customerDetailsByCusID);
 
         LoanDTOForResponse data = loneByID.getData();
+        System.out.println("Data Loan" + data);
         if (status.equalsIgnoreCase("APPROVED")){
             Loan loan = new Loan();
             loan.setId(data.getId());

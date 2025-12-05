@@ -39,7 +39,10 @@ public class LoanService {
         loanDTO.setTotalPayableAmount(loan.getTotalPayableAmount());
         loanDTO.setRemainingBalance(loan.getRemainingBalance());
         loanDTO.setCustomerDetailsID(loan.getCustomerDetails().getCustomerId());
+        loanDTO.setEmploymentType(loan.getEmploymentType());
+        loanDTO.setMonthlyIncome(loan.getMonthlyIncome());
 
+        System.out.println("loan Object Dto " + loanDTO);
         log.info("Response For ID {} Is {} of LoanDTO Object", id, loanDTO);
         return loanDTO;
     }

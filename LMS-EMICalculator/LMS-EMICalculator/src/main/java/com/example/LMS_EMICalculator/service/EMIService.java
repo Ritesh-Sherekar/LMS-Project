@@ -2,7 +2,9 @@ package com.example.LMS_EMICalculator.service;
 
 import com.example.LMS_EMICalculator.dto.LoanApprovedEventDTO;
 import com.example.LMS_EMICalculator.entity.EMI;
+import com.example.LMS_EMICalculator.entity.Loan;
 import com.example.LMS_EMICalculator.repository.EMIRepo;
+import com.example.LMS_EMICalculator.repository.LoanRepo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,6 +16,9 @@ import java.time.LocalDate;
 public class EMIService {
     @Autowired
     private EMIRepo emiRepo;
+
+    @Autowired
+    private LoanRepo loanRepo;
 
     // Calculate EMI
     public void calculateEMI(LoanApprovedEventDTO loanApprovedEventDTO) {
@@ -56,6 +61,13 @@ public class EMIService {
         log.info("Emi Calculate {}", emi1);
 
         emiRepo.save(emi1);
+
+        Loan loan = loanRepo.findById(loanApprovedEventDTO.getLoanId()).orElseThrow();
+        loan.setEmiAmount(round(emi));
+        loan.setInterestRate(loan.getInterestRate());
+        loan.setTotalPayableAmount(round(totalPayable));
+
+        loanRepo.save(loan);
     }
 
     private static double round(double value) {
